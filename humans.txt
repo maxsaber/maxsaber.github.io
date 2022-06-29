@@ -1,7 +1,6 @@
 /* TEAM */
-	Author: Fred Hohman
-	Twitter: @fredhohman
-	Location: Atlanta, United States
+	Author: Max Saber
+	Location: Boston, United States
 
 /* SITE */
     Language: English

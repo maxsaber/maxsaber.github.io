@@ -5,7 +5,7 @@ title: Home
 
 <div id ="intro-wrapper" class="l-middle">
 	<div id="intro-title-wrapper" class="intro-left">
-		<h1 id="intro-title">Hi, I'm Fred Hohman</h1>
+		<h1 id="intro-title">Hi, I'm Max Saber</h1>
 		<div id="intro-subtitle">
 			I'm a Research Scientist at Apple
 		</div>
