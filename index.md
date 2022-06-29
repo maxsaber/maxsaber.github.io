@@ -50,42 +50,6 @@ title: Home
 <hr class="l-middle home-hr">
 
 <h2 class="feature-title l-middle">
-	Featured <a href="/cv#publications">Research Publications</a>
-</h2>
-<div class="cover-wrapper l-screen">
-	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' %}
-	{% for feature in sortedPublications %}
-		{% if feature.featured == true %}
-			{% include feature.html feature=feature %}
-		{% endif %}
-	{% endfor %}
-</div>
-
-<h2 class="feature-title l-middle">
-	Featured <a href="/dissertation">Dissertation Publications</a>
-</h2>
-<div class="cover-wrapper l-screen">
-	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' %}
-	{% for feature in sortedPublications %}
-		{% if feature.dissertation == true %}
-			{% include feature.html feature=feature %}
-		{% endif %}
-	{% endfor %}
-</div>
-
-<h2 class="feature-title l-middle">
-	Featured <a href="/cv#interactive-articles">Interactive Articles</a>
-</h2>
-<div class="cover-wrapper l-screen">
-	{% assign sortedArticles = site.data.articles | sort: 'feature-order' %}
-	{% for feature in sortedArticles %}
-		{% if feature.featured == true %}
-			{% include feature.html feature=feature %}
-		{% endif %}
-	{% endfor %}
-</div>
-
-<h2 class="feature-title l-middle">
 	<a href="{{ site.url }}/everything-else" style="color: #303030">Everything Else</a>
 </h2>
 <div id="everything-else" class="l-middle">
