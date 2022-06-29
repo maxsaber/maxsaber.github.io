@@ -1,6 +1,6 @@
-title: Fred Hohman
-tagline: Research Scientist at Apple
-url: http://fredhohman.com
+title: Max Saber
+tagline: Systems Engineer, Adjunct Professor of Healthcare Business
+url: https://maxsaber.com
 baseurl: ""
 # gems: [jekyll-paginate]
 # paginate: 5
@@ -14,9 +14,9 @@ sass:
   style: compressed
 
 author:
-  name: Fred Hohman
-  url: http://fredhohman.com
-  email: fred.hohman@gmail.com
+  name: Max Saber
+  url: https://maxsaber.com
+  email: max@maxsaber.com
 
 markdown: kramdown
 highlighter: rouge
