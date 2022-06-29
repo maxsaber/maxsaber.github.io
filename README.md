@@ -1,4 +1,2 @@
-# Hi, I'm Fred
-I’m a Research Scientist, and this is my Jekyll website.
-
-Run with  `npm run start`
+# Hi, I'm Max
+I’m a Systems Engineer and an Adjunct Professor of Healthcare Business, and this is my Jekyll website.
