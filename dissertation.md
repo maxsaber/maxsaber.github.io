@@ -49,41 +49,11 @@ After motivating and summarizing my dissertation, I reflect back upon my work an
 {% endif %}
 {% endfor %}
 
-## Thesis Defense
-
-**Fred Hohman**  
-College of Computing  
-Georgia Institute of Technology
-
-**Date:** Monday, October 5, 2020  
-**Time:** 1:30pm - 2:30pm EST  
-**Location:** remote via Zoom (email for invite)
-
-**Committee**  
-Duen Horng (Polo) Chau - *Advisor, Georgia Tech, CSE*  
-Alex Endert - *Co-advisor, Georgia Tech, IC*  
-Chao Zhang - *Georgia Tech, CSE*  
-Nathan Hodas - *Pacific Northwest National Lab*  
-Scott Davidoff - *NASA Jet Propulsion Lab*  
-Steven Drucker - *Microsoft Research*
-
-{% for talk in site.data.dissertation.talks %}
-{% if talk.key == "defense" %}
-{% include dissertation/talk.html talk=talk %}
-{% endif %}
-{% endfor %}
-
-<!-- **Materials**   -->
+<!-- **Materials**   
 * [Research Statement][statement]  
 * [Slides, low quality][talk-low-db] (50MB)  
 * [Slides, high quality][talk-high-db] (200MB)  
-* [Slide export animations + demo videos][talk-export]
-
-**Bio (from October 2020)**  
-Fred Hohman is a PhD candidate at Georgia Tech's College of Computing.
-His research focuses on enabling machine learning interpretability at scale and for everyone, by designing and developing interactive interfaces to help people confidently understand data-driven systems. Besides building tools, he also creates data visualizations and writes interactive articles to simply communicate complex ideas.
-
-He has collaborated with designers, developers, and scientists at Apple, Microsoft Research, NASA JPL Human Interfaces, and Pacific Northwest National Lab. He won a NASA PhD Space Technology Research Fellowship, a Microsoft AI for Earth Award for using AI to improve sustainability, and the President's Fellowship for top incoming PhD students. He has also won an ACM CHI 2019 Best Paper award; a KDD 2018 Audience Appreciation Award, Runner-up; an IEEE VIS VISxAI Best Paper, Honorable Mention; and a SIGMOD 2017 Best Demo, Honorable Mention. His work has appeared in popular press, such as the Stack Overflow Blog, Fast Company, and Data Stories. He co-organizes the Workshop on Visualization for AI Explainability (VISxAI) at IEEE VIS. He double majored in mathematics and physics.
+* [Slide export animations + demo videos][talk-export]-->
 
 [talk-low]: {{ site.url }}/talk-low-quality.pdf
 [talk-high]: {{ site.url }}/talk-high-quality.pdf
