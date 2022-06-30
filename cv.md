@@ -74,6 +74,7 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% endfor %}
 {:/}
 
+<!--
 ## Industry Research Experience
 
 {% for experience in site.data.experiences %}
@@ -89,6 +90,7 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% include cv/experience.html experience=experience %}
 {% endif %}
 {% endfor %}
+-->
 
 ## Honors and Awards
 
@@ -96,6 +98,7 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% include cv/award.html award=award %}
 {% endfor %}
 
+<!--
 ## Publications
 
 ### Selected: Latest & Greatest
@@ -106,8 +109,6 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% for pub in selected %}
 {% include cv/publication.html pub=pub %}
 {% endfor %}
-
-<!-- ### All Publications -->
 
 {% assign selectedBoolForBibtex = false %}
 
@@ -165,6 +166,7 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% for press in site.data.press %}
 {% include cv/press.html press=press %}
 {% endfor %}
+-->
 
 ## Teaching
 
@@ -172,6 +174,7 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% include cv/teaching.html teach=teach %}
 {% endfor %}
 
+<!--
 ## Mentoring
 
 {::nomarkdown}
@@ -193,13 +196,7 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% include cv/article.html article=article %}
 {% endunless %}
 {% endfor %}
-
-
-<!-- ## Technology Skills
-
-{% for skill in site.data.skills %}
-{% include cv/skill.html skill=skill %}
-{% endfor %} -->
+-->
 
 ## Service
 
@@ -228,6 +225,13 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% include cv/member.html member=member %}
 {% endfor %}
 
+## Technology Skills
+
+{% for skill in site.data.skills %}
+{% include cv/skill.html skill=skill %}
+{% endfor %}
+
+<!--
 ## Design
 
 {% for design in site.data.designs %}
@@ -239,45 +243,16 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% for reference in site.data.references %}
 {% include cv/reference.html reference=reference %}
 {% endfor %}
+-->
 
-<!-- 
 ## Contact
 
-Fred Hohman  
-`fredhohman@gatech.edu`  
-CODA Tech Square  
-Georgia Tech  
-756 W Peachtree St NW  
-Atlanta, GA 30308
-<span style="background: linear-gradient(0deg, #34495e, #3498db); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: block">
-—  
-USA  
-Earth  
-Solar System  
-Milky Way  
-Local Group  
-Universe  
-</span> -->
-
+Max Saber  
+914 Lake Road  
+Tiverton, RI 02878  
+774.644.1542  
+`max@maxsaber.com`
 
 [cv]: {{ site.url }}/cv.pdf "My CV."
 
-[poloclub]: http://poloclub.gatech.edu "Polo Club of Data Science"
-[gt]: http://gatech.edu "Georgia Tech"
-[cse]: http://cse.gatech.edu "GT Computational Science and Engineering"
-[coc]: http://www.cc.gatech.edu "GT College of Computing"
-
-[fred]: http://fredhohman.com "Fred Hohman"
-[polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
-[alex]: http://va.gatech.edu/endert/ "Alex Endert"
-
-[jpl]: https://www.jpl.nasa.gov/ "NASA Jet Propulsion Lab"
-[hi]: https://www.hi.jpl.nasa.gov/ "Human Interfaces Group at NASA JPL"
-[pnnl]: https://www.pnnl.gov/ "Pacific Northwest National Laboratory"
-[dsa]: http://www.pnnl.gov/nationalsecurity/technical/capabilities/computing/data_sciences.stm "Data Sciences and Analytics Group at PNNL"
-[msr]: https://www.microsoft.com/en-us/research/ "Microsoft Research"
-[msr-hci]: https://www.microsoft.com/en-us/research/group/human-computer-interaction/ "HCI@MSR"
-
-[twitter]: https:/www.twitter.com/fredhohman "@fredhohman"
-[github]: https:/www.github.com/fredhohman "github.com/fredhohman"
-[nstrf]: https://www.nasa.gov/strg/nstrf "NASA Space Technology Research Fellowship"
+[github]: https:/www.github.com/maxsaber "github.com/maxsaber"
