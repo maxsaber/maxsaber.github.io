@@ -19,8 +19,8 @@
   color: "#1da1f2"
   class: "fab fa-twitter icon"
   url: https://twitter.com/fredhohman
-  on-homepage: true
-  cv-group: 2
+  on-homepage: false
+  cv-group: 3
 
 - id: github
   description: "@maxsaber"
@@ -34,7 +34,7 @@
   description: "Google Scholar"
   color: "#515151"
   class: "fa fa-graduation-cap icon"
-  url: "https://scholar.google.com/citations?user=1w0TLT8AAAAJ&hl=en"
+  url: "https://scholar.google.com/citations?hl=en&user=oZ4ePLwAAAAJ"
   on-homepage: true
   cv-group: 2
 

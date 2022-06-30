@@ -1,7 +1,7 @@
 - institution: MCPHS University
   position: Instructor of Record
   location: "Boston, MA"
-  year: 
+  year: "Spring 2022"
   class: "Data Collection, Analysis, and Representation in Healthcare (HCM.828)"
   instructor: 
   description: "This doctoral level course focused on data collection techniques, critical evaluation of data sources and datasets, and data visualization methods using various deidentified and synthetic research data sets. Students used SAS Foundation and SAS Enterprise Guide to learn statistical and data modeling techniques and SAS Visual Analytics Suite to construct visualizations and interactive dashboards."
@@ -19,7 +19,7 @@
 - institution: MCPHS University
   position: Instructor of Record
   location: "Boston, MA"
-  year: 
+  year: "Fall 2019, Spring 2020, Fall 2021, Spring 2021, Summer 2022"
   class: "Business Statistics (HCM.722)"
   instructor: 
   description: "This Masters level course focuses on reinforcing the use of standard statistical methodologies in collecting, evaluating, and analyzing business and healthcare data. This course teaches students how tools like SPSS are used during the process of supporting managerial and organizational decision making."
@@ -37,7 +37,7 @@
 - institution: MCPHS University
   position: Instructor of Record
   location: "Boston, MA"
-  year: 
+  year: "Fall 2021"
   class: "Data Visualization (BMI.410)"
   instructor: 
   description: "This undergraduate-level course centers on the fundamental statistical and data analysis methods used in healthcare and health services research. Through this course, students are asked to analyze and interpret data while making informed business decisions based on the outcomes of their analyses. Students also were taught basic and intermediate data visualization techniques and best practices using Tableau’s interactive data visualization software."
