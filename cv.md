@@ -6,11 +6,12 @@ jsarr:
 - js/scripts.js
 ---
 
-<h1 id="cv-title"><a href="{{ site.url }}">Max Saber</a></h1>
+<h1 id="cv-title"><a href="{{ site.url }}">Max Saber, MSHI, DHA</a></h1>
 
-<p id="cv-subtitle"><i>Systems Engineer & Adjunct Professor of Healthcare Administration</i></p>
+<p id="cv-subtitle"><i>Systems Engineer & Adjunct Professor of Healthcare Business</i></p>
 
-<!-- <div id="cv-toc">
+***
+<!--<div id="cv-toc">
 <ul class="cv-description">
 	<li>Education</li>
 	<li>Industry Research</li>
@@ -27,25 +28,13 @@ jsarr:
 	<li>Design</li>
 	<li>References</li>
 </ul>
-</div> -->
-
-<div>
-I design and develop <b><span class="cv-vis">interactive interfaces</span></b> to help people <b><span class="cv-ai">understand machine learning</span></b> models and data-driven systems. Besides building tools, I also create data visualizations and write interactive articles to simply communicate complex ideas.
-</div>
-
-<div class="cv-spacer"></div>
-
-<div>
-I have collaborated with researchers, designers, developers, and artists while working at Apple, Microsoft Research, NASA Jet Propulsion Lab, and Pacific Northwest National Lab.
-</div>
+</div>-->
 
 <!-- <div class="cv-spacer"></div>
 
 <div>
 My research is supported by a NASA Space Technology Research Fellowship.
 </div> -->
-
-<div class="cv-spacer"></div>
 
 <div class="cv-image-links-wrapper">
 	<div class="cv-image-links">
@@ -197,14 +186,14 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% endfor %}
 
 ## Service
-
+<!--
 <div class="cv-service-title"><b>MCPHS University</b></div>
-<!-- Uses organizer.yaml for data -->
+--Uses organizer.yaml for data
 {% for venue in site.data.organizer %}
 {% include cv/venue.html venue=venue %}
 {% endfor %}
 
-<!--
+
 <div class="cv-service-title"><b>Program Commitee</b></div>
 --Uses pc.yaml for data
 {% for venue in site.data.pc %}
@@ -217,7 +206,7 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% include cv/venue.html venue=venue %}
 {% endfor %}
 -->
-
+<div class="cv-service-title"><b>MCPHS University</b></div>
 <div class="cv-service-title"><b>Institutional</b></div>
 <!-- Uses institutional.yaml for data -->
 {% for institution in site.data.institutional %}
@@ -230,10 +219,36 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% include cv/member.html member=member %}
 {% endfor %}
 
+## Professional Certifications and Licensures
+
+<div class="cv-service-title"><b>Professional Certifications</b></div>
+<!-- Uses certifications.yaml for data -->
+{% for certifications in site.data.certifications %}
+{% include cv/certifications.html name=name %}
+{% endfor %}
+
+<div class="cv-service-title"><b>Licensure</b></div>
+<!-- Uses licensure.yaml for data -->
+{% for licensure in site.data.licensure %}
+{% include cv/licensure.html name=name %}
+{% endfor %}
+
 ## Technology Skills
 
 {% for skill in site.data.skills %}
 {% include cv/skill.html skill=skill %}
+{% endfor %}
+
+## Research Interests
+
+{% for research in site.data.research %}
+{% include cv/research.html research=research %}
+{% endfor %}
+
+## Outreach and Public Engagement
+
+{% for outreach in site.data.outreach %}
+{% include cv/outreach.html outreach=outreach %}
 {% endfor %}
 
 <!--
