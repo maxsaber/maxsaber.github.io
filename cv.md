@@ -8,7 +8,7 @@ jsarr:
 
 <h1 id="cv-title"><a href="{{ site.url }}">Max Saber</a></h1>
 
-<p id="cv-subtitle"><i>Research Scientist (<span class="cv-vis">HCI</span> + <span class="cv-ai">ML</span>)</i></p>
+<p id="cv-subtitle"><i>Systems Engineer & Adjunct Professor of Healthcare Administration</i></p>
 
 <!-- <div id="cv-toc">
 <ul class="cv-description">

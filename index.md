@@ -7,7 +7,7 @@ title: Home
 	<div id="intro-title-wrapper" class="intro-left">
 		<h1 id="intro-title">Hi, I'm Max Saber</h1>
 		<div id="intro-subtitle">
-			I'm a Research Scientist at Apple
+			I'm a Systems Engineer and Adjunct Professor of Healthcare Administration
 		</div>
 	</div>
 	<div class="intro-left">
@@ -48,10 +48,6 @@ title: Home
 </div>
 
 <hr class="l-middle home-hr">
-
-<h2 class="feature-title l-middle">
-	<a href="{{ site.url }}/everything-else" style="color: #303030">Everything Else</a>
-</h2>
 <div id="everything-else" class="l-middle">
 	<a href="{{ site.url }}/projects"><div>Projects</div></a>
 	<a href="{{ site.url }}/blog"><div>Blog</div></a>
@@ -59,18 +55,4 @@ title: Home
 	<a href="{{ site.url }}/monthly-music"><div>Monthly Music</div></a>
 	<a href="{{ site.url }}/archive"><div>Archive</div></a>
 </div>
-<!-- <p class="l-middle intro-text" markdown="1">
-	Including a list of [projects][projects], the [blog][blog], [monthly music playlists][monthly-music], [stuff I use][stuff-i-use], and the [archive][archive].
-</p> -->
-
-
-
-[gt]: http://www.gatech.edu "Georgia Tech"
-[cse]: http://cse.gatech.edu "Georgia Tech Computational Science and Engineering"
-[coc]: http://www.cc.gatech.edu "Georgia Tech College of Computing"
-
 [cv]: {{ site.url }}/cv
-[polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
-[alex]: http://va.gatech.edu/endert/ "Alex Endert"
-[poloclub]: http://poloclub.gatech.edu "Polo Club of Data Science"
-[nstrf]: https://www.nasa.gov/strg/nstrf "NASA Space Technology Research Fellowship"

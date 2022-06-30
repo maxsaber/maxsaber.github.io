@@ -1,16 +1,16 @@
 - id: home
-  description: "fredhohman.com"
+  description: "maxsaber.com"
   color: "#515151"
   class: "fas fa-home icon"
-  url: "https://fredhohman.com"
+  url: "https://maxsaber.com"
   on-homepage: false
   cv-group: 1
 
 - id: email
-  description: "fredhohman@gatech.edu"
+  description: "max@maxsaber.com"
   color: "#515151"
   class: "fas fa-envelope icon"
-  url: "mailto:fredhohman@gatech.edu"
+  url: "mailto:max@maxsaber.com"
   on-homepage: true
   cv-group: 1
 
@@ -23,10 +23,10 @@
   cv-group: 2
 
 - id: github
-  description: "@fredhohman"
+  description: "@maxsaber"
   color: "#6e5494"
   class: "fab fa-github icon"
-  url: "https://github.com/fredhohman"
+  url: "https://github.com/maxsaber"
   on-homepage: true
   cv-group: 2
 
