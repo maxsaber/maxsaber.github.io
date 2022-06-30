@@ -1,12 +1,4 @@
 - venue: Workshop on Visualization for AI Explainability
   venue-shorthand: VISxAI
   venue-at: IEEE VIS
-  years:
-    - year: 2022
-      url: http://visxai.io/
-    - year: 2021
-      url: http://visxai.io/2021
-    - year: 2020
-      url: http://visxai.io/2020
-    - year: 2019
-      url: http://visxai.io/2019
+  years: 2022

@@ -1,27 +1,68 @@
-- institution: Apple
-  location: "Seattle, WA"
-  position: Research Intern
-  group: "Turi Human-centered Machine Learning Group"
-  year: Summer 2019
-  mentors:
-    - Kanit Wongsuphasawat
-    - Kayur Patel
-  description: "Designed and developed interactive visualizations for data iteration in machine learning, published at CHI 2020."
-  institution-url: https://apple.com
-  group-url: https://apple.com
+- institution: "MCPHS University"
+  location: "Boston, MA"
+  position: "COVID-19 Data Scientist"
+  group: "COVID-19 Team"
+  year: "Sep. 2020 —"
+  year-extra: "Present"
+  description: 
+    - Maintained the COVID-19 testing and surveillance data warehouse integrating internal and external data sources
+    - In partnership with the COVID-19 Team Chair, reviewed and approved, or recommended changes to each of the University's Clinic Reopening Safety Plans
+    - Co-authored sections of the FlexPlan 2020 and the Return to Campus 2021 guide
+  institution-url: https://mcphs.edu
+  group-url: https://mcphs.edu/covid
   type: industry
 
-- institution: Georgia Institute of Technology
-  location: "Atlanta, GA"
-  position: Graduate Research Assistant
-  group: School of Computational Science and Engineering
-  year: "Present —"
-  year-extra: "Aug. 2016"
-  mentors: 
-    - Duen Horng (Polo) Chau
-    - Alex Endert
-  advisor: true
-  description: "Member of the Polo Club of Data Science where we bridge and innovate at the intersection of data mining and human-computer interaction to synthesize scalable, interactive, and interpretable tools that amplify human’s ability to understand and interact with big data."
-  institution-url: http://gatech.edu
-  group-url: http://cse.gatech.edu
+- institution: "MCPHS University"
+  location: "Boston, MA"
+  position: "Systems Engineer"
+  group: "Information Services"
+  year: "Jan. 2016 —"
+  year-extra: "Present"
+  description: 
+  institution-url: https://mcphs.edu
+  group-url: 
+  type: industry
+
+- institution: "MCPHS University"
+  location: "Boston, MA"
+  position: "Systems Support Specialist"
+  group: "Information Services"
+  year: "May 2012 —"
+  year-extra: "Jan. 2016"
+  description: 
+  institution-url: https://mcphs.edu
+  group-url: 
+  type: industry
+
+- institution: "Newport Hospital"
+  location: "Newport, RI"
+  position: "Performance Evaluation and Improvement Analyst"
+  group: "PE&I"
+  year: "June 2007 —"
+  year-extra: "Aug. 2008"
+  description: 
+  institution-url: https://www.lifespan.org/locations/newport-hospital
+  group-url: 
+  type: industry
+
+- institution: "MCPHS University"
+  location: "Boston, MA"
+  position: "Adjunct Professor, Healthcare Business"
+  group: "School of Healthcare Business"
+  year: "Jan. 2019 —"
+  year-extra: "Present"
+  description: ""
+  institution-url: https://mcphs.edu
+  group-url: https://www.mcphs.edu/academics/school-of-healthcare-business
+  type: academic
+
+- institution: "MCPHS University"
+  location: "Boston, MA"
+  position: "Adjunct Professor, Healthcare Administration"
+  group: "School of Healthcare Business"
+  year: "May 2014 —"
+  year-extra: "Dec. 2018"
+  description: ""
+  institution-url: https://mcphs.edu
+  group-url: https://www.mcphs.edu/academics/school-of-healthcare-business
   type: academic

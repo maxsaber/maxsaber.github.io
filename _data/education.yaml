@@ -8,7 +8,7 @@
   thesis: "Risk of medical events for falls, fractures, confusion, and delirium for patients with filled prescriptions for drugs listed on Beers Criteria compared to well-matched controls"
   thesis-video: 
   thesis-link: 
-  thesis-pdf: ../papers/fred-hohman-thesis.pdf 
+  thesis-pdf: 
   committee:
     - "Dr Annie Simpson PhD"
     - "Dr Daniel Brinton PhD"
@@ -24,7 +24,7 @@
   thesis: "Implementing a simulated electronic medical record system for undergraduate and graduate interprofessional healthcare education"
   thesis-video: 
   thesis-link: 
-  thesis-pdf: ../papers/fred-hohman-thesis.pdf
+  thesis-pdf: 
   institution-url: https://www.khoury.northeastern.edu/programs/health-informatics-ms/
   description: 
 

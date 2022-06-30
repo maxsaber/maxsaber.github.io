@@ -1,35 +1,44 @@
-- institution: Georgia Institute of Technology
-  position: Graduate Teaching Assistant
-  location: "Atlanta, GA"
-  year: Spring 2019
-  class: "Information Visualization (CS 4460)"
-  instructor: Alex Endert
-  description: "Designed homeworks, held weekly office hours, and mentored student team projects for Information Visualization (CS 4460), an undergraduate course with 134 students enrolled."
-  institution-url: http://gatech.edu
-  class-url: http://va.gatech.edu/courses/cs4460/
-  ta: true
+- institution: MCPHS University
+  position: Instructor of Record
+  location: "Boston, MA"
+  year: 
+  class: "Data Collection, Analysis, and Representation in Healthcare (HCM.828)"
+  instructor: 
+  description: "This doctoral level course focused on data collection techniques, critical evaluation of data sources and datasets, and data visualization methods using various deidentified and synthetic research data sets. Students used SAS Foundation and SAS Enterprise Guide to learn statistical and data modeling techniques and SAS Visual Analytics Suite to construct visualizations and interactive dashboards."
+  institution-url: https://mcphs.edu
 
-- institution: Georgia Institute of Technology
-  position: Graduate Teaching Assistant
-  location: "Atlanta, GA"
-  year: Spring 2017
-  class: "Data and Visual Analytics (CSE 6242 / CX 4242)"
-  instructor: Duen Horng (Polo) Chau
-  description: "Designed homeworks, held weekly office hours, and mentored student team projects for Data and Visual Analytics (CSE 6242 / CX 4242), a graduate course with 214 students enrolled."
-  institution-url: http://gatech.edu
-  class-url: http://poloclub.gatech.edu/cse6242/2017spring
-  ta: true
+- institution: MCPHS University
+  position: Instructor of Record
+  location: "Boston, MA"
+  year: 
+  class: "Informatics & Data Analysis (HCM.820)"
+  instructor: 
+  description: "This Masters level course provides a hands-on approach to performing statistical data analyses on synthetic datasets to describe population characteristics, identify trends and associations, and how show data analytics are employed to answer real-world healthcare access and cost questions using SPSS. Students used Tableau during the course's data visualization modules building reports and interactive dashboards."
+  institution-url: https://mcphs.edu
 
-- institution: University of Georgia
-  position: Student Notetaker
-  location: "Athens, GA"
-  year: "2014 — 2015"
-  description: "Generated notes for undergraduate mathematics and physics courses for students with disabilities."
-  ta: false
+- institution: MCPHS University
+  position: Instructor of Record
+  location: "Boston, MA"
+  year: 
+  class: "Business Statistics (HCM.722)"
+  instructor: 
+  description: "This Masters level course focuses on reinforcing the use of standard statistical methodologies in collecting, evaluating, and analyzing business and healthcare data. This course teaches students how tools like SPSS are used during the process of supporting managerial and organizational decision making."
+  institution-url: https://mcphs.edu
 
-- institution: University of Georgia
-  position: Tutor
-  location: "Athens, GA"
-  year: "2012"
-  description: "Specialized in tutoring calculus to undergraduates."
-  ta: false
+- institution: MCPHS University
+  position: Instructor of Record
+  location: "Boston, MA"
+  year: 
+  class: "Managing Healthcare Information Systems (HCA.780)"
+  instructor: 
+  description: "This Masters level course examined the use, management, and integration of healthcare information systems and data quality standards in today’s healthcare environment. Emphasis was placed on the intersection of clinical information systems and the administrative functions of an Information Services department, IT service delivery, IT governance, data privacy and security, and organizational strategic planning."
+  institution-url: https://mcphs.edu
+
+- institution: MCPHS University
+  position: Instructor of Record
+  location: "Boston, MA"
+  year: 
+  class: "Data Visualization (BMI.410)"
+  instructor: 
+  description: "This undergraduate-level course centers on the fundamental statistical and data analysis methods used in healthcare and health services research. Through this course, students are asked to analyze and interpret data while making informed business decisions based on the outcomes of their analyses. Students also were taught basic and intermediate data visualization techniques and best practices using Tableau’s interactive data visualization software."
+  institution-url: https://mcphs.edu

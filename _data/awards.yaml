@@ -1,3 +1,15 @@
-- name: "Dean's List"
-  description: Achieved at least a 3.5 GPA during a semester with minimum 14 credit hours
-  year: 2011 — 2015
+- name: "Dean's Award"
+  source: Medical Uniersity of South Carolina
+  year: May 2021
+
+- name: "Innovative Solutions Award"
+  source: MCPHS University
+  year: May 2019
+
+- name: "Superior Employee Quality Service Award"
+  source: MCPHS University
+  year: May 2014
+
+- name: "Ralph A. Mollis Secretary of State Award for Civic Leadership"
+  source: State of Rhode Island
+  year: June 2008
