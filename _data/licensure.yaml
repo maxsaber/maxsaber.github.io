@@ -1,0 +1,11 @@
+- name: "Notary Public"
+  cert-id: "1639371/HH069229"
+  org: "State of Florida, Department of State"
+  url: https://notaries.dos.state.fl.us/notidsearch.asp?id=1639371
+  years: "Dec. 2020  — Dec. 2024"
+
+- name: "Notary Signing Agent"
+  cert-id: "160950750"
+  org: "National Notary Association"
+  url: 
+  years: "Feb. 2021  — Feb. 2022"

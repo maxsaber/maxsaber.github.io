@@ -1,0 +1,26 @@
+- name: OS
+  items:
+    - Mac OS X
+    - Ubuntu
+    - Unix Command Line
+    - Windows
+
+- name: Programming
+  items:
+    - Python
+    - Matlab
+    - Mathematica
+    - C
+
+- name: Web and Writing
+  items: 
+    - HTML
+    - CSS
+    - JavaScript
+    - D3
+    - SQL
+    - Bootstrap
+    - LaTeX
+    - Markdown
+    - Jekyll
+    - Git
