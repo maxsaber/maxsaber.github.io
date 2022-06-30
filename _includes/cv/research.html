@@ -1,0 +1,6 @@
+<p style="margin-bottom: 0.3rem">
+	<strong>{{ research.name }}:</strong>
+	{% for item in research.items %}
+	{{ item }}{% if forloop.last == false %},{% endif %}
+	{% endfor %}
+</p>
