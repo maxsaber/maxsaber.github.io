@@ -74,8 +74,7 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% endfor %}
 {:/}
 
-<!--
-## Industry Research Experience
+## Industry Experience
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'industry' %}
@@ -83,14 +82,13 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% endif %}
 {% endfor %}
 
-## Academic Research Experience
+## Academic & Teaching Experience
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'academic' %}
 {% include cv/experience.html experience=experience %}
 {% endif %}
 {% endfor %}
--->
 
 ## Honors and Awards
 
@@ -154,13 +152,6 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %}
 
-## Talks
-
-{% assign talktitles = site.data.talks | group_by:"title" %}
-{% for title in talktitles %}
-{% include cv/talk.html talk=title %}
-{% endfor %}
-
 ## Press
 
 {% for press in site.data.press %}
@@ -198,29 +189,43 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% endfor %}
 -->
 
+## Invited Presentations
+
+{% assign talktitles = site.data.talks | group_by:"title" %}
+{% for title in talktitles %}
+{% include cv/talk.html talk=title %}
+{% endfor %}
+
 ## Service
 
-<div class="cv-service-title"><b>Organizer</b></div>
+<div class="cv-service-title"><b>MCPHS University</b></div>
+<!-- Uses organizer.yaml for data -->
 {% for venue in site.data.organizer %}
 {% include cv/venue.html venue=venue %}
 {% endfor %}
 
+<!--
 <div class="cv-service-title"><b>Program Commitee</b></div>
+--Uses pc.yaml for data
 {% for venue in site.data.pc %}
 {% include cv/venue.html venue=venue %}
 {% endfor %}
 
 <div class="cv-service-title"><b>Reviewer</b></div>
+--Uses reviewer.yaml for data
 {% for venue in site.data.reviewer %}
 {% include cv/venue.html venue=venue %}
 {% endfor %}
+-->
 
 <div class="cv-service-title"><b>Institutional</b></div>
+<!-- Uses institutional.yaml for data -->
 {% for institution in site.data.institutional %}
 {% include cv/institutional.html institution=institution %}
 {% endfor %}
 
-<div class="cv-service-title"><b>Member</b></div>
+<div class="cv-service-title"><b>Professional Memberships</b></div>
+<!-- Uses memberships.yaml for data -->
 {% for member in site.data.memberships %}
 {% include cv/member.html member=member %}
 {% endfor %}
