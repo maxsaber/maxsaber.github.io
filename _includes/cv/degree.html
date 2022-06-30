@@ -1,6 +1,19 @@
 <div class="cv-left-date">{{ degree.years }} {{ degree.years-extra }}</div>
 <b>{{ degree.degree }}</b>
+{% if degree.description %}
+	<div class="cv-description">
+		{% for item in degree.description %}
+			{{ item }}
+		{% endfor %}
+	</div>
+{% endif %}
 <div><a href="{{ degree.institution-url }}">{{ degree.institution }}</a>, {{ degree.location }}</div>
+
+{% if degree.dissertation %}
+	<div class="cv-description">
+		Dissertation: <a href="{{ degree.dissertation-link }}"><i>{{ degree.dissertation }}</i></a>
+	</div>
+{% endif %}
 
 {% if degree.thesis %}
 	<div class="cv-description">
@@ -8,9 +21,15 @@
 	</div>
 {% endif %}
 
+{% if degree.research %}
+	<div class="cv-description">
+		Independent Research: <a href="{{ degree.research-link }}"><i>{{ degree.research }}</i></a>
+	</div>
+{% endif %}
+
 {% if degree.advisor %}
 	<div class="cv-description">
-		Advisor: {% include person.html person=degree.advisor %}{% endif %}{% if degree.co-advisor %}, Co-advisor: {% include person.html person=degree.co-advisor %}
+		Advisor: {% include person.html person=degree.advisor %}
 	</div>
 {% endif %}
 
@@ -27,14 +46,6 @@
 	</div>
 {% endif %}
 	
-{% if degree.description %}
-	<div class="cv-description">
-		{% for item in degree.description %}
-			{{ item }}
-		{% endfor %}
-	</div>
-{% endif %}
-
 {% if degree.awards %}
 	{% for award in degree.awards %}
 		<span class="cv-award"><i class="fas fa-trophy" aria-hidden="true"></i> {{ award }}</span>
@@ -42,6 +53,24 @@
 {% endif %}
 
 <div class="pub-misc">
+	{% if degree.dissertation-link %}
+		<a href="{{ degree.dissertation-link }}">
+			<i class="fas fa-link" aria-hidden="true"></i> Dissertation Project Page
+		</a>
+	{% endif %}
+	
+	{% if degree.dissertation-pdf %}
+		<a href="{{ degree.dissertation-pdf }}">
+			<i class="fas fa-file-pdf" aria-hidden="true"></i> Dissertation Text
+		</a>
+	{% endif %}
+
+	{% if degree.dissertation-video %}
+		<a href="{{ degree.dissertation-video }}">
+			<i class="fas fa-video" aria-hidden="true"></i> Dissertation Recording
+		</a>
+	{% endif %}
+
 	{% if degree.thesis-link %}
 		<a href="{{ degree.thesis-link }}">
 			<i class="fas fa-link" aria-hidden="true"></i> Thesis Project Page
@@ -50,13 +79,31 @@
 	
 	{% if degree.thesis-pdf %}
 		<a href="{{ degree.thesis-pdf }}">
-			<i class="fas fa-file-pdf" aria-hidden="true"></i> Thesis
+			<i class="fas fa-file-pdf" aria-hidden="true"></i> Thesis Text
 		</a>
 	{% endif %}
 
 	{% if degree.thesis-video %}
 		<a href="{{ degree.thesis-video }}">
 			<i class="fas fa-video" aria-hidden="true"></i> Thesis Recording
+		</a>
+	{% endif %}
+
+	{% if degree.research-link %}
+		<a href="{{ degree.research-link }}">
+			<i class="fas fa-link" aria-hidden="true"></i> Research Project Page
+		</a>
+	{% endif %}
+	
+	{% if degree.thesis-pdf %}
+		<a href="{{ degree.research-pdf }}">
+			<i class="fas fa-file-pdf" aria-hidden="true"></i> Research Text
+		</a>
+	{% endif %}
+
+	{% if degree.thesis-video %}
+		<a href="{{ degree.research-video }}">
+			<i class="fas fa-video" aria-hidden="true"></i> Research Recording
 		</a>
 	{% endif %}
 </div>
