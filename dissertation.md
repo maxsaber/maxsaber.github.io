@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Interactive Scalable Interfaces for Machine Learning Interpretability
+title: Risk of medical events for falls, fractures, confusion, and delirium for patients with filled prescriptions for drugs listed on Beers Criteria compared to well-matched controls.
 permalink: dissertation/
 redirect_from: defense/
 jsarr:
@@ -8,10 +8,10 @@ jsarr:
 ---
 
 <span class="dissertation-subtitle">
-Data-driven paradigms now solve the world's hardest problems by automatically learning from data. Unfortunately, what is learned is often unknown to both the people who train the models and the people they impact. This has led to a rallying cry for *machine learning interpretability*. But how do we enable interpretability? How do we scale up explanations for modern, complex models? And how can we best communicate them to people?
+Using the 2013 edition of the Truven Marketscan® Administrative Claims database, this study looks to link the expected side effects of *Beers Criteria medications* to *logical hospital admissions*. This study sets to examine hospital admissions and emergency department visits for community-dwelling elderly individuals 65 years or older specifically for falls and fracture as well as confusion and delirium admissions.
 <span>
 
-Since machine learning now impacts people's daily lives, we answer these questions taking a *human-centered perspective* by designing and developing interactive interfaces that can enable interpretability at scale and for everyone. This thesis focuses on:
+These hospital admission types constitute a significant number of admissions the elderly experience due to the medication side effects which affect balance, gait, and cognition. Through the use of 2.6 million propensity-score matched patients, 1.297 million having been exposed to Beers Criteria medications and 1.297 million patients not exposed, this study was able to confirm the linkage between the expected side effects of the medication classes and their logical hospital admissions. Antipsychotics and benzodiazepines were the most frequent prescribed medications to both groups of admission and were also associated with the highest increase in risk of hospitalizations. Future research into medication specific research in regards to falls and fractures, and confusion and delirium in the elderly is warranted. This dissertation focuses on:
 
 ##### 1. Enabling Machine Learning Interpretability
 
@@ -33,21 +33,6 @@ We use <a href="{{ site.url }}/papers/interactive-articles" class="sc">Interacti
 This thesis contributes to *information visualization*, *machine learning*, and more importantly *their intersection*, including open-source interactive interfaces, scalable algorithms, and new, accessible communication paradigms. Our work is making significant impact in industry and society: our visualizations have been deployed and demoed at Microsoft and built into widely-used interpretability toolkits, our interactive articles have been read by 250,000+ people, and our interpretability research is supported by NASA.
 
 {% include dissertation/document.html %}
-
-## SIGCHI Dissertation Award Talk
-
-After motivating and summarizing my dissertation, I reflect back upon my work and highlight bits of my research experience thus far, including the challenges and opportunities of pursuing interdisciplinary work within machine learning and human-computer interaction.
-<!-- ACM link? -->
-
-**Date:** Monday, May 2, 2022  
-**Time:** 4:45pm - 5:00pm CT  
-**Location:** New Orelans
-
-{% for talk in site.data.dissertation.talks %}
-{% if talk.key == "award" %}
-{% include dissertation/talk.html talk=talk %}
-{% endif %}
-{% endfor %}
 
 <!-- **Materials**   
 * [Research Statement][statement]  
