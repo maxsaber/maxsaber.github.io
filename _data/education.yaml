@@ -1,42 +1,40 @@
 - degree: "Doctorate in Healthcare Administration"
   institution: "Medical University of South Carolina"
   location: "Charleston, SC"
-  advisor: Duen Horng (Polo) Chau
-  co-advisor: Alex Endert
-  years: "Dec. 2020 —"
-  years-extra: "Aug. 2015"
-  thesis: "Interactive Scalable Interfaces for Machine Learning Interpretability"
-  thesis-video: https://youtu.be/TNH8RqyNfmo
-  thesis-link: ../dissertation/
-  thesis-pdf: ../papers/fred-hohman-thesis.pdf
+  advisor: Dr Kit Simpson 
+  co-advisor: ss 
+  years: "Nov. 2020 —" 
+  years-extra: "Sep. 2017" 
+  thesis: "Risk of medical events for falls, fractures, confusion, and delirium for patients with filled prescriptions for drugs listed on Beers Criteria compared to well-matched controls"
+  thesis-video: 
+  thesis-link: 
+  thesis-pdf: ../papers/fred-hohman-thesis.pdf 
   committee:
-    - Duen Horng (Polo) Chau
-    - Alex Endert
-    - Chao Zhang
-    - Nathan Hodas
-    - Scott Davidoff
-    - Steven Drucker
-  institution-url: https://www.gatech.edu/
+    - "Dr Annie Simpson PhD"
+    - "Dr Daniel Brinton PhD"
+  institution-url: https://chp.musc.edu/
   awards:
-    - ACM SIGCHI Outstanding Dissertation Award
-    - Georgia Tech College of Computing Dissertation Award
+    - College of Health Professions Dean's Award for Academic Excellence
 
-- degree: "M.S. in Computational Science & Engineering"
-  institution: Georgia Institute of Technology
-  location: "Atlanta, GA"
-  years: May 2018
-  institution-url: https://www.gatech.edu/
-  description:
-    - "GPA: 4.00/4.00"
-
-- degree: "B.S. in Mathematics, B.S. in Physics"
-  years: "May 2015 —"
-  years-extra: "Aug. 2011"
-  institution: University of Georgia
-  location: "Athens, GA"
-  thesis: "3D Printing the Trefoil Knot and its Pages"
-  thesis-link: ../projects/3d-printing-the-trefoil-knot-and-its-pages/
-  thesis-pdf: ../papers/fred-hohman-undergrad-thesis.pdf
+- degree: "Master of Science in Health Informatics"
+  institution: Northeastern University
+  location: "Boston, MA"
+  years: "May 2014 —"
+  years-extra: "Sept. 2012"
+  thesis: "Implementing a simulated electronic medical record system for undergraduate and graduate interprofessional healthcare education"
+  thesis-video: 
+  thesis-link: 
+  thesis-pdf: ../papers/fred-hohman-thesis.pdf
+  institution-url: https://www.khoury.northeastern.edu/programs/health-informatics-ms/
   description: 
-    - "Overall GPA: 3.84/4.00, Magna Cum Laude, Area of Emphasis in Applied Mathematics"
-  institution-url: https://www.uga.edu/
+
+- degree: "Bachelor of Science in Pharmaceutical Sciences"
+  years: "May 2012 —"
+  years-extra: "Sep. 2008"
+  institution: Massachusetts College of Pharmacy and Health Sciences
+  location: "Boston, MA"
+  thesis: 
+  thesis-link: 
+  thesis-pdf: 
+  description: 
+  institution-url: https://www.mcphs.edu/
