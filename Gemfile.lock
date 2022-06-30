@@ -29,7 +29,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    ffi (1.12.2)
+    ffi (1.15.5)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (1.8.2)
@@ -49,7 +49,7 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
-    listen (3.2.1)
+    listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
@@ -62,21 +62,24 @@ GEM
     rexml (3.2.5)
     rouge (3.19.0)
     safe_yaml (1.0.5)
-    sassc (2.3.0)
+    sassc (2.4.0)
       ffi (~> 1.9)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.7.0)
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   jekyll!
-  jekyll-feed (~> 0.13.0)
+  jekyll-feed
   jekyll-redirect-from (~> 0.16.0)
   jekyll-sitemap (~> 1.4)
+  listen
   rouge (~> 3.19)
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.3.7
