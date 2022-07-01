@@ -2,7 +2,6 @@
 layout: page
 title: Risk of medical events for falls, fractures, confusion, and delirium for patients with filled prescriptions for drugs listed on Beers Criteria compared to well-matched controls.
 permalink: dissertation/
-redirect_from: defense/
 jsarr:
 - js/scripts.js
 ---
