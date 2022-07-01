@@ -79,16 +79,22 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% endif %}
 {% endfor %}
 
+## Research Experience
+
+{% for experience in site.data.experiences %}
+{% if experience.type == 'research' %}
+{% include cv/experience.html experience=experience %}
+{% endif %}
+{% endfor %}
+
 ## Honors and Awards
 
 {% for award in site.data.awards %}
 {% include cv/award.html award=award %}
 {% endfor %}
 
-<!--
-## Publications
 
-### Selected: Latest & Greatest
+## Publications
 
 {% assign selectedBoolForBibtex = true %}
 
@@ -98,7 +104,7 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% endfor %}
 
 {% assign selectedBoolForBibtex = false %}
-
+<!--
 ### Journal
 
 {% assign journal = site.categories.papers | where: 'type', "journal" %}
