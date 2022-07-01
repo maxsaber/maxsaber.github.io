@@ -5,12 +5,12 @@
   years: "Nov. 2020 —" 
   years-extra: "Sep. 2017" 
   dissertation: "Risk of medical events for falls, fractures, confusion, and delirium for patients with filled prescriptions for drugs listed on Beers Criteria compared to well-matched controls."
-  dissertation-video: 
-  dissertation-link: 
-  dissertation-pdf: 
+  dissertation-slides: /dissertation-slides.pdf
+  dissertation-link: /dissertation
+  dissertation-pdf: /dissertation.pdf
   committee:
-    - "Dr. Annie Simpson Ph.D."
-    - "Dr. Daniel Brinton Ph.D."
+    - "Dr. Annie Simpson, Ph.D."
+    - "Dr. Daniel Brinton, Ph.D."
   institution-url: https://chp.musc.edu/
   awards:
     - College of Health Professions Dean's Award for Academic Excellence
@@ -21,9 +21,9 @@
   years: "May 2014 —"
   years-extra: "Sept. 2012"
   thesis: "Implementing a simulated electronic medical record system for undergraduate and graduate interprofessional healthcare education."
-  thesis-video: 
-  thesis-link: 
-  thesis-pdf: 
+  thesis-slides: 
+  thesis-link: /thesis
+  thesis-pdf: /thesis.pdf
   institution-url: https://www.khoury.northeastern.edu/programs/health-informatics-ms/
   description: 
 
@@ -32,8 +32,5 @@
   years-extra: "Sep. 2008"
   institution: Massachusetts College of Pharmacy and Health Sciences
   location: "Boston, MA"
-  research: 
-  research-link: 
-  research-pdf: 
-  description: 
+  research: "Employing Financial Data Validation Techniques to Achieve Meaningful Use Standards in a Certified EHR System." 
   institution-url: https://www.mcphs.edu/

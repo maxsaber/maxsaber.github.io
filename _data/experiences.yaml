@@ -66,3 +66,38 @@
   institution-url: https://mcphs.edu
   group-url: https://www.mcphs.edu/academics/school-of-healthcare-business
   type: academic
+
+- institution: "Medical University of South Carolina"
+  location: "Charleston, SC"
+  position: "Doctoral Researcher"
+  group: "Department of Healthcare Leadership and Management"
+  mentors: Dr. Kit Simpson, DrPH
+  year: "May 2019 —"
+  year-extra: "Nov. 2020"
+  description: "Research conducted focused on linking a set of selected side effects of Beers Criteria medications to their logically associated hospital admissions in community-dwelling elderly individuals aged 65 years and over."
+  institution-url: https://chp.musc.edu/
+  group-url: https://chp.musc.edu/academics/health-administration/dha
+  type: research
+
+- institution: "Medical University of South Carolina"
+  location: "Charleston, SC"
+  position: "Independent Doctoral Research (DHA.880)"
+  group: "Department of Healthcare Leadership and Management"
+  mentors: Dr. Mark Mellott, Ph.D.
+  year: "May 2020 —"
+  year-extra: "Aug. 2020"
+  description: "Independent doctoral research focused on surveying commercially available, large market electronic health record (EHR) systems for their adverse event alerting and reporting capabilities with a specific focus on Beers' Criteria medications."
+  institution-url: https://chp.musc.edu/
+  group-url: https://chp.musc.edu/academics/health-administration/dha
+  type: research
+
+- institution: "MCPHS University"
+  location: "Boston, MA"
+  position: "Undergraduate Researcher"
+  group: "School of Pharmacy"
+  mentors: Josephine Babiarz, Esq.
+  year: "Jan. 2012 —"
+  year-extra: "Apr. 2012"
+  description: "Undergraduate independent research concentrated on how existing financial data validation models can be implemented for use within EHR systems to ensure the integrity of key patient data designated by Meaningful Use regulations. Drafted a manuscript titled 'Employing Financial Data Validation Techniques to Achieve Meaningful Use Standards in a Certified EHR System.'"
+  institution-url: https://mcphs.edu
+  type: research

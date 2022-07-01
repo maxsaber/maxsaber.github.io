@@ -1,66 +1,29 @@
-- id: dissertation
+- id: beers
   title: "Risk of Medical Events for Falls, Fractures, Confusion, and Delirium for Patients with Filled Prescriptions for Drugs Listed on Beers Criteria Compared to Well-Matched Controls"
   authors: 
     - Max Saber
-  venue: ACM Conference on Human Factors in Computing Systems
-  venue-shorthand: CHI
-  location: Honolulu, HI, USA
+  venue: Medical University of South Carolina
+  venue-shorthand: MUSC
+  location: Charleston, SC
   year: 2020
-  url: 
-  pdf: 
+  url: /dissertation
+  pdf: /dissertation.pdf
   video: 
   preview: 
-  slides: 
+  slides: /dissertation-slides.pdf
   feature-title: 
   feature-description: 
   image: 
   feature-order: 1
   featured: true
-  selected: true
+  selected: false
   type: journal
   bibtex: |-
 
-    @article{hohman2020summit,
-      title={Summit: Scaling Deep Learning Interpretability by Visualizing Activation and Attribution Summarizations},
-      author={Hohman, Fred and Park, Haekyu and Robinson, Caleb and Chau, Duen Horng},
-      journal={IEEE Transactions on Visualization and Computer Graphics (TVCG)},
-      year={2020},
-      publisher={IEEE},
-      url={https://fredhohman.com/summit/}
-    }
-
-- id: summit
-  title: "Summit: Scaling Deep Learning Interpretability by Visualizing Activation and Attribution Summarizations"
-  authors: 
-    - Fred Hohman
-    - Haekyu Park
-    - Caleb Robinson
-    - Duen Horng (Polo) Chau
-  venue: IEEE Transactions on Visualization and Computer Graphics
-  venue-shorthand: TVCG
-  location: Vancouver, Canada
-  year: 2020
-  url: /papers/summit
-  demo: https://fredhohman.com/summit/
-  pdf: /papers/19-summit-vast.pdf
-  slides: /slides/19-summit-vast-slides.pdf
-  video: https://www.youtube.com/watch?v=J4GMLvoH1ZU&feature=youtu.be
-  recording: https://vimeo.com/368704428
-  code: https://github.com/fredhohman/summit/
-  feature-title: Summit
-  feature-description: "Scaling deep learning interpretability by visualizing activation and attribution summarizations"
-  image: /images/featured/summit.png
-  featured: true
-  feature-order: 2
-  selected: true
-  type: journal
-  bibtex: |-
-
-    @article{hohman2020summit,
-      title={Summit: Scaling Deep Learning Interpretability by Visualizing Activation and Attribution Summarizations},
-      author={Hohman, Fred and Park, Haekyu and Robinson, Caleb and Chau, Duen Horng},
-      journal={IEEE Transactions on Visualization and Computer Graphics (TVCG)},
-      year={2020},
-      publisher={IEEE},
-      url={https://fredhohman.com/summit/}
+    @phdthesis{saber_2020,
+      url={https://medica-musc.researchcommons.org/theses/534/}
+      title={Risk of Medical Events for Falls, Fractures, Confusion, and Delirium for Patients with Filled Prescriptions for Drugs Listed on Beers Criteria Compared to Well-Matched Controls},
+      author={Saber, Max},
+      school={Medical University of South Carolina},
+      year={2020}
     }
