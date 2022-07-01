@@ -16,7 +16,7 @@ title: Home
 	</div>
 	<div style="height: 1rem"></div>
 	<div class="intro-left">
-		I received my Doctorate in Healthcare Administration with a concentration in Information Systems and Leadership from the Medical University of South Carolina where I worked with <a href="https://education.musc.edu/MUSCApps/FacultyDirectory/Simpson-Kit">Dr. Kit Simpson, DrPH</a>, <a href="https://education.musc.edu/MUSCApps/FacultyDirectory/Simpson-Annie">Dr. Annie Simpson, Ph.D.</a>, and <a href="https://education.musc.edu/MUSCApps/FacultyDirectory/Brinton-Daniel">Dr. Daniel Brinton, Ph.D.</a>. My <a href="/dissertation">dissertation</a> on the expected medical events of falls, fractures, confusion, and delirium for patients taking Beers' Criteria medications was completed and defended in November 2020.
+		I received my Doctorate in Healthcare Administration with a concentration in Information Systems and Leadership from the Medical University of South Carolina where I worked with <a href="https://education.musc.edu/MUSCApps/FacultyDirectory/Simpson-Kit">Dr. Kit Simpson, DrPH</a>, <a href="https://education.musc.edu/MUSCApps/FacultyDirectory/Simpson-Annie">Dr. Annie Simpson, Ph.D.</a>, and <a href="https://education.musc.edu/MUSCApps/FacultyDirectory/Brinton-Daniel">Dr. Daniel Brinton, Ph.D.</a>. My <a href="/dissertation">dissertation</a> on expected medical events of falls, fractures, confusion, and delirium for patients taking Beers' Criteria medications was completed and defended in November 2020.
 	</div>
 </div>
 
@@ -47,7 +47,6 @@ title: Home
 	<a href="{{ site.url }}/projects"><div>Projects</div></a>
 	<a href="{{ site.url }}/blog"><div>Blog</div></a>
 	<a href="{{ site.url }}/stuff-i-use"><div>Stuff I Use</div></a>
-	<a href="{{ site.url }}/monthly-music"><div>Monthly Music</div></a>
 	<a href="{{ site.url }}/archive"><div>Archive</div></a>
 </div>
 [cv]: {{ site.url }}/cv
