@@ -12,5 +12,18 @@
 	{% endfor %}
 </div>
 {% endif %}
-<div class="cv-description">{{ experience.description }}</div>
+
+<div class="cv-description">
+{% if experience.list ==true %}
+	<div class="cv-description-list">
+		<ul>
+		{% for item in experience.description %}
+			<li>{{ item }}</li>
+		{% endfor %}
+		</ul>
+	</div>
+	{% else %}{{experience.description}}
+{% endif %}
+</div>
+
 <div class="cv-spacer"></div>

@@ -4,13 +4,14 @@
   group: "COVID-19 Team"
   year: "Sep. 2020 —"
   year-extra: "Present"
-  description: "
-    * Maintained the COVID-19 testing and surveillance data warehouse integrating internal and external data sources
-    * In partnership with the COVID-19 Team Chair, reviewed and approved, or recommended changes to each of the University's Clinic Reopening Safety Plans
-    * Co-authored sections of the FlexPlan 2020 and the Return to Campus 2021 guide"
+  description: 
+    - Maintained the COVID-19 testing and surveillance data warehouse integrating internal and external data sources,
+    - In partnership with the COVID-19 Team Chair, reviewed and approved, or recommended changes to each of the University's Clinic Reopening Safety Plans,
+    - Co-authored sections of the FlexPlan 2020 and the Return to Campus 2021 guide.
   institution-url: https://mcphs.edu
   group-url: https://mcphs.edu/covid
   type: industry
+  list: true
 
 - institution: "MCPHS University"
   location: "Boston, MA"
@@ -19,9 +20,14 @@
   year: "Jan. 2016 —"
   year-extra: "Present"
   description: 
+    - Lead the implementation and assumed operational responsibility of 4 of the 5 electronic health record systems used within the University's clinical spaces,
+    - Manages teams consisting of systems engineers, security analysts, programmers & developers, and end-users for the implementation of new business applications,
+    - Regularly leads discussions with department and business unit stakeholders to evaluate current processes and workflows; identifying areas for business process optimization. 
+
   institution-url: https://mcphs.edu
   group-url: 
   type: industry
+  list: true
 
 - institution: "MCPHS University"
   location: "Boston, MA"
@@ -29,10 +35,11 @@
   group: "Information Services"
   year: "May 2012 —"
   year-extra: "Jan. 2016"
-  description: 
+  description: "General administration and management of different information systems, including regular software updates, programming, scripting, and reconfiguration of program modules, and back-end SQL server and database maintenance."
   institution-url: https://mcphs.edu
   group-url: 
   type: industry
+  list: true
 
 - institution: "Newport Hospital"
   location: "Newport, RI"
@@ -41,9 +48,13 @@
   year: "June 2007 —"
   year-extra: "Aug. 2008"
   description: 
+    - Extracted patient care data using Lifespan’s proprietary chart abstraction tools to ensure data consistency in care reporting databases,
+    - Tracked core measures in accordance with standards set by the Joint Commission on Accreditation of Healthcare Organizations,
+    - Analyzed core measure data and developed aggregated reports for use by various hospital departments and committees.
   institution-url: https://www.lifespan.org/locations/newport-hospital
   group-url: 
   type: industry
+  list: true
 
 - institution: "MCPHS University"
   location: "Boston, MA"
@@ -51,10 +62,14 @@
   group: "School of Healthcare Business"
   year: "Jan. 2019 —"
   year-extra: "Present"
-  description: ""
+  description: 
+    - Developed 7 undergraduate, Master's, and Doctoral level courses in the areas of healthcare business, health informatics, data analysis and visualization, and statistical research methods,
+    - Regularly evaluated assignment and course level assessment data in a year-over-year approach to ensure continued student success in meeting course outcomes and objectives,
+    - Utilized a hands-on approach in all courses by integrating real-world tools such as, SPSS, Tableau, and SAS, as key course learning elements and objectives.
   institution-url: https://mcphs.edu
   group-url: https://www.mcphs.edu/academics/school-of-healthcare-business
   type: academic
+  list: true
 
 - institution: "MCPHS University"
   location: "Boston, MA"
@@ -62,10 +77,11 @@
   group: "School of Healthcare Business"
   year: "May 2014 —"
   year-extra: "Dec. 2018"
-  description: ""
+  description: "Developed and delivered a course titled 'Managing Healthcare Information Systems' as a core, required course in the Master of Healthcare Administration program with an average enrollment of 30 students per semester."
   institution-url: https://mcphs.edu
   group-url: https://www.mcphs.edu/academics/school-of-healthcare-business
   type: academic
+  list: false
 
 - institution: "Medical University of South Carolina"
   location: "Charleston, SC"

@@ -108,6 +108,14 @@
 	font-weight: 300;
 }
 
+.cv-description-list {
+	color: $silver !important;
+	font-size: 0.875rem;
+	font-weight: 300;
+	margin-left: 1.15rem;
+	margin-top: -0.9rem;
+}
+
 .cv-spacer {
 	margin-top: 0.75rem;
 	display: block;
@@ -149,7 +157,7 @@
 }
 
 .cv-service-title {
-	margin-top: 0.7rem;
+	margin-top: 0.85rem;
 	margin-bottom: 0rem;
 }
 
