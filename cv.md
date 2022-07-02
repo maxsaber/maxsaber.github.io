@@ -172,5 +172,5 @@ Tiverton, RI 02878
 774.644.1542  
 `max@maxsaber.com`
 
-[cv]: {{ site.url }}/cv.pdf "My CV."
+[cv]: {{ site.url }}/files/cv.pdf "My CV."
 [github]: https:/www.github.com/maxsaber "github.com/maxsaber"

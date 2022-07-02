@@ -5,9 +5,9 @@
   years: "Nov. 2020 —" 
   years-extra: "Sep. 2017" 
   dissertation: "Risk of medical events for falls, fractures, confusion, and delirium for patients with filled prescriptions for drugs listed on Beers Criteria compared to well-matched controls."
-  dissertation-slides: /dissertation-slides.pdf
+  dissertation-slides: /files/dissertation-slides.pdf
   dissertation-link: /papers/beers
-  dissertation-pdf: /dissertation.pdf
+  dissertation-pdf: /files/dissertation.pdf
   committee:
     - "Dr. Annie Simpson, Ph.D."
     - "Dr. Daniel Brinton, Ph.D."
@@ -23,7 +23,7 @@
   thesis: "Implementing a simulated electronic medical record system for undergraduate and graduate interprofessional healthcare education."
   thesis-slides: 
   thesis-link: /thesis
-  thesis-pdf: /thesis.pdf
+  thesis-pdf: /files/thesis.pdf
   institution-url: https://www.khoury.northeastern.edu/programs/health-informatics-ms/
   description: 
 
