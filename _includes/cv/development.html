@@ -1,0 +1,12 @@
+<div class="cv-left-date">{{ development.semester }}</div>
+<div>{{ development.course-name }} {% if development.course-id %}({{ development.course-id }}){% endif %}</div>
+<div><a href="{{ development.institution-url }}"><b>{{ development.institution }}</b></a></div>
+
+<div class="pub-misc">
+    {% if development.syllabus-pdf %}
+    <a href="{{ development.syllabus-pdf }}">
+        <i class="fas fa-file-pdf" aria-hidden="true"></i> Sample Syllabus
+    </a>
+    {% endif %}
+</div>
+<div class="cv-spacer"></div>
