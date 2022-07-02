@@ -1,7 +1,17 @@
-# Template for future entries
-
-- title: "Alumnus Building Legacy through Dissertation and Mentorship"
-  month: "June"
+- pub-title: "The President's Newsletter | Issue 4"
+  title: "Meet the MCPHS COVID-19 Team"
+  month: "Feb."
   year: 2022
-  link: https://www.cc.gatech.edu/news/alumnus-building-legacy-through-dissertation-and-mentorship
-  publisher: "Georgia Tech, College of Computing"
+  page: 5
+  link: https://issuu.com/mcphspublications/docs/mcphs_presidents_newsletter_issue_4
+  publisher: "Massachusetts College of Pharmacy and Health Sciences"
+  pub-pdf: /files/press/2022-02-presidents-newsletter.prf
+
+- pub-title: "The Bulletin"
+  title: "Role-Playing in the Innovation Economy"
+  month: "Aug."
+  year: 2016
+  page: 11
+  link: https://issuu.com/mcphspublications/docs/ua_160314_springbulletin_vf3_issuu
+  publisher: "Massachusetts College of Pharmacy and Health Sciences"
+  pub-pdf: /files/press/2016-08-bulletin.pdf

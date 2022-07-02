@@ -152,6 +152,12 @@ jsarr:
 {% include cv/licensure.html name=name %}
 {% endfor %}
 
+## Press
+
+{% for press in site.data.press %}
+{% include cv/press.html press=press %}
+{% endfor %}
+
 ## Technology Skills
 
 {% for skill in site.data.skills %}
