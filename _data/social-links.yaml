@@ -42,7 +42,7 @@
   description: CV PDF
   color: "#ba2818"
   class: "far fa-file-pdf icon"
-  url: "/cv.pdf"
+  url: "/files/cv.pdf"
   on-homepage: false
   cv-group: 1
 
