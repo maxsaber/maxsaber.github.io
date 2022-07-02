@@ -34,3 +34,6 @@
   location: "Boston, MA"
   research: "Employing Financial Data Validation Techniques to Achieve Meaningful Use Standards in a Certified EHR System." 
   institution-url: https://www.mcphs.edu/
+  awards:
+    - Student Voice Award
+    - Emerging Leader Award
