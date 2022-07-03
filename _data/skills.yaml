@@ -1,26 +1,33 @@
-- name: OS
+- name: Data Sciences
   items:
-    - Mac OS X
-    - Ubuntu
-    - Unix Command Line
-    - Windows
+    - 
 
-- name: Programming
+- name: Statistical Programming
   items:
-    - Python
-    - Matlab
-    - Mathematica
-    - C
+    - SAS
+    - SPSS
+    - Stata
 
 - name: Web and Writing
   items: 
     - HTML
     - CSS
     - JavaScript
-    - D3
     - SQL
-    - Bootstrap
     - LaTeX
     - Markdown
     - Jekyll
     - Git
+
+- name: Healthcare Information Systems
+  items:
+    - eClinicalWorks EHR
+    - Compulink Advantage, Optometry
+    - Dentrix Enterprise
+    - axiUm Ascend
+    - Siemens Radiology Image Management System
+    - Candelis Radiology Information Systems
+    - RxGENESYS Pharmacy Management System
+    - Laerdal Professional Simulation Manikin Systems
+    - UnifiedPractice (Acupuncture/Chinese Herbal Medicine)
+    - Helioscripts (ePrescribing and Compounding Pharmacy Management)

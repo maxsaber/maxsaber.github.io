@@ -1,26 +1,8 @@
-- name: OS
+- name: research
   items:
-    - Mac OS X
-    - Ubuntu
-    - Unix Command Line
-    - Windows
-
-- name: Programming
-  items:
-    - Python
-    - Matlab
-    - Mathematica
-    - C
-
-- name: Web and Writing
-  items: 
-    - HTML
-    - CSS
-    - JavaScript
-    - D3
-    - SQL
-    - Bootstrap
-    - LaTeX
-    - Markdown
-    - Jekyll
-    - Git
+    - Healthcare administration
+    - health services research
+    - patient safety and healthcare quality
+    - cost and comparative effectiveness
+    - social determinants of health
+    - health issues and disparities in the LGBTQIA+ community
