@@ -26,6 +26,14 @@ $author-image-size: 80px;
 	margin-bottom: 1rem;
 }
 
+#single-author-wrapper {
+	grid-column: text;
+	display: grid;
+	grid-column-gap: 0.875rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
 .author {
 	text-align: center;
 	font-size: 1.1em;
@@ -46,7 +54,14 @@ $author-image-size: 80px;
 	color: $text-color;
 }
 
-#venue, #paper-award, #paper-equal-contribution {
+#venue {
+	grid-column: text;
+	color: $mid-gray;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+#paper-award, #paper-equal-contribution {
 	grid-column: text;
 	color: $mid-gray;
 	font-size: 1.1em;
