@@ -1,7 +1,22 @@
-<div class="cv-left-date">{{ teach.year }}</div>
+<div class="cv-left-date"></div>
 <div><b>{{ teach.class }}</b></div>
 <div>{{ teach.position }}</div>
 <div><i><a href="{{ teach.institution-url }}">{{ teach.institution }}</a>, {{ teach.location }}</i></div>
-
+<div class="cv-description">Semester(s) taught: {{ teach.year }}</div>
 <div class="cv-description">{{ teach.description }}</div>
+
+<div class="pub-misc">
+    {% if teach.course-info %}
+    <div class="cv-spacer-small"></div>
+    <a href="{{ teach.course-info }}">
+        <i class="fas fa-link" aria-hidden="true"></i> Course Information
+    </a>
+    {% endif %}
+    {% if teach.syllabus-pdf %}
+    <a href="{{ teach.syllabus-pdf }}">
+        <i class="fas fa-file-pdf" aria-hidden="true"></i> Sample Syllabus
+    </a>
+    {% endif %}
+</div>
+
 <div class="cv-spacer"></div>

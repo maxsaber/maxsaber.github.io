@@ -47,18 +47,18 @@ jsarr:
 {% endif %}
 {% endfor %}
 
-## Research Experience
-
-{% for experience in site.data.experiences %}
-{% if experience.type == 'research' %}
-{% include cv/experience.html experience=experience %}
-{% endif %}
-{% endfor %}
-
 ## Industry Experience
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'industry' %}
+{% include cv/experience.html experience=experience %}
+{% endif %}
+{% endfor %}
+
+## Research Experience
+
+{% for experience in site.data.experiences %}
+{% if experience.type == 'research' %}
 {% include cv/experience.html experience=experience %}
 {% endif %}
 {% endfor %}
@@ -68,6 +68,37 @@ jsarr:
 {% for teach in site.data.teaching %}
 {% include cv/teaching.html teach=teach %}
 {% endfor %}
+
+## Pedagogical Development
+
+<div class="cv-service-title"><b>Full Course Design</b></div>
+<div class="cv-description">Full course design entails developing all aspects of a new course including, but not limited to, syllabus design, course and unit objectives, instruction methods, course assignments, and assessment activities.</div>
+<div class="cv-spacer-small"></div>
+{% for development in site.data.development %}
+{% if development.type == 'new' %}
+{% include cv/development.html dev=dev %}
+{% endif %}
+{% endfor %}
+
+<div class="cv-service-title"><b>Course Redesign</b></div>
+<div class="cv-description">Course redesigns entails taking a course already developed by another instructor and updating course materials, assignments, and assessments to meet new or updated learning objectives.</div>
+<div class="cv-spacer-small"></div>
+{% for development in site.data.development %}
+{% if development.type == 'redesign' %}
+{% include cv/development.html dev=dev %}
+{% endif %}
+{% endfor %}
+
+## Publications
+
+{% assign selectedBoolForBibtex = true %}
+
+{% assign selected = site.categories.papers | where: 'selected', true %}
+{% for pub in selected %}
+{% include cv/publication.html pub=pub %}
+{% endfor %}
+
+{% assign selectedBoolForBibtex = false %}
 
 ## Service
 
@@ -89,35 +120,6 @@ jsarr:
 {% for member in site.data.memberships %}
 {% include cv/member.html member=member %}
 {% endfor %}
-
-## Pedagogical Development
-
-<div class="cv-service-title"><b>Full Course Design</b></div>
-<div class="cv-description">Full course design entails developing all aspects of a new course including, but not limited to, syllabus design, course and unit objectives, instruction methods, course assignments, and assessment activities.</div>
-{% for development in site.data.development %}
-{% if development.type == 'new' %}
-{% include cv/development.html dev=dev %}
-{% endif %}
-{% endfor %}
-
-<div class="cv-service-title"><b>Course Redesign</b></div>
-<div class="cv-description">Course redesigns entails taking a course already developed by another instructor and updating course materials, assignments, and assessments to meet new or updated learning objectives.</div>
-{% for development in site.data.development %}
-{% if development.type == 'redesign' %}
-{% include cv/development.html dev=dev %}
-{% endif %}
-{% endfor %}
-
-## Publications
-
-{% assign selectedBoolForBibtex = true %}
-
-{% assign selected = site.categories.papers | where: 'selected', true %}
-{% for pub in selected %}
-{% include cv/publication.html pub=pub %}
-{% endfor %}
-
-{% assign selectedBoolForBibtex = false %}
 
 ## Invited Presentations
 
@@ -176,7 +178,5 @@ Max Saber
 914 Lake Road  
 Tiverton, RI 02878  
 774.644.1542  
-`max@maxsaber.com`
-
-[cv]: {{ site.url }}/files/cv.pdf "My CV."
-[github]: https:/www.github.com/maxsaber "github.com/maxsaber"
+`max@maxsaber.com`<br>
+<a href="https://maxsaber.com">https://maxsaber.com</a>

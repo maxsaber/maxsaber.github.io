@@ -3,42 +3,47 @@
   location: "Boston, MA"
   year: "Spring 2022"
   class: "Data Collection, Analysis, and Representation in Healthcare (HCM.828)"
-  instructor: 
   description: "This doctoral level course focused on data collection techniques, critical evaluation of data sources and datasets, and data visualization methods using various deidentified and synthetic research data sets. Students used SAS Foundation and SAS Enterprise Guide to learn statistical and data modeling techniques and SAS Visual Analytics Suite to construct visualizations and interactive dashboards."
   institution-url: https://mcphs.edu
+  syllabus-pdf: /files/
+  course-info: /course/
 
 - institution: MCPHS University
   position: Instructor of Record
   location: "Boston, MA"
-  year: 
+  year: "Spring 2019, Summer 2019, Spring 2020, Summer 2020, Fall 2020, Spring 2021 (three sections), Spring 2022 (faculty reference)"
   class: "Informatics & Data Analysis (HCM.820)"
-  instructor: 
   description: "This Masters level course provides a hands-on approach to performing statistical data analyses on synthetic datasets to describe population characteristics, identify trends and associations, and how show data analytics are employed to answer real-world healthcare access and cost questions using SPSS. Students used Tableau during the course's data visualization modules building reports and interactive dashboards."
   institution-url: https://mcphs.edu
+  syllabus-pdf: /files/
+  course-info: 
 
 - institution: MCPHS University
   position: Instructor of Record
   location: "Boston, MA"
   year: "Fall 2019, Spring 2020, Fall 2021, Spring 2021, Summer 2022"
   class: "Business Statistics (HCM.722)"
-  instructor: 
   description: "This Masters level course focuses on reinforcing the use of standard statistical methodologies in collecting, evaluating, and analyzing business and healthcare data. This course teaches students how tools like SPSS are used during the process of supporting managerial and organizational decision making."
   institution-url: https://mcphs.edu
+  syllabus-pdf: /files/
+  course-info: 
 
 - institution: MCPHS University
   position: Instructor of Record
   location: "Boston, MA"
-  year: 
+  year: "Summer 2014, Summer 2015, Summer 2016, Summer 2017, Summer 2018"
   class: "Managing Healthcare Information Systems (HCA.780)"
-  instructor: 
   description: "This Masters level course examined the use, management, and integration of healthcare information systems and data quality standards in today’s healthcare environment. Emphasis was placed on the intersection of clinical information systems and the administrative functions of an Information Services department, IT service delivery, IT governance, data privacy and security, and organizational strategic planning."
   institution-url: https://mcphs.edu
+  syllabus-pdf: /files/
+  course-info: 
 
 - institution: MCPHS University
   position: Instructor of Record
   location: "Boston, MA"
   year: "Fall 2021"
   class: "Data Visualization (BMI.410)"
-  instructor: 
   description: "This undergraduate-level course centers on the fundamental statistical and data analysis methods used in healthcare and health services research. Through this course, students are asked to analyze and interpret data while making informed business decisions based on the outcomes of their analyses. Students also were taught basic and intermediate data visualization techniques and best practices using Tableau’s interactive data visualization software."
   institution-url: https://mcphs.edu
+  syllabus-pdf: /files/
+  course-info: 
