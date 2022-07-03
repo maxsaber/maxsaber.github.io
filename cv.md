@@ -65,8 +65,18 @@ jsarr:
 
 ## Teaching
 
+<div class="cv-service-subtitle"><i>Graduate</i></div>
 {% for teach in site.data.teaching %}
+{% if teach.level == 'graduate' %}
 {% include cv/teaching.html teach=teach %}
+{% endif %}
+{% endfor %}
+
+<div class="cv-service-subtitle"><i>Undergraduate</i></div>
+{% for teach in site.data.teaching %}
+{% if teach.level == 'undergraduate' %}
+{% include cv/teaching.html teach=teach %}
+{% endif %}
 {% endfor %}
 
 ## Pedagogical Development
