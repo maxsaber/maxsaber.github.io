@@ -43,6 +43,7 @@ My homescreen is a bit minimal with Messages, Calendar, Camera, [Spotify][spotif
 
 Paired with my Apple Watch you'll usually catch me wearing my Alex and Ani [Path of Life][path-life] bracelet which was a present from one of my best friends, or my [Miansai Noir Cuff][miansai] if I'm doing something I can't wear a charm.
 
+[the-setup]: https://usesthis.com/
 [fred]: https://github.com/fredhohman/fredhohman.github.io
 [ghurka-5]: https://ghurka.com/products/examiner-no-5-vintage-chestnut-leather
 [nomatic]: https://www.nomatic.com/products/the-nomatic-backpack
