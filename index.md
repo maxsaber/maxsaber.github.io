@@ -49,4 +49,5 @@ title: Home
 	<a href="{{ site.url }}/stuff-i-use"><div>Stuff I Use</div></a>
 	<a href="{{ site.url }}/archive"><div>Archive</div></a>
 </div>
+
 [cv]: {{ site.url }}/cv

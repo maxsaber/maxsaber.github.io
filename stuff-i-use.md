@@ -1,207 +1,70 @@
 ---
 layout: page
 title: Stuff I Use
-permalink: stuff-i-use/
+permalink: stuff/
 ---
 
 <time datetime="{{ site.time | date: "%B %-d, %Y" }}" class="post-date">Updated: {{ site.time | date: "%B %Y" }}</time>
 
-Inspired by projects like [The Setup][the-setup], here is the stuff I use.
+Inspired by projects like [The Setup][the-setup], and from [Fred Hohman][fred] (where I forked this Github site from) here is the stuff *I* use.
 
-* TOC
-{:toc}
+### What kind of bag?
+Thanks to my wonderful boyfriend getting me this bag for my Doctoral graduation gift, because I'd never buy it for myself, I carry a [Ghurka Examiner No. 5][ghurka-5] to and from work every day. This bag also used to serve as my Notary bag while I was living in Florida but since moving back for work, this is a much better use of this absolutely *beautiful* briefcase. If you have a Ghurka of your own, or know someone who owns one, you'll know exactly what I'm talking about.
 
-### What's in my Bag
-I carry a custom [Timbuk2 messenger bag][timbuk2] for just about everything.
-If that isn't enough space, I wear a [Jansport Classic backpack][jansport] for backup.
+If I'm flying somewhere other than back home to Florida, or for work, my go to switchout is [The Nomatic Backpack][nomatic]. Before my Ghurka No. 5, this was my everyday bag for years while I was commuting on the T to and from work. Some of my favorite things about this bag, and why I still keep it around, are all the pockets in the front and inner compartments, and the pass-thru ports which allows you to pull a cord from a portable battery through the bag. This makes it so convenient to charge your phone or tablet without needing to open and unzip your whole bag.
 
-<!-- <figure>
-	<img class="full" src="/images/stuff-i-use.jpg" alt="Stuff I Use.">
-	<figcaption>Apple Pi. Get it?</figcaption>
-</figure> -->
+### What's actually in my bag?
 
-Ever since I was 10 I've been writing with [PaperMate Clearpoint 0.5mm mechanical pencils][pencil] on blank computer paper.
-More recently I've been carrying a single [Moleskin sketchbook][moleskin-sketch] for meeting and research notes.
-The size is great for an all-in-one notebook, and the paper in the sketchbook from the [Art Collection][moleskin-art] is 111lb, which is much thicker than the average Moleskin notebook[^fn-moleskin].
+I try to travel pretty light on the daily with the walk to and from my office from the train station but I do have a few necessities I never leave home without. My left front pocket is my "tech" pocket with my [Apple MagSafe Battery][magsafe-battery], a pouch with a spare Lightning cable, Apple Watch charger, and of course, a USB-C wall adapter. My work ID cards and lanyard are also stuffed in this pocket, too.
 
-I also never leave the apartment without a backpocket [Field Notes][fieldnotes] and my [REI carabiner][carabiner] clip to hold my keys.
+The right pocket, on the other hand, is filled with a bit more odds and ends, but one thing I recently invested in is the [Orbitkey Leather Key Organizer][orbitkey] and this thing is awesome. All of my work keys aren't thrown in my bag anymore and they're nice and neatly contained in the leather wrap (which very nicely matches the color of my bag, too).
+
+In the main compartment of my bag is usually my (work) laptop, wallet, [powerbrick][mophie], and [28oz. Hydroflask tumbler][hydroflask]. Let me tell you, I love my Mophie Powerbank... It's the "Powerstation XXL" with a massive 20,000mAh battery which let's me recharge my iPhone two or three times to 100%. The other thing I love about this portable battery is it has both USB-A and USB-C ports for charging devices which means I don't need to carry two Lightning cables.
+
+I'm 100% a sucker for Apple products, I have an [AirTag][airtag] on my Orbitkey and in my briefcase because, honestly, if my head wasn't attached, I'd leave that somewhere too. One thing I really recommend if you're putting an AirTag on your keychain or something similar is the [laylion Minimalist AirTag Keychain][laylion]. This Airtag holder connects between the battery cover and the AirTag itself allowing you to have your AirTag nicely displayed on your keys. For my car keys, I like the standard [AirTag Leather Key Ring][airtag-leather] in Golden Brown.
+
+### I'm a bit old school sometimes
+
+Anyone who has worked with me knows about my "red book" that I write *everything* down in. These red books are nothing more than a simple AT-A-GLANCE yearly page-a-day [Standard Diary][diary]. I prefer the 5-3/4" x 8-1/4" size, it's the easiest to fit in my bag, carry around campus, etc... 
+
+I'm a stickler for pens too, especially with the paper the Standard Diary uses. When I'm writing in this book specifically, I like to use medium point [PILOT Acroball Pro Advanced Ink Ball Point Pens][acroball], in blue ink, paired with yellow [Sharpie Chisel Highlighters][sharpie]. This pen/highlighter combination is really my go to in any writing situation, a dozen of each will usually last me about a year. If I'm writing something I know isn't going to be highlighted, I recently fell in love with the [uniball Air 0.7mm][uniball] pens, in blue ink of course. I used to use these pens while I was out on Notary assignments but they kept getting stolen!
 
 ### Computer
-I'm using an upgraded [2016 15" MacBook Pro][mbp], which replaced a [2011 15" MacBook Pro][mbp2011], which replaced a [late 2007 20" iMac][imac].
 
-When I'm at my desk I connect to a [LG Ultrafine 5K Monitor][monitor] using a single USB-C cable for power, internet, and peripherals ([Logitech G502 mouse][mouse] and [Code keyboard][keyboard]).
-
-I built my own PC in March 2018 for gaming and deep learning side projects.
-It's a high performing Intel + NVIDIA build with mesmerizing RGB fans packed into an excellent compact metal and glass case.
-
-| Part          |             |
-| ------------- |-------------|
-| CPU           | [Intel Core i7 8700K][cpu] |
-| CPU Cooler    | [Corsair H100i v2 All in One Water Cooler][cpu-cooler] |
-| Motherboard   | [ASRock z370 Tai Chi][motherboard] |
-| Memory        | [G.Skill Trident RGB 32GB (2x16GB) 3000Hz][memory] |
-| Storage (M.2) | [Samsung 970 Evo Plus m.2 PCIe NVMe 1TB][storage-m2-1] |
-| Storage (M.2) | [Samsung 960 Evo m.2 PCIe NVMe 1TB][storage-m2-2] |
-| Storage (HDD) | [Seagate Barracuda 3TB 7200rpm][storage-hdd] |
-| GPU           | [NVIDIA Titan Xp][gpu] |
-| Power Supply  | [EVGA 850W G3][power-supply] |
-| Case          | [Fractal Design Meshify C (Tempered Glass Edition)][case]|
-| Case Fans     | [Corsair LL120mm RGB][case-fans] |
-
-### Mobile
-I'm currently carrying a 64GB black [iPhone X][iphone], with an old, rarely touched [fourth-gen iPad][ipad] resting on its stand.
-
-<!-- <figure>
-	<img class="iphone" src="/images/iphone.png" alt="My iPhone Homescreen.">
-	<figcaption>My old iPhone 6 Homescreen.</figcaption>
-</figure> -->
-
-On my homescreen sits many of the mobile versions of the desktop services I use on OS X, but notable mentions include [Fantastical][fantastical] for calendar and reminders, [Dark Sky][darksky] for down-to-the-minute weather predictions, [Inbox][inbox] by Gmail for email, the data-centric alarm clock [Sleep Cycle][sleep-cycle], and [Overcast][overcast] for podcasts.
-
-I also wear a gen 5 space gray [Apple Watch][watch] with the red sport band.
-
-### Apps
-At any time of day I'm probably listening to music on [Spotify][spotify].
-I rely on [Dropbox][dropbox] and [Google Drive][drive] for file sharing.
-Google Docs, Sheets, and Slides are also frequently used.
-For getting things, I've tried every to-do list and task manager out there, and I haven't really liked any, but I've found that [Trello][trello] is useful for managing different projects; it can also export specific tasks to my calendar while preserving the task’s due date, time, and notes. 
-
-While browsing Twitter on [Tweetbot][tweetbot] or Reddit on [AlienBlue][alienblue], I constantly save things to my [Pocket][pocket] to read whenever I get a few minutes.
-I use [1Password][1password] for saving passwords and [Mint][mint] for tracking money.
-[Slack][slack] is always open, and [IFTTT][ifttt] can be handy too. 
-
-I write journal entries in [Day One][day-one] that contain research notes, a days summary, and interesting quotes and pieces I read.
-I've used Day One off and on for a few years, but during the summer of 2015 [I started writing daily entries to log every day of my time as a Ph.D. student][dayone-blog] so that upon graduation I can look back and remember the details, both big and little.
-I believe daily writing also helps one communicate more effectively and easily.
-
-### Software
-For general programming, and specially for deep learning, I use [Python][python] often paired with [Jupyter notebooks][jupyter].
-For data visualization I program mostly for the web (HTML, CSS, JavaScript, and [D3][d3]).
-For more mathy things, I'll default to [Mathematica][mathematica] for continuous problems and [MATLAB][matlab] for discrete ones.
-
-I typeset LaTeX in [TeXShop][texshop], take notes in Markdown with [Sublime][sublime], and write code in [Visual Studio Code][vs-code].
-
-I use [Keynote][keynote] for slides, [Affinity Designer][affinity-designer] for vector drawing and most digital illustration, with the occasional use of [Pixelmator][pixelmator] for image editing.
-
-When I was working in 3D printing, I used Mathematica and [OpenSCAD][openscad] to generate models, [Blender][blender] for renders and mesh manipulation, and [Makerware][makerware] for print preparation.
-[Tinkercad][tinkercad] is also a great, easy-to-use modeling app that runs in the browser.
+When I'm at my desk either at home or at work, I connect to a [24" Dell UltraSharp USB-C Hub Monitor][monitor] using a single USB-C cable for power, internet, and other peripherals. I live by the [Logitech MX Master mouse][mouse] and [Microsoft Natural Ergonomic Keyboard 4000][keyboard]. I'm *very* particular with the keyboard though, Microsoft changed the plastic they make the keys with in the newer models and it's absolutely terrible! This unfortunately forces me to resort to eBay to search for replacement keyboards when mine seem to die.
 
 ### Audio
-On both sides of my desk sit [KRK Rokit 5 studio monitors][rokit5] with an accompanying [Rokit 10s subwoofer][rokit10].
-I run audio from my computer through a now old [Presonus Firestudio][firestudio]. 
-For less serious recording, I use a [Blue Yeticaster][yeti] microphone for video calling and voice overs.
+This is probably the easiest section to write! Aside from my AirPod Pro's, both at home and in the office I have the [Bose Companion 20][bose] speakers. These speakers, or any speakers from Bose, are second to none and worth every penny.
 
-I carry [Shure SE846 isolating headphones/earbuds][shure215] with me at all times for excellent sound quality (portable bass!), noise cancellation, and most importantly: they never fall out of my ears.
-I have a number of other IEMs, including my older [Shure SE215s][shure215] and the cheap but surprinsgly fantastic [Tin Audio T2s][tint2].
-I also carry a pair of the renowned [Audio Technica ATH-m50x][m50x] headphones for sound quality and portability.
+### Mobile
+I'm currently carrying a 256GB gold [iPhone 13 Pro Max][iphone], sporting a plain clear case with the [iPhone Leather MagSafe Wallet][iphone-wallet] in Sequoia Green attached to the back. I also have an older iPad Pro with me most days but it doesn't see too much use anymore. I also wear a Series 5 [Apple Watch][watch] with a stainless link band everyday, too.
 
-### Photography
-As an amateur photographer, I'm shooting with a hand-me-down [Nikon D80][d80], but I always have my phone on me to snap a quick picture.
-When I was taking macro shots, I'd often set up a homemade light box.
+My homescreen is a bit minimal with Messages, Calendar, Camera, [Spotify][spotify], Apple Wallet, and the [Transit][transit] apps present. The bottom bar holds Phone, Mail, Safari, and my Apple Home apps.
 
-### Drums
-I received a [Sonor Force 2001 drum set][sonor] when I was 10, and I still play it today.
-I play [Sabian AA][aa] and [AAX cymbals][aax] and coated [Evans drumheads][evans].
-My drumstick of choice is the [Vic Firth 5A][5a].
-For quieter jam sessions, I make less noise on a [Roland electric drum set][roland]. 
+Paired with my Apple Watch you'll usually catch me wearing my Alex and Ani [Path of Life][path-life] bracelet which was a present from one of my best friends, or my [Miansai Noir Cuff][miansai] if I'm doing something I can't wear a charm.
 
-### Entertainment
-Aside from my gaming PC, I have the lovely [Nintendo Switch][switch] and an [Xbox One][xbox] that doesn't do much anymore.
-A [Chromecast][chromecast] sticks out of my TV too. 
-
-When trying to relax, there is no better companion than an [Eno hammock][eno].
-
-[timbuk2]: http://www.timbuk2.com "Timbuk2."
-[jansport]: http://www.jansport.com/shop/en/jansport-us/backpacks/right-pack-typ7 "Jansport."
-[pencil]: http://www.amazon.com/Paper-Mate-Mechanical-Assorted-34666PP/dp/B001PV2KYM/ref=sr_1_5?s=office-products&ie=UTF8&qid=1420268018&sr=1-5&keywords=papermate+mechanical+pencil "Clearpoint Mechanical Pencil."
-[fieldnotes]: https://fieldnotesbrand.com/ "Fieled Notes."
-[carabiner]: http://www.amazon.com/Metolius-Mini-Carabiner-Black-Wiregate/dp/B003UA09SK/ref=sr_1_fkmr1_1?ie=UTF8&qid=1431720383&sr=8-1-fkmr1&keywords=Metolius+FS+Mini+II+Carabiner "REI Carabiner."
-[mbp]: https://support.apple.com/kb/SP749?locale=en_US "2016 MacBook Pro."
-[mbp2011]: http://support.apple.com/kb/SP620?viewlocale=en_US&locale=en_US "Early 2011 MacBook Pro."
-[imac]: http://support.apple.com/kb/SP28?viewlocale=en_US&locale=en_US "Late 2007 iMac"
-[keyboard]: https://codekeyboards.com/ "Code Keyboard."
-[mouse]: http://gaming.logitech.com/en-us/product/g502-proteus-spectrum-rgb-gaming-mouse "Logitech g502 Mouse."
-[monitor]: http://www.lg.com/us/monitors/lg-27MD5K-5k-uhd-led-monitor?cmpid=2016HEMonitor-SEM-SF-Generic_US_Google_5K-Resolution_k0649&gclid=Cj0KEQiAzZHEBRD0ivi9_pDzgYMBEiQAtvxt-AxENU7EErIavOrcUuzBKDUQiBAa7myVuTdKixQeSGQaAkZQ8P8HAQ "LG UltraFine 5K Monitor."
-[iphone]: https://www.apple.com/iphone-x/specs/ "iPhone X."
-[ipad]: http://support.apple.com/kb/SP662?viewlocale=en_US&locale=en_US "4th Gen iPad."
-[fantastical]: https://flexibits.com/fantastical-iphone "Fantastical."
-[darksky]: http://darkskyapp.com "Dark Sky."
-[inbox]: https://inbox.google.com "Inbox by Gmail."
-[tweetbot]: http://tapbots.com/tweetbot/mac/ "Tweetbot."
-[spotify]: https://www.spotify.com/us/ "Spotify."
-[dropbox]: https://www.dropbox.com/ "Dropbox."
-[trello]: https://trello.com/ "Trello."
-[wunderlist]: https://www.wunderlist.com/ "Wunderlist."
-[pocket]: https://getpocket.com/ "Pocket."
-[evernote]: https://evernote.com "Evernote."
-[1password]: https://agilebits.com/onepassword "1Password."
-[ifttt]: https://ifttt.com/ "IFTTT."
-[mathematica]: http://www.wolfram.com/mathematica/ "Mathematica."
-[python]: https://www.python.org "Python."
-[matlab]: http://www.mathworks.com/products/matlab/ "MATLAB."
-[openscad]: www.openscad.org/ "OpenSCAD."
-[blender]: http://www.blender.org "Blender."
-[makerware]: http://www.makerbot.com/desktop "Makerware."
-[tinkercad]: https://tinkercad.com/ "Tinkercad."
-[texshop]: https://tug.org/mactex/ "TeXShop."
-[mou]: http://25.io/mou/ "Mou."
-[sublime]: http://www.sublimetext.com "Sumblime Text."
-[pixelmator]: http://www.pixelmator.com "Pixelmator."
-[alfred]: http://www.alfredapp.com "Alfred."
-[rokit5]: http://www.krksys.com/krk-studio-monitor-speakers/rokit/rokit-5.html "Rokit 5."
-[rokit10]: http://www.krksys.com/krk-subwoofers/10s.html "Rokit 10s."
-[firestudio]: http://www.presonus.com/products/FireStudio "Presonus Firestudio."
-[shure846]: https://www.shure.com/en-US/products/earphones/se846 "Shure SE215 Earbuds."
-[shure215]: http://www.shure.com/americas/products/earphones-headphones/se-earphones/se215-sound-isolating-earphones "Shure SE846 Earbuds."
-[tint2]: https://drop.com/buy/tin-t2-iem "Tin Audio T2 Earbuds."
-[m50x]: https://www.audio-technica.com/cms/headphones/99aff89488ddd6b1/index.html "Audio Technica ATH-M50x."
-[yeti]: https://www.bluedesigns.com/products/yeticaster/ "Blue Yeticaster."
-[d80]: http://www.nikonusa.com/en/Nikon-Products/Product-Archive/dslr-cameras/D80.html "Nikon D80."
-[sonor]: http://us.sonor.com "Sonor Drums."
-[aa]: http://sabian.com/cymbals/index/series:aa/language:en "Sabian AA."
-[aax]: http://sabian.com/cymbals/index/series:aax/language:en/order:popularity/page:1 "Sabian AAX."
-[evans]: www.evansdrumheads.com/ "Evans Drumheads."
-[5a]: http://www.vicfirth.com/products/americanclassic.php "Vic Firth 5A."
-[roland]: http://www.rolandus.com/products/category/483 "Roland Electric Drums."
-[xbox]: http://www.xbox.com/en-US/xbox-one "Xbox One."
-[eno]: https://www.eaglesnestoutfittersinc.com/product/DOUBLENEST.html "Eno Hammocks."
-[sleep-cycle]: http://www.sleepcycle.com "Sleep Cycle."
-[mint]: https://www.mint.com "Mint."
-[day-one]: http://dayoneapp.com "Day One."
-[the-setup]: https://usesthis.com "The Setup."
-[ps]: http://paulstamatiou.com/stuff-i-use/ "Paul Stamatiou."
-[watch]: https://www.apple.com/watch/ "Apple Watch."
-[moleskin-sketch]: https://store.moleskine.com/usa/notebooks/creativity/sketchbook/p39?lang=en-us&ic=arKvSg%3D%3D "Moleskin Sketchbook."
-[the-setup]: https://usesthis.com "The Setup."
-[fluid]: http://fluidapp.com "Fluid App."
-[overcast]: https://overcast.fm/ "Overcast."
-[alienblue]: https://www.reddit.com/r/AlienBlue/ "Alien Blue"
-[drive]: drive.google.com/drive/ "Google Drive."
-[keynote]: https://www.apple.com/keynote/ "Keynote."
-[affinity-designer]: https://affinity.serif.com/en-us/ "Affinity Designer."
-[jupyter]: http://jupyter.org/ "Jupyter Notebooks."
-[vs-code]: https://code.visualstudio.com/ "Visual Studio Code."
-[switch]: https://www.nintendo.com/switch/ "Nintendo Switch."
-
-[moleskin-art]: http://www.moleskine.com/microsites/artcollection "Moleskin Art Collection."
-
-[dayone-blog]: {{ site.baseurl }}/blog/journaling-in-graduate-school "Journaling in Graduate School."
-
-[chromecast]: https://www.google.com/intl/en_us/chromecast/?utm_source=chromecast.com "Chromecast."
-[d3]: https://d3js.org/ "D3."
-[slack]: https://slack.com/ "Slack."
-
-[cpu]: https://www.intel.com/content/www/us/en/products/processors/core/i7-processors/i7-8700k.html "Intel Core i7 8700K."
-[cpu-cooler]: https://www.corsair.com/us/en/Categories/Products/Cooling/Dual-Radiator/Hydro-Series%E2%84%A2-H100i-v2-Extreme-Performance-Liquid-CPU-Cooler/p/CW-9060025-WW 'Corsair H100i v2 All in One Water Cooler.'
-
-[motherboard]: https://www.asrock.com/mb/Intel/Z370%20Taichi/index.asp 'ASRock z370 Tai Chi.'
-[memory]: https://www.gskill.com/en/product/f4-3000c14d-32gtzr 'G.Skill Trident RGB 32GB (2x16GB) 3000Hz.'
-[storage-m2-1]: https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-970-evo-plus-nvme-m-2-1-tb-mz-v7s1t0b-am/ 'Samsung 970 Evo Plus m.2 PCIe NVMe 1TB.' 
-[storage-m2-2]: https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-960-evo-m-2-1tb-mz-v6e1t0bw/ 'Samsung 960 Evo m.2 PCIe NVMe 1TB.'
-[storage-hdd]: https://www.seagate.com/internal-hard-drives/hdd/barracuda/ 'Seagate Barracuda 3TB 7200rpm.'
-[gpu]: https://www.nvidia.com/en-us/titan/titan-xp/ 'NVIDIA Titan Xp.'
-[power-supply]: https://www.evga.com/products/product.aspx?pn=220-G3-0850-X1 'EVGA 850W G3.'
-[case]: http://www.fractal-design.com/home/product/cases/meshify/meshify-c 'Fractal Design Meshify C (Tempered Glass).'
-[case-fans]: https://www.corsair.com/us/en/Categories/Products/Fans/ml-config/p/CO-9050072-WW 'Corsair LL120mm RGB.'
-
-[^fn-moleskin]: Sometimes it irks me when ink bleeds through paper. 
+[fred]: https://github.com/fredhohman/fredhohman.github.io
+[ghurka-5]: https://ghurka.com/products/examiner-no-5-vintage-chestnut-leather
+[nomatic]: https://www.nomatic.com/products/the-nomatic-backpack
+[magsafe-battery]: https://www.apple.com/shop/product/MJWY3AM/A/magsafe-battery-pack
+[orbitkey]: https://www.orbitkey.com/collections/key-organiser/products/orbitkey-2-0-leather?variant=32295717769
+[airpods]: https://www.apple.com/shop/product/MLWK3AM/A/airpods-pro
+[airtags]: https://www.apple.com/shop/buy-airtag/airtag/4-pack
+[airtag-leather]: https://www.apple.com/shop/product/MMFC3ZM/A/airtag-leather-key-ring-wisteria
+[laylion]: https://www.amazon.com/gp/product/B09CPTS8JG/
+[mophie]: https://www.zagg.com/en_us/powerstation-pd-xxl-2020
+[hydroflask]: https://www.hydroflask.com/28-oz-all-around-tumbler?color=laguna
+[uniball-air]: https://uniballco.com/products/air-porous-point-pens
+[acroball]: https://www.amazon.com/gp/product/B00FACLNK4/
+[diary]: https://www.amazon.com/Diary-AT-GLANCE-Standard-SD38913/dp/B09WYY5VR1/
+[sharpie]: https://www.amazon.com/Sharpie-25025-Highlighters-Fluorescent-12-Count/dp/B00006IEJ9/
+[iphone]: https://www.apple.com/iphone-13-pro/specs/
+[iphone-wallet]: https://www.apple.com/shop/product/MM0Q3ZM/A/iphone-leather-wallet-with-magsafe-golden-brown
+[ipad]: http://support.apple.com/kb/SP662?viewlocale=en_US&locale=en_US
+[transit]: https://transitapp.com/
+[path-life]: https://www.alexandani.com/products/path-of-life-embossed-charm-bangle-bracelet-v
+[miansai]: https://www.miansai.com/collections/men-cuffs/products/screw-cuff-noir
+[keyboard]: https://www.amazon.com/Microsoft-Natural-Ergonomic-Keyboard-4000/dp/B000A6PPOK
+[mouse]: https://www.amazon.com/Logitech-Master-Wireless-Mouse-High-Precision/dp/B07DHDFW5V/
+[monitor]: https://www.dell.com/en-us/shop/dell-ultrasharp-usb-c-hub-monitor-u2421e/apd/210-axmg/monitors-monitor-accessories
+[bose]: https://www.amazon.com/Bose-Companion-Multimedia-Speaker-System/dp/B0053T4PHC/
