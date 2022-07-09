@@ -81,7 +81,7 @@
   institution-url: https://mcphs.edu
   group-url: https://www.mcphs.edu/academics/school-of-healthcare-business
   type: academic
-  list: false
+  list: true
 
 - institution: "Medical University of South Carolina"
   location: "Charleston, SC"

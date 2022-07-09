@@ -1,15 +1,27 @@
-- name: "Dean's Award"
+- name: Dean's Award for Academic Achievement
   source: Medical University of South Carolina
   year: May 2021
 
-- name: "Innovative Solutions Award"
+- name: The Legacy Society
+  source: Medical University of South Carolina
+  year: July 2020
+
+- name: The Frank Palmer Speare Society
+  source: Northeastern University
+  year: July 2020
+
+- name: Innovative Solutions Award
   source: MCPHS University
   year: May 2019
 
-- name: "Superior Employee Quality Service Award"
+- name: Superior Employee Quality Service Award
   source: MCPHS University
   year: May 2014
 
-- name: "Ralph A. Mollis Secretary of State Award for Civic Leadership"
+- name: Ralph A. Mollis Secretary of State Award for Civic Leadership
   source: State of Rhode Island
   year: June 2008
+
+#- name: The Pillar Society
+#  source: MCPHS University
+#  year: July 2020

@@ -1,5 +1,6 @@
 - degree: "Doctorate in Healthcare Administration"
   institution: "Medical University of South Carolina"
+  division: College of Health Professions
   location: "Charleston, SC"
   advisor: "Dr. Kit Simpson, DrPH"
   years: "Nov. 2020 —" 
@@ -17,6 +18,7 @@
 
 - degree: "Master of Science in Health Informatics"
   institution: Northeastern University
+  division: Khoury College of Computer Sciences and Bouvé College of Health Sciences
   location: "Boston, MA"
   years: "May 2014 —"
   years-extra: "Sept. 2012"
@@ -28,9 +30,10 @@
   description: 
 
 - degree: "Bachelor of Science in Pharmaceutical Sciences"
+  institution: Massachusetts College of Pharmacy and Health Sciences
+  division: School of Pharmacy
   years: "May 2012 —"
   years-extra: "Sep. 2008"
-  institution: Massachusetts College of Pharmacy and Health Sciences
   location: "Boston, MA"
   research: "Employing Financial Data Validation Techniques to Achieve Meaningful Use Standards in a Certified EHR System." 
   institution-url: https://www.mcphs.edu/
