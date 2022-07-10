@@ -4,8 +4,6 @@ title: Archive
 permalink: archive/
 ---
 
-The one-stop shop, including all posts from the Blog, Monthly Music, and Projects.
-
 <div>
 {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in postsByYear %}

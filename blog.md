@@ -24,6 +24,7 @@ permalink: blog/
 
 <hr/>
 
+<!--
 <h1>Blog Archive</h1>
 <div>
   {% for post in site.categories.blog %}
@@ -39,3 +40,4 @@ permalink: blog/
   </article>
   {% endfor %}
 </div>
+-->
