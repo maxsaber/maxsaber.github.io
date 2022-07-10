@@ -3,16 +3,18 @@ layout: default
 ---
 
 <div id="course-title-wrapper" class="l-screen">
-    <h1>{{ page.course-name }}</h1>
-    <div id="single-instructor-wrapper">
-        {% for person in page.instructors %}
-            <div class="instructor">
-                {% include person-image.html person=person %}{% for p in page.co-instructed %}{% if person == p %}{% endif %}{% endfor %}
-                {% include person.html person=person %}{% for p in page.co-instructed %}{% if person == p %}*{% endif %}{% endfor %}
-            </div>
-        {% endfor %}
-    </div>
-    <div id="institution">
+	<h1>{{ page.course-name }}</h1>
+	<div id="single-instructor-wrapper">
+		{% for person in page.instructors %}
+		<div class="instructor">
+			{% include person-image.html person=person %}{% for p in page.co-instructed %}{% if person == p %}{% endif
+			%}{% endfor %}
+			{% include person.html person=person %}{% for p in page.co-instructed %}{% if person == p %}*{% endif %}{%
+			endfor %}
+		</div>
+		{% endfor %}
+	</div>
+	<div id="institution">
 		{{ page.course-id }}
 	</div>
 	<div id="institution">
@@ -21,46 +23,52 @@ layout: default
 	<div id="institution">
 		{{ page.institution }}{% if page.inst-shorthand %} ({{ page.inst-shorthand }}){% endif %}
 	</div>
-    
-    {% if page.equal-contribution %}
-        <div id="co-instructed"> *Course co-instructors</div>
-    {% endif %}
+
+	{% if page.equal-contribution %}
+	<div id="co-instructed"> *Course co-instructors</div>
+	{% endif %}
 </div>
 <div id="course-page-content">
 
 	<h2>Course Information</h2>
-		<div>Course Level: {{ page.level }}</div>
-		<div>Delivery Method: {{ page.method }}</div>
-		<div>Average Enrollment: {{ page.enrollment }}</div>
-		<div>Primary Program: {{ page.primary-program }}</div>
-		<div>Semesters Taught: {{ page.year }}</div>
-<div>{{ page.content }}</div>
+	<div>Course Level: {{ page.level }}</div>
+	<div>Delivery Method: {{ page.method }}</div>
+	<div>Average Enrollment: {{ page.enrollment }}</div>
+	<div>Primary Program: {{ page.primary-program }}</div>
+	<div>Semesters Taught: {{ page.year }}</div>
+	<div>{{ page.content }}</div>
 
-<h2>Course Objectives</h2>
+	<h2>Course Objectives</h2>
 	<div id="course-objectives-list">
 		<ul>
 			{% for item in page.objectives %}
-				<li>{{ item }}</li>
+			<li>{{ item }}</li>
 			{% endfor %}
 		</ul>
 	</div>
 
-<h2>Course Materials</h2>
-<div id="course-materials">
-{% if page.url or page.syllabus or page.coming-soon %}
+	<h2>Course Materials</h2>
+	<div id="course-materials">
+		{% if page.url or page.syllabus or page.coming-soon %}
 
-	{% if page.coming-soon == true %}
-	  <a><div><i class="fas fa-arrow-right" aria-hidden="true"></i> Coming soon!</div></a>
-	{% endif %}
+		{% if page.coming-soon == true %}
+		<a>
+			<div><i class="fas fa-arrow-right" aria-hidden="true"></i> Coming soon!</div>
+		</a>
+		{% endif %}
 
-	{% if page.syllabus %}
-	  <a href="{{ page.syllabus }}"><div><i class="far fa-file-pdf" aria-hidden="true"></i> Syllabus</div></a>
-	{% endif %}
+		{% if page.syllabus %}
+		<a href="{{ page.syllabus }}">
+			<div><i class="far fa-file-pdf" aria-hidden="true"></i> Syllabus</div>
+		</a>
+		{% endif %}
 
-	{% if page.url %}
-	  <a href="{{ page.url }}"><div><i class="fas fa-link" aria-hidden="true"></i> Page Permalink</div></a>
-	{% endif %}
-	
-{% endif %}
-</div>
+		{% if page.url %}
+		<a href="{{ page.url }}">
+			<div><i class="fas fa-link" aria-hidden="true"></i> Page Permalink</div>
+		</a>
+		{% endif %}
+
+		{% endif %}
+	</div>
 </div>
