@@ -5,7 +5,7 @@
   page: 5
   link: https://issuu.com/mcphspublications/docs/mcphs_presidents_newsletter_issue_4
   publisher: "Massachusetts College of Pharmacy and Health Sciences"
-  pub-pdf: /files/press/2022-02-presidents-newsletter.prf
+  pub-pdf: /files/press/2022-02-presidents-newsletter.pdf
 
 - pub-title: "The Bulletin"
   title: "Role-Playing in the Innovation Economy"
@@ -15,3 +15,12 @@
   link: https://issuu.com/mcphspublications/docs/ua_160314_springbulletin_vf3_issuu
   publisher: "Massachusetts College of Pharmacy and Health Sciences"
   pub-pdf: /files/press/2016-08-bulletin.pdf
+
+- pub-title: "2014 Report on Giving"
+  title: "Serving MCPHS with Absolute Committment"
+  month: "Mar."
+  year: 2015
+  page: 7
+  link: 
+  publisher: "Massachusetts College of Pharmacy and Health Sciences"
+  pub-pdf: /files/press/2015-03-giving-report.pdf
