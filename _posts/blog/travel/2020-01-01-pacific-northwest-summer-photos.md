@@ -34,10 +34,10 @@ I didn't have a car this summer but needed some way to get around. I found this 
 For my birthday I flew to LA to visit some family and take a short vacation. My favorite spots were Santa Monica beach and the Griffith Observatory.
 
 <figure class="l-page">
-<img style="margin-bottom: 0.5rem" src="/images/blog/wa2.jpg">
+<img style="margin-bottom: 0.5rem" src="/images/posts/travel/sf/IMG_3682.JPG.jpg">
   <div class="figure-grid">
-    <img class="figure-grid-left" style="margin-bottom: 0.5rem" src="/images/blog/wa3.jpg">
-    <img class="figure-grid-right" style="margin-bottom: 0.5rem" src="/images/blog/wa4.jpg">
+    <img class="figure-grid-left" style="margin-bottom: 0.5rem" src="/images/posts/travel/sf/IMG_3819.JPG.jpg">
+    <img class="figure-grid-right" style="margin-bottom: 0.5rem" src="/images/posts/travel/sf/IMG_3573.JPG.jpg">
   </div>
   <img src="/images/blog/wa5.jpg">
   <figcaption>The view of downtown LA from the Griffith Observatory.</figcaption>
