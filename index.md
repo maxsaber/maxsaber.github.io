@@ -35,7 +35,7 @@ title: Home
 		{% for link in site.data.social-links %}
 			{% if link.id == "cv-web" %}
 				{% include social-link.html link=link %}
-			{% endif %}
+   {% endif %}
 		{% endfor %}
 		<!-- <div id="intro-cv"><a href="/cv">Here's my CV.</a></div> -->
 	</div>
@@ -44,9 +44,10 @@ title: Home
 
 <hr class="l-middle home-hr">
 <div id="everything-else" class="l-middle">
+    <a href="{{ site.url }}/cv"><div>CV</div></a>
 	<a href="{{ site.url }}/projects"><div>Projects</div></a>
 	<a href="{{ site.url }}/blog"><div>Blog</div></a>
-	<a href="{{ site.url }}/stuff-i-use"><div>Stuff I Use</div></a>
+	<a href="{{ site.url }}/stuff"><div>Stuff I Use</div></a>
 	<a href="{{ site.url }}/archive"><div>Archive</div></a>
 </div>
 
