@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Blog
+title: Travel Blog
 permalink: blog/
 ---
 
-<p>Things I think about, read, and write.</p>
+<p>I think traveling is one of the <i>most</i> relaxing things in life, here are some of my favorite places I've been...</p>
 
 <div class="posts">
   {% for post in site.categories.blog limit:5 %}
@@ -14,15 +14,12 @@ permalink: blog/
         {{ post.title }}
       </a>
     </h2>
-
     <time datetime="{{ post.date | date: "%B %-d, %Y" }}" class="post-date">{{ post.date | date: "%B %-d, %Y" }}</time>
-
     {{ post.excerpt }}
   </article>
   {% endfor %}
 </div>
 
-<hr/>
 
 <!--
 <h1>Blog Archive</h1>
