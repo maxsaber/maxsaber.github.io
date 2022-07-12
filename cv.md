@@ -39,7 +39,7 @@ jsarr:
 {% endfor %}
 {:/}
 
-## Academic & Teaching Experience
+## Academia
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'academic' %}
@@ -47,18 +47,18 @@ jsarr:
 {% endif %}
 {% endfor %}
 
-## Industry Experience
+## Research
 
 {% for experience in site.data.experiences %}
-{% if experience.type == 'industry' %}
+{% if experience.type == 'research' %}
 {% include cv/experience.html experience=experience %}
 {% endif %}
 {% endfor %}
 
-## Research Experience
+## Industry
 
 {% for experience in site.data.experiences %}
-{% if experience.type == 'research' %}
+{% if experience.type == 'industry' %}
 {% include cv/experience.html experience=experience %}
 {% endif %}
 {% endfor %}
@@ -110,6 +110,13 @@ jsarr:
 
 {% assign selectedBoolForBibtex = false %}
 
+## Invited Presentations
+
+{% assign talktitles = site.data.talks | group_by:"title" %}
+{% for title in talktitles %}
+{% include cv/talk.html talk=title %}
+{% endfor %}
+
 ## Service
 
 <div class="cv-service-title"><b>MCPHS University</b></div>
@@ -131,25 +138,6 @@ jsarr:
 {% include cv/member.html member=member %}
 {% endfor %}
 
-## Invited Presentations
-
-{% assign talktitles = site.data.talks | group_by:"title" %}
-{% for title in talktitles %}
-{% include cv/talk.html talk=title %}
-{% endfor %}
-
-## Honors and Awards
-
-{% for award in site.data.awards %}
-{% include cv/award.html award=award %}
-{% endfor %}
-
-## Outreach and Public Engagement
-
-{% for outreach in site.data.outreach %}
-{% include cv/outreach.html outreach=outreach %}
-{% endfor %}
-
 ## Professional Certifications and Licensures
 
 <div class="cv-service-title"><b>Professional Certifications</b></div>
@@ -164,10 +152,22 @@ jsarr:
 {% include cv/licensure.html name=name %}
 {% endfor %}
 
+## Honors and Awards
+
+{% for award in site.data.awards %}
+{% include cv/award.html award=award %}
+{% endfor %}
+
 ## Press
 
 {% for press in site.data.press %}
 {% include cv/press.html press=press %}
+{% endfor %}
+
+## Outreach and Public Engagement
+
+{% for outreach in site.data.outreach %}
+{% include cv/outreach.html outreach=outreach %}
 {% endfor %}
 
 ## Technology Skills
