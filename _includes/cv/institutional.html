@@ -1,2 +1,8 @@
-<div class="cv-left-date">{{ institution.years }}</div>
-<div>{{ institution.committee }}</div>
+<div><i>{{ org.name }}</i></div>
+
+{% for services in org.items %}
+<div class="cv-left-date">{{ services.years }}</div>
+<div>{{ services.committee }}</div>
+{% endfor %}
+
+<div class="cv-spacer"></div>
