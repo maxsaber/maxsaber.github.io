@@ -32,3 +32,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
+
+port: 5050

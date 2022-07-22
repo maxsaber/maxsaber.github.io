@@ -119,11 +119,11 @@ jsarr:
 
 ## Service
 
-<div class="cv-service-title"><b>MCPHS University</b></div>
-<div class="cv-service-subtitle"><i>Institutional Service</i></div>
+<div class="cv-service-title"><b>Institutional Service</b></div>
 <!-- Uses institutional.yaml for data -->
-{% for institution in site.data.institutional %}
-{% include cv/institutional.html institution=institution %}
+{% assign services = site.data.institutional | group_by:"org" %}
+{% for org in services %}
+{% include cv/institutional.html org=org %}
 {% endfor %}
 
 <div class="cv-service-title"><b>Elected Board Positions</b></div>
