@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/msaber
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://maxsaber.com
+  * I am msaber (https://keybase.io/msaber) on keybase.
+  * I have a public key ASDZAFx0Cj-sr_1Wb_ielUBDbprwW_usqczmy95hkzwSJQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120dd10c2730d58bfe300513c3676a5bd8162e74f4aec4a5286e71aa6e7124210250a",
+      "host": "keybase.io",
+      "kid": "0120d9005c740a3facaffd566ff89e9540436e9af05bfbaca9cce6cbde61933c12250a",
+      "uid": "223628af755e43ca5ec6d59deaed6419",
+      "username": "msaber"
+    },
+    "merkle_root": {
+      "ctime": 1659061028,
+      "hash": "3728250efec09a54c75d9654b16cd11edfe7937c805c8cc5c0ced4b9a7f87bde4ab953a2b31030a1e2dbd6d0c93e1ac7c94a87083d473b8f30be368098f7ef5c",
+      "hash_meta": "74374e654f9a6813665aa1ce5009985ec15cfd7d3030417b8937ce462390d023",
+      "seqno": 22930157
+    },
+    "service": {
+      "entropy": "xFn0zaAT+MfOS2xvnHgIAvM0",
+      "hostname": "maxsaber.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.2"
+  },
+  "ctime": 1659061055,
+  "expire_in": 504576000,
+  "prev": "ba59d95d1591c34f4db11a04412db3f47ec7678caff277bc0b8509d80f052fd5",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2QBcdAo/rK/9Vm/4npVAQ26a8Fv7rKnM5sveYZM8EiUKp3BheWxvYWTESpcCEcQgulnZXRWRw09NsRoEQS2z9H7HZ4yv8ne8C4UJ2A8FL9XEIHG65vZSn6n14F9C6sORroUMqFz4uBrSICS6mY3Y5K65AgHCo3NpZ8RA+sCBZR17gTO5ylNYITtc7gQjihh24d4mZIk8ga0pgZ1sdp4/f+IqIVFfznj/bHij1yeBfmt/5lsqwdUqmczACqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGNA21MrR2FHLP+dDNFcA6LMIRV5xVheL6TFIvq+ESOvo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/msaber
+
+==================================================================
