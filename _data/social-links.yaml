@@ -24,7 +24,7 @@
 
 - id: github
   description: "@maxsaber"
-  color: "#6e5494"
+  color: "#515151"
   class: "fab fa-github icon"
   url: "https://github.com/maxsaber"
   on-homepage: true
@@ -40,7 +40,7 @@
 
 - id: cv
   description: CV PDF
-  color: "#ba2818"
+  color: "#515151"
   class: "far fa-file-pdf icon"
   url: "/files/cv.pdf"
   on-homepage: false
