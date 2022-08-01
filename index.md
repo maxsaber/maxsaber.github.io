@@ -12,7 +12,7 @@ title: Home
 	</div>
 	<div class="intro-left">
 	<div class="intro-left">
-		I'm a <b>healthcare systems engineer</b> with more than ten years’ experience with niche market electronic health record systems, system architecture, and clinical/technical project management. I specialize in bridging knowledge gaps between clinical, technical, and administrative teams and appropriately translating needs, requirements, and expectations between groups. I have been awarded the <i>Innovative Solutions Award</i> in 2019 for implementing new clinical EHR technology in an academic setting while managing a diverse project team of clinical and non-clinical staff and faculty.
+		I'm a healthcare systems engineer with more than ten years’ experience with niche market electronic health record systems, system architecture, and clinical/technical project management. I specialize in bridging knowledge gaps between clinical, technical, and administrative teams and appropriately translating needs, requirements, and expectations between groups. I have been awarded the <i>Innovative Solutions Award</i> in 2019 for implementing new clinical EHR technology in an academic setting while managing a diverse project team of clinical and non-clinical staff and faculty.
 	</div>
 	<div style="height: 1rem"></div>
 	<div class="intro-left">
