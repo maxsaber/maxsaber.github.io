@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-permalink: projects/
+permalink: projects-template/
 ---
 
 Things I do, including research, academic course projects, and miscellaneous interests.

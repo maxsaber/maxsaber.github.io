@@ -10,6 +10,10 @@ main, header, footer, #paper-title-wrapper, #course-title-wrapper {
 	grid-column-gap: 1.5rem;
 }
 
+#gist {
+	grid-column: screen;
+}
+
 // Mobile grid
 @media screen and (max-width:$mobile) {
 	main, header, footer, #paper-title-wrapper, #course-title-wrapper {

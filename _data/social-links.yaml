@@ -1,7 +1,7 @@
 - id: home
   description: "maxsaber.com"
   color: "#515151"
-  class: "fas fa-home icon"
+  class: "fas fa-globe"
   url: "https://maxsaber.com"
   on-homepage: false
   cv-group: 1
@@ -14,20 +14,20 @@
   on-homepage: true
   cv-group: 1
 
-- id: twitter
-  description: "@fredhohman"
-  color: "#1da1f2"
-  class: "fab fa-twitter icon"
-  url: https://twitter.com/fredhohman
-  on-homepage: false
-  cv-group: 3
-
-- id: github
-  description: "@maxsaber"
+- id: telephone
+  description: "(774) 644-1542"
   color: "#515151"
-  class: "fab fa-github icon"
-  url: "https://github.com/maxsaber"
-  on-homepage: true
+  class: "fas fa-phone"
+  url: "tel:+17746441542"
+  on-homepage: false
+  cv-group: 1
+
+- id: cv
+  description: Downloadable CV
+  color: "#515151"
+  class: "far fa-file-pdf icon"
+  url: "/files/cv.pdf"
+  on-homepage: false
   cv-group: 2
 
 - id: scholar
@@ -38,13 +38,37 @@
   on-homepage: true
   cv-group: 2
 
-- id: cv
-  description: CV PDF
+- id: github
+  description: "GitHub"
   color: "#515151"
-  class: "far fa-file-pdf icon"
-  url: "/files/cv.pdf"
+  class: "fab fa-github icon"
+  url: "https://github.com/maxsaber"
+  on-homepage: true
+  cv-group: 3
+
+- id: linkedin
+  description: "LinkedIn"
+  color: "#515151"
+  class: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/maxsaber"
+  on-homepage: true
+  cv-group: 2
+
+- id: keybase
+  description: "Keybase.io"
+  color: "#515151"
+  class: "fab fa-keybase"
+  url: "https://keybase.io/msaber"
   on-homepage: false
-  cv-group: 1
+  cv-group: 3
+
+- id: gitlab
+  description: "GitLab"
+  color: "#515151"
+  class: "fab fa-gitlab"
+  url: "https://gitlab.com/maxsaber"
+  on-homepage: false
+  cv-group: 3
 
 - id: cv-web
   description: View my CV
@@ -52,3 +76,4 @@
   class: "fa fa-address-card icon"
   url: "/cv"
   on-homepage: false
+

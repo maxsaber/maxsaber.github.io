@@ -27,6 +27,13 @@ jsarr:
 			{% endif %}
 		{% endfor %}
 	</div>
+	<div class="cv-image-links">
+		{% for link in site.data.social-links %}
+			{% if link.cv-group == 3 %}
+				{% include social-link.html link=link %}
+			{% endif %}
+		{% endfor %}
+	</div>
 </div>
 
 ***
