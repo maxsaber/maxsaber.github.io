@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 gem "jekyll", github: "jekyll/jekyll"
 gem "jekyll-sitemap", "~> 1.4"
-
+gem 'jekyll-gist'
 gem "jekyll-feed"
 
 gem "rouge", "~> 3.19"
