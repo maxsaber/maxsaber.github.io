@@ -8,7 +8,7 @@
 	</div>
 {% endif %}
 <!--<div><i>{{ degree.division }}</i></div>-->
-<div><a href="{{ degree.institution-url }}">{{ degree.institution }}</a>, {{ degree.location }}</div>
+<div><a href="{{ degree.institution-url }}" target="_blank">{{ degree.institution }}</a>, {{ degree.location }}</div>
 
 {% if degree.dissertation %}
 	<div class="cv-description">
@@ -61,13 +61,13 @@
 	{% endif %}
 	
 	{% if degree.dissertation-pdf %}
-		<a href="{{ degree.dissertation-pdf }}">
+		<a href="{{ degree.dissertation-pdf }}" target="_blank">
 			<i class="fas fa-file-pdf" aria-hidden="true"></i> Dissertation
 		</a>
 	{% endif %}
 
 	{% if degree.dissertation-slides %}
-		<a href="{{ degree.dissertation-slides }}">
+		<a href="{{ degree.dissertation-slides }}" target="_blank">
 			<i class="fas fa-window-maximize" aria-hidden="true"></i> Dissertation Presentation
 		</a>
 	{% endif %}
@@ -79,13 +79,13 @@
 	{% endif %}
 	
 	{% if degree.thesis-pdf %}
-		<a href="{{ degree.thesis-pdf }}">
+		<a href="{{ degree.thesis-pdf }}" target="_blank">
 			<i class="fas fa-file-pdf" aria-hidden="true"></i> Thesis
 		</a>
 	{% endif %}
 
 	{% if degree.thesis-slides %}
-		<a href="{{ degree.thesis-slides }}">
+		<a href="{{ degree.thesis-slides }}" target="_blank">
 			<i class="fas fa-window-maximize" aria-hidden="true"></i> Thesis Presentation
 		</a>
 	{% endif %}
@@ -97,13 +97,13 @@
 	{% endif %}
 	
 	{% if degree.research-pdf %}
-		<a href="{{ degree.research-pdf }}">
+		<a href="{{ degree.research-pdf }}" target="_blank">
 			<i class="fas fa-file-pdf" aria-hidden="true"></i> Research
 		</a>
 	{% endif %}
 
 	{% if degree.research-video %}
-		<a href="{{ degree.research-video }}">
+		<a href="{{ degree.research-video }}" target="_blank">
 			<i class="fas fa-video" aria-hidden="true"></i> Research Presentation
 		</a>
 	{% endif %}
