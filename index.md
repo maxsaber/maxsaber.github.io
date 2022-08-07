@@ -37,7 +37,14 @@ title: Home
     {% include social-link.html link=link %}
    {% endif %}
   {% endfor %}
-  <!-- <div id="intro-cv"><a href="/cv">Here's my CV.</a></div> -->
+ </div>
+ <div style="height: 0.5rem"></div>
+ <div id="intro-id-wrapper" class="intro-right">
+  {% for link in site.data.social-links %}
+   {% if link.id == "id-gist" %}
+    {% include social-link.html link=link %}
+   {% endif %}
+  {% endfor %}
  </div>
  </div>
 </div>

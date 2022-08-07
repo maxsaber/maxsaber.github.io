@@ -77,3 +77,9 @@
   url: "/cv"
   on-homepage: false
 
+- id: id-gist
+  description: Confirm my Keybase Gist
+  color: "#515151"
+  class: "fab fa-keybase"
+  url: "https://gist.github.com/maxsaber/2379fb8c2298ddf373720cd003820d40"
+  on-homepage: false

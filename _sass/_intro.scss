@@ -74,6 +74,14 @@ $cv-icon-aspect-ratio: 1.33;
 	font-size: 1rem !important;
 }
 
+#intro-id-wrapper {
+	grid-row: 5;
+	background-color: $intro-blue;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	font-size: 1rem !important;
+}
+
 #intro-cv > a {
 	color: $text-color;
 }
