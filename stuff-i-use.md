@@ -9,6 +9,7 @@ permalink: stuff/
 Inspired by projects like [The Setup][the-setup], and from [Fred Hohman][fred] (where I forked this Github site from) here is the stuff *I* use.
 
 ### What kind of bag?
+
 Thanks to my wonderful boyfriend getting me this bag for my Doctoral graduation gift, because I'd never buy it for myself, I carry a [Ghurka Examiner No. 5][ghurka-5] to and from work every day. This bag also used to serve as my Notary bag while I was living in Florida but since moving back for work, this is a much better use of this absolutely *beautiful* briefcase. If you have a Ghurka of your own, or know someone who owns one, you'll know exactly what I'm talking about.
 
 If I'm flying somewhere other than back home to Florida, or for work, my go to switchout is [The Nomatic Backpack][nomatic]. Before my Ghurka No. 5, this was my everyday bag for years while I was commuting on the T to and from work. Some of my favorite things about this bag, and why I still keep it around, are all the pockets in the front and inner compartments, and the pass-thru ports which allows you to pull a cord from a portable battery through the bag. This makes it so convenient to charge your phone or tablet without needing to open and unzip your whole bag.
@@ -25,7 +26,7 @@ I'm 100% a sucker for Apple products, I have an [AirTag][airtag] on my Orbitkey 
 
 ### I'm a bit old school sometimes
 
-Anyone who has worked with me knows about my "red book" that I write *everything* down in. These red books are nothing more than a simple AT-A-GLANCE yearly page-a-day [Standard Diary][diary]. I prefer the 5-3/4" x 8-1/4" size, it's the easiest to fit in my bag, carry around campus, etc... 
+Anyone who has worked with me knows about my "red book" that I write *everything* down in. These red books are nothing more than a simple AT-A-GLANCE yearly page-a-day [Standard Diary][diary]. I prefer the 5-3/4" x 8-1/4" size, it's the easiest to fit in my bag, carry around campus, etc...
 
 I'm a stickler for pens too, especially with the paper the Standard Diary uses. When I'm writing in this book specifically, I like to use medium point [PILOT Acroball Pro Advanced Ink Ball Point Pens][acroball], in blue ink, paired with yellow [Sharpie Chisel Highlighters][sharpie]. This pen/highlighter combination is really my go to in any writing situation, a dozen of each will usually last me about a year. If I'm writing something I know isn't going to be highlighted, I recently fell in love with the [uniball Air 0.7mm][uniball] pens, in blue ink of course. I used to use these pens while I was out on Notary assignments but they kept getting stolen!
 
@@ -34,9 +35,11 @@ I'm a stickler for pens too, especially with the paper the Standard Diary uses. 
 When I'm at my desk either at home or at work, I connect to a [24" Dell UltraSharp USB-C Hub Monitor][monitor] using a single USB-C cable for power, internet, and other peripherals. I live by the [Logitech MX Master mouse][mouse] and [Microsoft Natural Ergonomic Keyboard 4000][keyboard]. I'm *very* particular with the keyboard though, Microsoft changed the plastic they make the keys with in the newer models and it's absolutely terrible! This unfortunately forces me to resort to eBay to search for replacement keyboards when mine seem to die.
 
 ### Audio
+
 This is probably the easiest section to write! Aside from my AirPod Pro's, both at home and in the office I have the [Bose Companion 20][bose] speakers. These speakers, or any speakers from Bose, are second to none and worth every penny.
 
 ### Mobile
+
 I'm currently carrying a 256GB gold [iPhone 13 Pro Max][iphone], sporting a plain clear case with the [iPhone Leather MagSafe Wallet][iphone-wallet] in Sequoia Green attached to the back. I also have an older iPad Pro with me most days but it doesn't see too much use anymore. I also wear a Series 5 [Apple Watch][watch] with a stainless link band everyday, too.
 
 My homescreen is a bit minimal with Messages, Calendar, Camera, [Spotify][spotify], Apple Wallet, and the [Transit][transit] apps present. The bottom bar holds Phone, Mail, Safari, and my Apple Home apps.
@@ -69,3 +72,4 @@ Paired with my Apple Watch you'll usually catch me wearing my Alex and Ani [Path
 [mouse]: https://www.amazon.com/Logitech-Master-Wireless-Mouse-High-Precision/dp/B07DHDFW5V/
 [monitor]: https://www.dell.com/en-us/shop/dell-ultrasharp-usb-c-hub-monitor-u2421e/apd/210-axmg/monitors-monitor-accessories
 [bose]: https://www.amazon.com/Bose-Companion-Multimedia-Speaker-System/dp/B0053T4PHC/
+[spotify]: https://spotify.com
