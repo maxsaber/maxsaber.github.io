@@ -21,6 +21,10 @@ $cv-icon-aspect-ratio: 1.33;
 	grid-column: 6 / 9;
 }
 
+.intro-center {
+	grid-column: 6 / 10;
+}
+
 #intro-image {
 	grid-row: 2;
 	border-radius: 0.5rem;
