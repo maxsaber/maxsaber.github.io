@@ -54,6 +54,10 @@ layout: default
 	  <a href="{{ page.demo }}"><div><i class="fas fa-play" aria-hidden="true"></i> Demo</div></a>
 	{% endif %}
 
+	{% if page.external %}
+	  <a href="{{ page.external }}" target="_blank"><div><i class="fas fa-globe" aria-hidden="true"></i> External</div></a>
+	{% endif %}
+
 	{% if page.pdf %}
 	  <a href="{{ page.pdf }}"><div><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</div></a>
 	{% endif %}

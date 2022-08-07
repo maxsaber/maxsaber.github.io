@@ -45,6 +45,12 @@
 	  </a>
 	{% endif %}
 
+	{% if pub.external %}
+	  <a href="{{ pub.external }}">
+	    <i class="fas fa-globe" aria-hidden="true"></i> External
+	  </a>
+	{% endif %}
+
 	{% if pub.pdf %}
 	  <a href="{{ pub.pdf }}" target="_blank">
 	    <i class="fas fa-file-pdf" aria-hidden="true"></i> PDF
