@@ -14,3 +14,4 @@ gem "webrick", "~> 1.7"
 gem 'jekyll-gist'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'faraday-retry'
+gem "github-pages", "~> 215", group: :jekyll_plugins
