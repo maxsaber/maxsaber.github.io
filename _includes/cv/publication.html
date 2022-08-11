@@ -52,7 +52,7 @@
 	{% endif %}
 
 	{% if pub.pdf %}
-	  <a href="{{ pub.pdf }}" target="_blank">
+	  <a href="{{ pub.pdf }}" target="_blank" rel="noopener noreferrer">
 	    <i class="fas fa-file-pdf" aria-hidden="true"></i> PDF
 	  </a>
 	{% endif %}
@@ -88,7 +88,7 @@
 	{% endif %}
 
 	{% if pub.slides %}
-	  <a href="{{ pub.slides }}" target="_blank">
+	  <a href="{{ pub.slides }}" target="_blank" rel="noopener noreferrer">
 	    <i class="fas fa-window-maximize" aria-hidden="true"></i> Slides
 	  </a>
 	{% endif %}
@@ -131,7 +131,7 @@
 	{% endif %}
 
 	{% if pub.doi %}
-      <a href="https://doi.org/{{ pub.doi }}" target="_blank">
+      <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener noreferrer">
 	    <i class="fas fa-anchor" aria-hidden="true"></i> DOI
 	  </a>
 	{% endif %}
