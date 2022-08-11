@@ -56,7 +56,7 @@ So hello, Internet. See you around.
 [projects]: {{ site.url }}/projects
 [blog]: {{ site.url }}/blog
 [other]: {{ site.url }}/other
-[stuff-i-use]: {{ site.url }}/stuff-i-use
+[stuff-i-use]: {{ site.url }}/stuff
 [photos]: {{ site.url }}/photos
 [monthly-music]: {{ site.url }}/monthly-music
 [archive]: {{ site.url }}/archive
