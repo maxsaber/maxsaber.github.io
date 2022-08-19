@@ -154,7 +154,7 @@
 {% if pub.bibtex %}
 {% if selectedBoolForBibtex == true %}
 <div class="highlighter-rouge bibtex bibtex-wrapper" style="display: none;" id="_{{ pub.id }}_selected">
-	<div class="highlight">
+	<div class="highlight-bibtex">
 		<pre>
 			{{ pub.bibtex }}
 		</pre>
@@ -163,7 +163,7 @@
 {% endif %}
 {% if selectedBoolForBibtex == false %}
 <div class="highlighter-rouge bibtex bibtex-wrapper" style="display: none;" id="_{{ pub.id }}">
-	<div class="highlight">
+	<div class="highlight-bibtex">
 		<pre>
 			{{ pub.bibtex }}
 		</pre>

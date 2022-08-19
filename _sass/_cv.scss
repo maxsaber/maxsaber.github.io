@@ -206,7 +206,13 @@
 	font-size: 0.75rem;
 }
 
-.highlight {width: 0;}
+.highlight {
+	width: 55em;
+}
+
+.highlight-bibtex {
+	width: 0;
+}
 
 // .highlight pre {
 	// width: 100vw;
