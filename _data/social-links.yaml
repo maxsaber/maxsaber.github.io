@@ -38,6 +38,30 @@
   on-homepage: true
   cv-group: 2
 
+- id: orcid
+  description: "ORCID"
+  color: "#515151"
+  class: "fa-brands fa-orcid"
+  url: "https://orcid.org/my-orcid?orcid=0000-0002-0364-7569"
+  on-homepage: true
+  cv-group: 2
+
+- id: linkedin
+  description: "LinkedIn"
+  color: "#515151"
+  class: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/maxsaber"
+  on-homepage: true
+  cv-group: 3
+
+- id: twitter
+  description: "Twitter"
+  color: "#515151"
+  class: "fab fa-twitter"
+  url: "https://twitter.com/makssaybur"
+  on-homepage: true
+  cv-group: 3
+
 - id: github
   description: "GitHub"
   color: "#515151"
@@ -46,21 +70,14 @@
   on-homepage: true
   cv-group: 3
 
-- id: linkedin
-  description: "LinkedIn"
-  color: "#515151"
-  class: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/maxsaber"
-  on-homepage: true
-  cv-group: 2
-
+# undisplayed socials
 - id: keybase
   description: "Keybase.io"
   color: "#515151"
   class: "fab fa-keybase"
   url: "https://keybase.io/msaber"
   on-homepage: false
-  cv-group: 3
+  #cv-group: 3
 
 - id: gitlab
   description: "GitLab"
@@ -68,7 +85,7 @@
   class: "fab fa-gitlab"
   url: "https://gitlab.com/maxsaber"
   on-homepage: false
-  cv-group: 3
+  #cv-group: 3
 
 - id: cv-web
   description: View my CV
