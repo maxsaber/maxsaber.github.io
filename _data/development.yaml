@@ -4,11 +4,11 @@
   semester: "Fall 2022"
   type: new
 
-- course-name: "Translating Social and Behavioral Issues: Advanced Data Query, Analysis, and Display"
-  course-id: "HIN.768"
-  department: "School of Healthcare Business"
-  semester: ""
-  type: new
+#- course-name: "Translating Social and Behavioral Issues: Advanced Data Query, Analysis, and Display"
+#  course-id: "HIN.768"
+#  department: "School of Healthcare Business"
+#  semester: ""
+#  type: new
 
 - course-name: "Health Data Programming and Database Structure"
   course-id: "HIN.720"

@@ -3,7 +3,7 @@
   authors: 
     - Max Saber
   venue: Medical University of South Carolina
-  venue-shorthand: MUSC
+  #venue-shorthand: MUSC
   location: Charleston, SC
   year: 2020
   url: /dissertation
