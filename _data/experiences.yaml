@@ -1,3 +1,5 @@
+# CV Section: "Industry"
+
 - institution: "MCPHS University"
   location: "Boston, MA"
   position: "COVID-19 Data Scientist"
@@ -56,6 +58,8 @@
   type: industry
   list: true
 
+# CV Section: "Academia"
+
 - institution: "MCPHS University"
   location: "Boston, MA"
   position: "Adjunct Professor, Healthcare Business"
@@ -82,6 +86,8 @@
   group-url: https://www.mcphs.edu/academics/school-of-healthcare-business
   type: academic
   list: true
+
+# CV Section: "Research"
 
 - institution: "Medical University of South Carolina"
   location: "Charleston, SC"
