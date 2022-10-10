@@ -1,4 +1,4 @@
-title: Max Saber, MSHI, DHA
+title: Max Saber, DHA, MSHI
 tagline: Systems Engineer, Adjunct Professor of Healthcare Business
 url: https://maxsaber.com
 baseurl: ""
@@ -14,7 +14,7 @@ sass:
   style: compressed
 
 author:
-  name: Max Saber, MSHI, DHA
+  name: Max Saber, DHA, MSHI
   url: https://maxsaber.com
   email: max@maxsaber.com
 
