@@ -34,3 +34,13 @@ Greenwood Village, CO 80111<br>
 Mobile: 201-390-9245<br>
 `richard.bottner@gmail.com`<br>
 <https://cha.com/>
+
+<b>Sheila Seed, PharmD, MPH, CTH, AFTM RCPS (Glasg), RPh</b><br>
+Professor and Chair of Pharmacy Practice<br>
+School of Pharmacy<br>
+MCPHS University<br>
+40 Foster St<br>
+Worcester, MA 01608<br>
+Office: 508-373-5622<br>
+`sheila.seed@mcphs.edu`<br>
+<https://www.mcphs.edu/about-mcphs/mcphs-directory/bio?id=0034392><br>
