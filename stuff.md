@@ -22,7 +22,7 @@ The right pocket, on the other hand, is filled with a bit more odds and ends, bu
 
 In the main compartment of my bag is usually my (work) laptop, wallet, [powerbrick][mophie], and [28oz. Hydroflask tumbler][hydroflask]. Let me tell you, I love my Mophie Powerbank... It's the "Powerstation XXL" with a massive 20,000mAh battery which let's me recharge my iPhone two or three times to 100%. The other thing I love about this portable battery is it has both USB-A and USB-C ports for charging devices which means I don't need to carry two Lightning cables.
 
-I'm 100% a sucker for Apple products, I have an [AirTag][airtag] on my Orbitkey and in my briefcase because, honestly, if my head wasn't attached, I'd leave that somewhere too. One thing I really recommend if you're putting an AirTag on your keychain or something similar is the [laylion Minimalist AirTag Keychain][laylion]. This Airtag holder connects between the battery cover and the AirTag itself allowing you to have your AirTag nicely displayed on your keys. For my car keys, I like the standard [AirTag Leather Key Ring][airtag-leather] in Golden Brown.
+I'm 100% a sucker for Apple products, I have an [AirTag][airtags] on my Orbitkey and in my briefcase because, honestly, if my head wasn't attached, I'd leave that somewhere too. One thing I really recommend if you're putting an AirTag on your keychain or something similar is the [laylion Minimalist AirTag Keychain][laylion]. This Airtag holder connects between the battery cover and the AirTag itself allowing you to have your AirTag nicely displayed on your keys. For my car keys, I like the standard [AirTag Leather Key Ring][airtag-leather] in Golden Brown.
 
 ### I'm a bit old school sometimes
 
@@ -40,9 +40,7 @@ This is probably the easiest section to write! Aside from my AirPod Pro's, both 
 
 ### Mobile
 
-I'm currently carrying a 256GB gold [iPhone 13 Pro Max][iphone], sporting a plain clear case with the [iPhone Leather MagSafe Wallet][iphone-wallet] in Sequoia Green attached to the back. I also have an older iPad Pro with me most days but it doesn't see too much use anymore. I also wear a Series 5 [Apple Watch][watch] with a stainless link band everyday, too.
-
-My homescreen is a bit minimal with Messages, Calendar, Camera, [Spotify][spotify], Apple Wallet, and the [Transit][transit] apps present. The bottom bar holds Phone, Mail, Safari, and my Apple Home apps.
+I'm currently carrying a 256GB gold [iPhone 13 Pro Max][iphone], sporting a plain clear case with the [iPhone Leather MagSafe Wallet][iphone-wallet] in Sequoia Green attached to the back. I also have an older iPad Pro with me most days but it doesn't see too much use anymore. I also wear a Series 5 Apple Watch with a stainless link band everyday, too.
 
 Paired with my Apple Watch you'll usually catch me wearing my Alex and Ani [Path of Life][path-life] bracelet which was a present from one of my best friends, or my [Miansai Noir Cuff][miansai] if I'm doing something I can't wear a charm.
 
