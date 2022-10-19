@@ -6,7 +6,7 @@ jsarr:
 - js/scripts.js
 ---
 
-<h1 id="cv-title"><a href="{{ site.url }}">Max Saber, MSHI, DHA</a></h1>
+<h1 id="cv-title"><a href="{{ site.url }}">Max Saber, DHA, MSHI</a></h1>
 
 <p id="cv-subtitle"><i>Systems Engineer & Adjunct Professor of Healthcare Business</i></p>
 
