@@ -33,5 +33,6 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-gist
+  - jekyll-openmoji
 
 port: 5000
