@@ -100,3 +100,10 @@
   class: "fab fa-keybase"
   url: "https://gist.github.com/maxsaber/2379fb8c2298ddf373720cd003820d40"
   on-homepage: false
+
+- id: bio
+  description: Read my Bio
+  color: "#515151"
+  class: "fas fa-user-graduate"
+  url: "/bio"
+  on-homepage: false
