@@ -1,0 +1,3 @@
+Breadcrumbs: https://jekyllcodex.org/without-plugin/breadcrumbs/#
+Image gallery: http://jekyllcodex.org/without-plugin/image-gallery/#
+Text expand: http://jekyllcodex.org/without-plugin/text-expand/#
