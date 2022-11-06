@@ -34,4 +34,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-gist
 
+include:
+ - .well-known
+
 port: 5000
