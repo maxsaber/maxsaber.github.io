@@ -1,0 +1,10 @@
+# [url]
+#   [name]: [value]
+
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+
+/*
+  Content-Security-Policy: default-src https:
+  X-XSS-Protection: 1; mode=block
+  X-Frame-Options: DENY
