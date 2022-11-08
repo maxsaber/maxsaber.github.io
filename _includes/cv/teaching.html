@@ -1,9 +1,14 @@
-<div class="cv-left-date"></div>
+<div class="cv-left-date">{{ teach.year-short }}</div>
 <div><b>{{ teach.class }}</b></div>
 <div>{{ teach.position }}</div>
 <div><i><a href="{{ teach.institution-url }}">{{ teach.institution }}</a>, {{ teach.location }}</i></div>
-<!-- <div class="cv-description">Semester(s) taught: {{ teach.year }}</div> -->
-<div class="cv-description">{{ teach.description }}</div>
+
+<div class="cv-description">
+    <details>
+        <summary>Course Description →</summary>
+            {{ teach.description }}
+    </details>
+</div>
 
 <div class="pub-misc">
     {% if teach.course-info %}

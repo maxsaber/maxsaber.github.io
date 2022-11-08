@@ -15,15 +15,27 @@
 
 <div class="cv-description">
 {% if experience.list ==true %}
-	<div class="cv-description-list">
-		<ul>
-		{% for item in experience.description %}
-			<li>{{ item }}</li>
-		{% endfor %}
-		</ul>
-	</div>
-	{% else %}{{experience.description}}
+	{% if experience.collapse ==true %}
+		<details>
+		<summary>Expand →</summary>
+		<div class="cv-description-list">
+			<ul>
+			{% for item in experience.description %}
+				<li>{{ item }}</li>
+			{% endfor %}
+			</ul>
+		</div>
+		</details>
+	{% else %}
+		<div class="cv-description-list">
+			<ul>
+			{% for item in experience.description %}
+				<li>{{ item }}</li>
+			{% endfor %}
+			</ul>
+		</div>
+	{% endif %}
+{% else %}{{experience.description}}
 {% endif %}
 </div>
-
 <div class="cv-spacer"></div>

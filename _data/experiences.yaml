@@ -7,29 +7,47 @@
   year: "Sep. 2020 —"
   year-extra: "Present"
   description: 
-    - Maintained the COVID-19 testing and surveillance data warehouse integrating internal and external data sources,
-    - In partnership with the COVID-19 Team Chair, reviewed and approved, or recommended changes to each of the University's Clinic Reopening Safety Plans,
-    - Co-authored sections of the FlexPlan 2020 and the Return to Campus 2021 guide.
+    - Architected the University-wide COVID-19 testing and surveillance SQL relational database data warehouse while maintaining confidentiality under HIPAA and FERPA compliance requirements
+    - Collaborated with clinical and administrative stakeholders to develop data governance policies surrounding the collection and retention of COVID-19 testing results, symptom reporting and check-in, and immunization data
+    - Analyze clinical data using statistical analysis, reporting, and BI visualization tools such as SAS, SPSS, and Tableau
+    - Leveraged predictive analytics and models to prepare monthly COVID-19 test and clinical staffing level forecasts
+    - Decreased first-line data entry errors by 50% by redesigning data processing guidelines ensuring data quality
+    - Built and maintains more than 100 customized data queries and solutions including Tableau report elements, dashboards, and data stories for university leadership 
+    - Continually evaluates clinical and business processes suggesting revisions to increase productivity and efficiency
+    - Introduced a cloud-based telephony service decreasing average call time to answer to under 1 minute and voicemail to text functions to decrease average call return time to under 5 minutes during business hours
+    - Principal Project Manager while implementing the CoVerified Campus application across 8,000 full-time University students, faculty, and staff members
+    - Onboarded, trained, and oversees a team of 6 COVID-19 Operation Coordinators, contact tracers, and nurses
+    - In partnership with the COVID-19 Committee Chair, regularly evaluated each of the university’s clinic operating plans ensuring compliance with clinical safety measures
+    - Co-authored portions of the FlexPlan 2020 and the Return to Campus 2021 guide while participating on the Campus Operations subcommittee of the Recovery and Planning Task Force
+    - Designed the COVID-19 testing schedules and protocols in accordance with local city boards of health, the Massachusetts and New Hampshire Departments of Public Health, and federal testing guidelines
   institution-url: https://mcphs.edu
   group-url: https://mcphs.edu/covid
   type: industry
   list: true
+  collapse: true
 
 - institution: "MCPHS University"
   location: "Boston, MA"
-  position: "Systems Engineer"
+  position: "Systems Engineer II"
   group: "Information Services"
   year: "Jan. 2016 —"
   year-extra: "Present"
   description: 
-    - Lead the implementation and assumed operational responsibility of 4 of the 5 electronic health record systems used within the University's clinical spaces,
-    - Manages teams consisting of systems engineers, security analysts, programmers & developers, and end-users for the implementation of new business applications,
-    - Regularly leads discussions with department and business unit stakeholders to evaluate current processes and workflows; identifying areas for business process optimization. 
-
+    - During the acquisition and merger of the New England School of Acupuncture, lead the clinical and technological transition to a newly renovated $1m treatment center and specialty Chinese Herbal Medicine Dispensary 
+    - Directed the procurement of UnifiedPractice, a SaaS based acupuncture practice management and EMR system
+    - Implemented axiUm Ascend, an academic-focused SaaS based dental practice management and EMR system, designed to advance student self and peer evaluation and align with best practice assessment strategies; found a >50% reduction in administrative overhead in student evaluation management
+    - Implemented eClinicalWorks cloud EMR for MassMedline, a Massachusetts state funded program under the Executive Office of Elder Affairs and operating within the University
+    - Executed the technical implementation of Cayuse IRB Protocol Management System to streamline the IRB submission, review, and approval processes for student and faculty research conducted at the University
+    - Manage 7 niche electronic medical record systems operating in both live and simulated clinical environments 
+    - Authors all clinical and administrative training materials and documentation for EMR system implementation providing a consistent user experience during their onboarding
+    - Provide “at-the-elbow” technical support to application end-users in an office and healthcare setting
+    - Regularly manages multi-functional project teams consisting of other engineers and security analysts, programmers/developers, and end-users for the implementation of new business applications
+    - Coordinate discussions with department and business stakeholders to evaluate current workflow processes and while identifying areas for optimization and redesigned opportunities
   institution-url: https://mcphs.edu
   group-url: 
   type: industry
   list: true
+  collapse: true
 
 - institution: "MCPHS University"
   location: "Boston, MA"
@@ -37,11 +55,32 @@
   group: "Information Services"
   year: "May 2012 —"
   year-extra: "Jan. 2016"
-  description: "General administration and management of different information systems, including regular software updates, programming, scripting, and reconfiguration of program modules, and back-end SQL server and database maintenance."
+  description: 
+    - Aided in managing a local and wide area infrastructure comprised of Cisco switches and routers, Palo Alto Firewalls, Meru wireless LAN equipment, and an integrated Avaya IP/Digital communications network
+    - Administered VMware Horizon View virtual desktop infrastructure and virtualized server environments
+    - General administration and management of different information systems, including regular software updates, programming, scripting, and reconfiguration of program modules, and SQL server and database maintenance
   institution-url: https://mcphs.edu
   group-url: 
   type: industry
   list: true
+  collapse: true
+
+- institution: "MCPHS University"
+  location: "Boston, MA"
+  position: "Evenings and Weekend Help Desk Manager"
+  group: "Information Services"
+  year: "Sept. 2009 —"
+  year-extra: "May 2012"
+  description: 
+    - Managed a staff of 10 student employees and acted as an escalation point for all student and full-time technicians following critical issues to resolution
+    - Developed the first Help Desk training seminar for new student employees, held annually
+    - Authored the Student Employee Training Manual and Checklist to ensure student employees met training benchmarks in troubleshooting, first-call resolution practices, and escalation guides
+    - Redesigned IT operations policies and procedures to streamline workflows while improving the quality of customer service and technical services delivered to end users
+  institution-url: https://mcphs.edu
+  group-url: 
+  type: industry
+  list: true
+  collapse: true
 
 - institution: "Newport Hospital"
   location: "Newport, RI"
@@ -49,14 +88,16 @@
   group: "PE&I"
   year: "June 2007 —"
   year-extra: "Aug. 2008"
-  description: 
-    - Extracted patient care data using Lifespan's proprietary chart abstraction tools to ensure data consistency in care reporting databases,
-    - Tracked core measures in accordance with standards set by the Joint Commission on Accreditation of Healthcare Organizations,
-    - Analyzed core measure data and developed aggregated reports for use by various hospital departments and committees.
+  description-hide: 
+    - Performed data entry and database management functions under the supervision of full-time consultants
+    - Tracked and analyzed core measures in accordance with standards set by the Joint Commission (JCAHO)
+    - Performed audits of patients' medical records for condition and treatment information to provide data for research, cost control, and care improvement efforts
+    - Refined portions of the medication reconciliation process which later replicated through the hospital system
   institution-url: https://www.lifespan.org/locations/newport-hospital
   group-url: 
   type: industry
   list: true
+  collapse: true
 
 # CV Section: "Academia"
 

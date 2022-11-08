@@ -1,4 +1,5 @@
 $column-width: 3.5rem;
+$column-width-lg: 3.75rem;
 
 // Base grid
 // Sizes: screen > page > middle > text 
@@ -6,7 +7,7 @@ $column-width: 3.5rem;
 main, header, footer, #paper-title-wrapper, #course-title-wrapper {
 	display: grid;
 	justify-items: stretch;
-	grid-template-columns: [screen-start] 1fr [page-start kicker-start] minmax(min-content, $column-width) [middle-start] minmax(min-content, $column-width) [text-start kicker-end] repeat(8, minmax(min-content, $column-width)) [text-end gutter-start] minmax(min-content, $column-width) [middle-end] minmax(min-content, $column-width) [page-end gutter-end] 1fr [screen-end];
+	grid-template-columns: [screen-start] 1fr [page-start kicker-start] minmax(min-content, $column-width-lg) [middle-start] minmax(min-content, $column-width-lg) [text-start kicker-end] repeat(8, minmax(min-content, $column-width)) [text-end gutter-start] minmax(min-content, $column-width) [middle-end] minmax(min-content, $column-width) [page-end gutter-end] 1fr [screen-end];
 	grid-column-gap: 1.75rem;
 }
 

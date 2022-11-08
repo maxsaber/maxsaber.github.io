@@ -90,6 +90,7 @@
 
 #cv-toc > ul {
 	list-style-type: none;
+	margin-bottom: 0;
 }
 
 .cv-left-date {
@@ -103,9 +104,14 @@
 }
 
 .cv-description {
+	display: block;
 	color: $silver !important;
 	font-size: 0.875rem;
 	font-weight: 300;
+}
+
+.cv-description ul {
+	margin-bottom: 0;
 }
 
 .cv-description-list {
@@ -235,6 +241,11 @@
 
 }
 
+  details > summary {
+	list-style: none;
+  }
+
+  
 
 // .cover-links > .pub-misc {
 // 	font-size: 12px;	
