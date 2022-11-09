@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Charlotte, NC
+man-date: July 2015
 categories: [travel]
 permalink: blog/travel/2015/charlotte
 ---
