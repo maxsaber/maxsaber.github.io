@@ -52,3 +52,10 @@ img.emoji {
     flex-direction: column;
     justify-content: center;
 }
+
+.img-description {
+	color: $silver !important;
+	font-size: 0.875rem;
+	font-weight: 300;
+  font-style: italic;
+}

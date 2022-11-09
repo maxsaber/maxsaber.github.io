@@ -18,7 +18,7 @@ I think traveling is one of the <i>most</i> relaxing things in life, here are so
         {{ post.title }}
       </a>
     </h3>
-    <time datetime="{{ post.date | date: "%B %-d, %Y" }}" class="post-date">{{ post.date | date: "%B %-d, %Y" }}</time>
+    <time datetime="{{ post.date | date: "%B %Y" }}" class="post-date">{{ post.date | date: "%B %Y" }}</time>
     {{ post.excerpt }}
   </article>
   {% endfor %}
