@@ -37,17 +37,8 @@
   <meta name="msapplication-config" content="/icons/browserconfig.xml?v=xQdLjRyXLj">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- Feed -->
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 
-  <!-- Cloudflare Zaraz Enabled 11/06/2022
-  Global site tag (gtag.js) - Google Analytics
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JB5BFVF5QL"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JB5BFVF5QL');
-</script>
--->
-</head>
+  </head>
