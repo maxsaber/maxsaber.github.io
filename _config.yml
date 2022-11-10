@@ -1,22 +1,29 @@
+# SEO tag metadata
 title: Max Saber, DHA, MSHI
 tagline: Systems Engineer, Adjunct Professor of Healthcare Business
 url: https://maxsaber.com
 baseurl: ""
-# gems: [jekyll-paginate]
-# paginate: 5
-
-# Use of `relative_permalinks` ensures post links from the index work properly.
-# permalink: "/:title"
-# relative_permalinks: true
-
-sass:
-  sass_dir: _sass
-  style: compressed
 
 author:
   name: Max Saber, DHA, MSHI
   url: https://maxsaber.com
   email: max@maxsaber.com
+
+social:
+  name: Max Saber
+  links:
+    - https://twitter.com/makssaybur
+    - https://www.linkedin.com/in/maxsaber
+    - https://github.com/maxsaber
+    - https://keybase.io/msaber
+
+twitter:
+  username: makssaybur
+  card: summary
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 markdown: kramdown
 highlighter: rouge
@@ -33,6 +40,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-gist
+  - jekyll-seo-tag
 
 include:
  - .well-known
@@ -41,3 +49,10 @@ port: 5000
 
 # Google Analytics Tag
 google_analytics: G-JB5BFVF5QL
+
+# gems: [jekyll-paginate]
+# paginate: 5
+
+# Use of `relative_permalinks` ensures post links from the index work properly.
+# permalink: "/:title"
+# relative_permalinks: true
