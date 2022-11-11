@@ -10,10 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/maxsaber/maxsaber.github.io.git"
   },
-  "author": "Fred Hohman",
+  "author": "Max Saber",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fredhohman/fredhohman.github.io/issues"
+    "url": "https://github.com/maxsaber/maxsaber.github.io/issues"
   },
   "homepage": "https://github.com/maxsaber/maxsaber.github.io#readme"
 }
