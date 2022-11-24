@@ -33,6 +33,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-gist
+  - jekyll-admin
 
 include:
  - .well-known
@@ -41,3 +42,6 @@ port: 5000
 
 # Google Analytics Tag
 google_analytics: G-JB5BFVF5QL
+
+jekyll_admin:
+  homepage: "pages"
