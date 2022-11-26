@@ -1,3 +1,7 @@
 Breadcrumbs: https://jekyllcodex.org/without-plugin/breadcrumbs/#
 Image gallery: http://jekyllcodex.org/without-plugin/image-gallery/#
 Text expand: http://jekyllcodex.org/without-plugin/text-expand/#
+
+Commento: https://railway.app/, https://commento.maxsaber.com
+Stack builder: https://netcraft.com/, https://builtwith.com/
+Cookies: https://www.osano.com/, https://manage.cookiebot.com/
