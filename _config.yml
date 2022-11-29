@@ -45,3 +45,18 @@ google_analytics: G-JB5BFVF5QL
 
 jekyll_admin:
   homepage: "pages"
+
+collections:
+  courses:
+    # Create non-dated collection for courses, dir: _course
+    permalink: /:collection/:slug
+    output: true
+
+defaults:
+  - scope:
+      # For all posts in _course folder, apply default values
+      path: _courses
+      type: courses
+    values:
+      layout: course
+      categories: courses
