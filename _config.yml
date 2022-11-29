@@ -40,7 +40,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-gist
-  - jekyll-seo-tag
+  - jekyll-admin
 
 include:
  - .well-known
@@ -50,9 +50,20 @@ port: 5000
 # Google Analytics Tag
 google_analytics: G-JB5BFVF5QL
 
-# gems: [jekyll-paginate]
-# paginate: 5
+jekyll_admin:
+  homepage: "pages"
 
-# Use of `relative_permalinks` ensures post links from the index work properly.
-# permalink: "/:title"
-# relative_permalinks: true
+collections:
+  courses:
+    # Create non-dated collection for courses, dir: _course
+    permalink: /:collection/:slug
+    output: true
+
+defaults:
+  - scope:
+      # For all posts in _course folder, apply default values
+      path: _courses
+      type: courses
+    values:
+      layout: course
+      categories: courses

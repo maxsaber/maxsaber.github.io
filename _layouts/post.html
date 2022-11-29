@@ -7,7 +7,11 @@ layout: default
   {% if page.man-date %} <div id="post-date">{{ page.man-date }}</div>{% else %}<time datetime="{{ page.date | date: "%B %-d, %Y" }}" class="post-date">{{ page.date | date: "%B %-d, %Y" }}</time> {% endif %}
   {% include breadcrumbs.html %}
   {{ content }}
-<!-- </article> -->
+
+  <h2>Comments</h2>
+  <div id="commento"></div>
+  <script defer src="https://commento.maxsaber.com/js/commento.js"></script>
+  <!-- </article> -->
 
 <hr class="l-middle home-hr">
 <div id="everything-else" class="l-middle">

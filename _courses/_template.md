@@ -1,9 +1,10 @@
 ---
-layout: course
+# Template updated 11/2022 for _courses collection
 id:                 #HCM.828
 title:              #HCM.828
-categories: courses
-permalink:          #courses/hcm828
+published: false    #change to true when complete
+slug:               #slugified course ID for URL: HCM.828 -> hcm828
+# above required for collection page generation
 course-name: ""
 course-id: ""       #HCM.828
 school: ""
@@ -13,7 +14,6 @@ co-instructed:
 institution: ""
 inst-shorthand: ""
 location:           #Boston, MA
-url:                #/courses/hcm828
 syllabus:           #/files/courses/
 coming-soon: false
 level: 
@@ -26,4 +26,3 @@ objectives:
 ---
 
 ## Course Description
-
