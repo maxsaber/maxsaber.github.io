@@ -2,8 +2,11 @@ _site/*
 .sass-cache/
 .DS_Store
 _posts/.DS_Store
+_posts/blog/drafts
+_posts/blog/drafts/*
+_posts/blog/templates
 images/projects/.DS_Store
 images/.DS_Store
-images/pc
 .jekyll-cache/
 _drafts/
+template-files/
