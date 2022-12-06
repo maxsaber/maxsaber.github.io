@@ -1,11 +1,20 @@
 # CV Section: "Outreach and Public Engagement"
 
+- org: "OutCare Health"
+  location: "Indianapolis, IN"
+  begin: "2022"
+  end: "present"
+  role: "ST(EM) Mentor"
+  url: https://www.outcarehealth.org/
+
 - org: "Winter Park Pride Project"
   location: "Winter Park, FL"
-  month: "2020 —"
-  year: 2021
+  begin: "2020"
+  end: "2021"
+  url: https://winterparkprideproject.org/
 
 - org: "Harbor to the Bay"
   location: "Boston, MA"
-  month: "2015 —"
-  year: 2019
+  begin: "2015"
+  end: "2019"
+  url: https://www.harbortothebay.org/

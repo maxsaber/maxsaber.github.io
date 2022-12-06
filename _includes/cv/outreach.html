@@ -1,5 +1,13 @@
-<div class="cv-left-date">{{ outreach.month }} {{ outreach.year }}</div>
-<div><b>{{ outreach.org }}</b></div>
-<div>{{ outreach.location }}</div>
+<div class="cv-left-date">{{ outreach.begin }} — {{ outreach.end }}</div>
+<div><b>{{ outreach.org }}, </b>{{ outreach.location }}</div>
+<div>{% if outreach.role %} <i>{{ outreach.role }}</i> {% endif %}</div>
+
+<div class="pub-misc">
+    {% if outreach.url %}
+    <a href="{{ outreach.url }}">
+      <i class="fas fa-globe" aria-hidden="true"></i> Website
+    </a>
+    {% endif %}
+    </div>
 
 <div class="cv-spacer"></div>
