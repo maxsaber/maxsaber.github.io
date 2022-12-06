@@ -104,6 +104,6 @@
 - id: bio
   description: Read my Bio
   color: "#515151"
-  class: "fas fa-user-graduate"
+  class: "fas fa-user-tie"
   url: "/bio"
   on-homepage: false
