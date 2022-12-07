@@ -1,5 +1,6 @@
 $author-size: 125px;
 $author-image-size: 80px;
+$blog-author-image-size: 60px;
 
 #paper-title-wrapper {
 	background-color: $near-white;
@@ -52,6 +53,53 @@ $author-image-size: 80px;
 
 .author > a {
 	color: $text-color;
+}
+
+#blog-author-wrapper {
+	grid-column: text;
+	display: grid;
+	grid-template-columns: 2fr 8fr;
+	grid-template-areas: "col1 col2";
+	grid-column-gap: 1rem;
+}
+
+.blog-author {
+	text-align: center;
+	font-size: 1.1em;
+	line-height: 1.25;
+}
+
+.col1 {
+	grid-area: "col1";
+}
+
+.col2 {
+	grid-area: "col2";
+	color: #999 !important;
+	font-size: 0.875em;
+	text-align: center;
+	margin-top: 0.55em;
+}
+
+.blog-author > a {
+	color: $text-color;
+}
+
+.author-image {
+	height: $blog-author-image-size;
+	width: $blog-author-image-size;
+	border-radius: $blog-author-image-size/2;
+	margin: 0 auto;
+	margin-bottom: 0.5rem;
+}
+
+#blog-post-hero {
+	width: fit-content;
+}
+
+.img {
+	width: 100%;
+	height: auto;	
 }
 
 #venue {

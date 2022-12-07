@@ -1,6 +1,7 @@
 ---
 layout: post
 title: San Francisco, CA
+author: Max Saber
 man-date: October 2015
 categories: [travel]
 permalink: blog/travel/2015/san-francisco

@@ -6,7 +6,29 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   {% if page.man-date %} <div id="post-date">{{ page.man-date }}</div>{% else %}<time datetime="{{ page.date | date: "%B %-d, %Y" }}" class="post-date">{{ page.date | date: "%B %-d, %Y" }}</time> {% endif %}
   {% include breadcrumbs.html %}
+
+  <div class="cv-spacer-medium"></div>
+    {% if page.hero %}
+      <div class="blog-post-hero">
+        <img class="img" src="{{ page.hero }}" alt="{{ page.hero-alt }}">
+      </div>
+    {% endif %}
+
   {{ content }}
+
+  <hr />
+  <div id="blog-author-wrapper">
+    {% for person in page.author %}
+      <div class="blog-author col1">
+        {% include person-image.html person=person %}
+        {% include person.html person=person %}
+        {% endfor %}
+      </div>
+      <div class="blog-author col2">
+        Max Saber is a healthcare information systems engineer at MCPHS University with a passion for new and developing healthcare technology. Posts made on this blog are his own personal opinions, and do not reflect the opinions of MCPHS University, or any other organization he is affiliated with.
+      </div>
+  </div>
+  <hr />
 
   <h2>Comments</h2>
   <div id="commento"></div>
