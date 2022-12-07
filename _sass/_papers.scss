@@ -93,6 +93,15 @@ $blog-author-image-size: 60px;
 	margin-bottom: 0.5rem;
 }
 
+#blog-post-hero {
+	width: fit-content;
+}
+
+.img {
+	width: 100%;
+	height: auto;	
+}
+
 #venue {
 	grid-column: text;
 	color: $mid-gray;
