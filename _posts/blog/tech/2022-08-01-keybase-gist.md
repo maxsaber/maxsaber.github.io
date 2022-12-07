@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Keybase.io Gist
+author: Max Saber
 categories: [tech]
 permalink: blog/tech/gist
 ---

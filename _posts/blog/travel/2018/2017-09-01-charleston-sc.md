@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Charleston, SC
+author: Max Saber
 man-date: September 2017
 categories: [travel]
 permalink: blog/travel/2017/charleston-sc

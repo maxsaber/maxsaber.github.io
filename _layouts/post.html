@@ -8,6 +8,20 @@ layout: default
   {% include breadcrumbs.html %}
   {{ content }}
 
+  <hr />
+  <div id="blog-author-wrapper">
+    {% for person in page.author %}
+      <div class="blog-author col1">
+        {% include person-image.html person=person %}
+        {% include person.html person=person %}
+        {% endfor %}
+      </div>
+      <div class="blog-author col2">
+        Max Saber is a healthcare information systems engineer at MCPHS University with a passion for new and developing healthcare technology. Posts made on this blog are his own personal opinions, and do not reflect the opinions of MCPHS University, or any other organization he is affiliated with.
+      </div>
+  </div>
+  <hr />
+
   <h2>Comments</h2>
   <div id="commento"></div>
   <script defer src="https://commento.maxsaber.com/js/commento.js"></script>
