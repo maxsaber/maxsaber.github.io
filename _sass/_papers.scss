@@ -145,6 +145,13 @@ $blog-author-image-size: 60px;
 	text-decoration: none;
 }
 
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
+
 @media screen and (max-width: $mobile) {
 	#author-wrapper {
 		grid-template-columns: repeat(3, 1fr);
