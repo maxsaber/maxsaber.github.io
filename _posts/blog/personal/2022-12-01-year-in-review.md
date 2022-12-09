@@ -17,7 +17,7 @@ Phewwwwww what a year 2022 has been... I feel like we say this every every year 
 <img style="width: auto; max-height: 300px;" src="/images/posts/personal/2022-year-in-review/IMG_7333.jpeg" class="center">
 
 One thing I was grateful for was all the time I got to spend with my favorite dog, Mr. Goose!
-<img style="width: auto; max-height: 300px;" src="/images/posts/personal/2022-year-in-review/IMG_7740.jpg" class="center">
+<img style="width: auto; max-height: 300px;" src="/images/posts/personal/2022-year-in-review/IMG_7740.jpeg" class="center">
 
 **May:** Holy cow, can you believe it's already been a year since I finished my doctorate? I certainly can't and I still forget that I'm Dr. Max Saber. I'm still not sure what I'm going to do with it, but I'm sure I'll figure it out eventually.
 
@@ -44,7 +44,7 @@ This May also brought around my 10th service anniversary with the University! Wo
 
 Dominic also surprised me with a new Ghurka leather and brass tag for my briefcase, I'm glad he remembered I finished by doctorate a year ago already!
 
-<img style="width: auto; max-height: 300px;" src="/images/posts/personal/2022-year-in-review/ghurka-tag.jpg" class="center">
+<img style="width: auto; max-height: 300px;" src="/images/posts/personal/2022-year-in-review/ghurka-tag.jpeg" class="center">
 
 **June:** I was finally able this year to go visit by best friend from college in San Francisco. When he told me its been five years since we've last seen each other in person, I told him to shut up. Of course Jared, his partner Howe, and I had to visit some of the wineries in Sonoma County while I was in the area. Here we are at [Domaine Carneros], a winery in Napa Valley.
 
@@ -72,7 +72,7 @@ And come on, look at this view and vantage point we had, could it be anymore per
 **September:** GAGA! Need I say more? I was so excited Dominic surprised me with tickets to see Lady Gaga in concert and even with the hours long rain delay, I was certainly not disappointed. She put on a great show and I elated to have been able to see her perform live at the last Chromatica Ball.
 
 <figure>
-    <img style="width: auto; max-height: 300px;" src="/images/posts/personal/2022-year-in-review/IMG_3180.jpg" class="center">
+    <img style="width: auto; max-height: 300px;" src="/images/posts/personal/2022-year-in-review/IMG_3180.jpeg" class="center">
     <figcaption>Gaga being fabulous playing her piano</figcaption>
 </figure>
 
@@ -102,6 +102,6 @@ This trip home was probably my MOST favorite trip while I've been up north in Bo
 I'm ready to see what 2023 has in store for me, but for now, that's all I have. Thanks for sticking around and reading this long, and I'll see you in 2023!
 
 ...and yes, I fell for the damn AI photos, but you know, I'm not mad about the result...
-<img style="width: auto; max-height: 250px;" src="/images/posts/personal/2022-year-in-review/ai-images.jpg" class="center">
+<img style="width: auto; max-height: 250px;" src="/images/posts/personal/2022-year-in-review/ai-images.jpeg" class="center">
 
 [Domaine Carneros]: https://www.domainecarneros.com/
