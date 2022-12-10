@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 2022 Year In Review
+slug: year-in-review
 author: Max Saber
 categories: [personal]
-permalink: blog/personal/2022-year-in-review
 ---
 
 Phewwwwww what a year 2022 has been... I feel like we say this every every year but boy I can't wait for 2023. 2023 is going to be my year, I can feel it! As with any of my other posts, I totally expect no one to read this and I'm writing it for myself. But if you do read it, I hope you enjoy it! Here a recap of Max's 2022

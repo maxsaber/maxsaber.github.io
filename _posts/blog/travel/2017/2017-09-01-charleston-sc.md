@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Charleston, SC
+slug: charleston-sc
 author: Max Saber
 man-date: September 2017
 categories: [travel]
 hero: /images/posts/travel/2017/09-charleston/IMG_8900.JPEG
 hero-alt: "Max Saber standing in front of a stone sign reading Medical University of South Carolina"
-permalink: blog/travel/2017/charleston-sc
 ---
 
 Ah, my first trip to Charleston as a doctorate student at the Medical University of South Carolina!

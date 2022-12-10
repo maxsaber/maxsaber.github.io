@@ -11,7 +11,7 @@ Welcome to my blog! You're under no obligation to read anything I post here, nor
 <div class="posts">
   {% for post in site.posts limit:1 %}
   <article class="post">
-    <h3 class="post-title">
+    <h3 class="post-title blog">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>
@@ -29,7 +29,7 @@ I think traveling is one of the <i>most</i> relaxing things in life, here are so
 <div class="posts">
   {% for post in site.categories.travel limit:3 %}
   <article class="post">
-    <h4 class="post-title">
+    <h4 class="post-title blog">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>
@@ -48,7 +48,7 @@ I mean, I do work in IT, right? It'd be a shame if there weren't some posts from
 <div class="posts">
   {% for post in site.categories.tech limit:3 %}
   <article class="post">
-    <h4 class="post-title">
+    <h4 class="post-title blog">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>
@@ -65,7 +65,7 @@ I mean, I do work in IT, right? It'd be a shame if there weren't some posts from
 <div class="posts">
   {% for post in site.categories.personal limit:3 %}
   <article class="post">
-    <h4 class="post-title">
+    <h4 class="post-title blog">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>

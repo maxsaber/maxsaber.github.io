@@ -51,6 +51,9 @@ collections:
     # Create non-dated collection for courses, dir: _course
     permalink: /:collection/:slug
     output: true
+  posts:
+    permalink: /blog/:categories/:year/:slug
+    output: true
 
 defaults:
   - scope:
