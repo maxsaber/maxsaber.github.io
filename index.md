@@ -58,7 +58,21 @@ title: Home
    {% endif %}
   {% endfor %}
  </div>
+  <div style="height: 0.5rem"></div>
+ <div id="intro-id-wrapper" class="intro-right">
+    {% for post in site.posts limit:1 %}
+        <div class="cv-social-link" style="display: flex">
+            <div class="cv-social-link-icon-wrapper">
+                <a href="{{ site.baseurl }}{{ post.url }}"><i class="fas fa-blog" style="color:#515151"></i></a>
+            </div>
+            <div class="cv-social-link-text-wrapper">
+                <a href="{{ site.baseurl }}{{ post.url }}">Check out my latest blog post</a>
+            </div>
+        </div>
+    {% endfor %}
  </div>
+</div>
+
 </div>
 
 <hr class="l-middle home-hr">
