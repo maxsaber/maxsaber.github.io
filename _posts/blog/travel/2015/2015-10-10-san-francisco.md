@@ -4,7 +4,8 @@ title: San Francisco, CA
 slug: san-francisco
 author: Max Saber
 man-date: October 2015
-categories: [travel]
+categories: [travel, west coast, california, san francisco]
+permalink: /travel/:year/:slug
 ---
 
 On my second annual Columbus Day weekend trip to California I went to visit some of my best friends who got the bug and moved out there. Needless to say I had a fantastic time and I cannot wait for Columbus Day 2016 to get here!

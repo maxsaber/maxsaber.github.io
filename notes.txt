@@ -5,3 +5,12 @@ Text expand: http://jekyllcodex.org/without-plugin/text-expand/#
 Commento: https://railway.app/, https://commento.maxsaber.com
 Stack builder: https://netcraft.com/, https://builtwith.com/
 Cookies: https://www.osano.com/, https://manage.cookiebot.com/
+
+Emojis:
+https://frankindev.com/2022/05/23/github-flavored-joypixels-cheat-sheet/
+https://twemoji.twitter.com/
+https://github.com/twitter/twemoji
+https://github.com/JuanitoFatas/jekyll-twemoji
+
+Capitalize filter
+https://github.com/jasoncomes/Capitalize-Words-Liquid-Filter

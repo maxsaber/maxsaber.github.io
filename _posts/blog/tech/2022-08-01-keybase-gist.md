@@ -3,7 +3,8 @@ layout: post
 title: Keybase.io Gist
 slug: keybase-gist
 author: Max Saber
-categories: [tech]
+categories: [tech, identity, keybase, gists]
+permalink: /tech/:year/:slug
 ---
 
 My verifible Keybase.io identity.
