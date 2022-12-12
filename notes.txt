@@ -14,3 +14,6 @@ https://github.com/JuanitoFatas/jekyll-twemoji
 
 Capitalize filter
 https://github.com/jasoncomes/Capitalize-Words-Liquid-Filter
+
+localhost issue on macOS
+https://github.com/jekyll/jekyll/issues/8541
