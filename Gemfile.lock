@@ -55,6 +55,8 @@ GEM
       sassc (> 2.0.1, < 3.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-tagging-related_posts (1.2.0)
+      jekyll (>= 3.9, < 5.0)
     jekyll-twemoji (3.0.0)
       jekyll (>= 2.0)
       twemoji (~> 3.0)
@@ -129,6 +131,7 @@ DEPENDENCIES
   jekyll-gist
   jekyll-redirect-from (~> 0.16.0)
   jekyll-sitemap (~> 1.4)
+  jekyll-tagging-related_posts
   jekyll-twemoji
   listen
   rouge (~> 3.19)

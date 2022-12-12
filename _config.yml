@@ -35,6 +35,7 @@ plugins:
   - jekyll-gist
   - jekyll-admin
   - jekyll/twemoji
+  - jekyll-tagging-related_posts
 
 include:
  - .well-known
