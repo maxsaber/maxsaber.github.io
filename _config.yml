@@ -34,6 +34,8 @@ plugins:
   - jekyll-redirect-from
   - jekyll-gist
   - jekyll-admin
+  - jekyll/twemoji
+  - jekyll-tagging-related_posts
 
 include:
  - .well-known
@@ -50,6 +52,9 @@ collections:
   courses:
     # Create non-dated collection for courses, dir: _course
     permalink: /:collection/:slug
+    output: true
+  posts:
+    permalink: /blog/:categories/:year/:slug
     output: true
 
 defaults:
