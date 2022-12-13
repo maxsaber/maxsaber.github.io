@@ -28,7 +28,7 @@ This May also brought around my 10th service anniversary with the University! Wo
 
 **September:** This year I was honored to have been chosen as a World Narcolepsy Day ambassador. I'm really excited to be able to help raise awareness for for those of us living with narcolepsy and and the challenges this invisible illness brings.
 
-{% include world-narcolepsy-day-2022.html %}
+{% include /posts/world-narcolepsy-day-2022.html %}
 
 ## The Not So Serious
 

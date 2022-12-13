@@ -25,26 +25,6 @@ I'm currently working on transferring all of my old posts from my previous site,
 
 <hr />
 
-<h2>Travel</h2>
-<p>I think traveling is one of the <i>most</i> relaxing things in life, here are some of my favorite places I've been...</p>
-
-<div class="posts">
-  {% for post in site.categories.travel limit:3 %}
-  <article class="post">
-    <h4 class="post-title blog">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h4>
-    <time datetime="{{ post.date | date: "%B %Y" }}" class="post-date">{{ post.date | date: "%B %Y" }}</time>
-    {{ post.excerpt }}
-  </article>
-  {% endfor %}
-</div>
-<div align="right"><a href="{{ site.baseurl }}/categories/travel">More travel posts →</a></div>
-
-<hr />
-
 <h2>Technology</h2>
 I mean, I do work in IT, right? It'd be a shame if there weren't some posts from my forever wondering mind about technology!
 
@@ -65,6 +45,26 @@ I mean, I do work in IT, right? It'd be a shame if there weren't some posts from
 
 <hr />
 
+<h2>Travel</h2>
+<p>I think traveling is one of the <i>most</i> relaxing things in life, here are some of my favorite places I've been...</p>
+
+<div class="posts">
+  {% for post in site.categories.travel limit:3 %}
+  <article class="post">
+    <h4 class="post-title blog">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h4>
+    <time datetime="{{ post.date | date: "%B %Y" }}" class="post-date">{{ post.date | date: "%B %Y" }}</time>
+    {{ post.excerpt }}
+  </article>
+  {% endfor %}
+</div>
+<div align="right"><a href="{{ site.baseurl }}/categories/travel">More travel posts →</a></div>
+
+<hr />
+
 <h2>Personal Posts</h2>
 <div class="posts">
   {% for post in site.categories.personal limit:3 %}
@@ -81,16 +81,4 @@ I mean, I do work in IT, right? It'd be a shame if there weren't some posts from
 </div>
 <div align="right"><a href="{{ site.baseurl }}/categories/personal">More personal posts →</a></div>
 
-<hr />
-
-  <div id="blog-author-wrapper">
-    <div class="blog-author col1">
-      {% include person-image.html person='Max Saber' %}
-      {% include person.html person='Max Saber' %}
-    </div>
-    <div class="blog-author col2">
-      Max Saber is a healthcare information systems engineer at MCPHS University with a passion for new and developing healthcare technology. Posts made on this blog are his own personal opinions, and do not reflect the opinions of MCPHS University, or any other organization he is affiliated with.
-    </div>
-  </div>
-
-<hr />
+{% include blog_disclaimer.html %}
