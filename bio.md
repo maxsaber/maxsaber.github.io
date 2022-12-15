@@ -17,3 +17,6 @@ Max is an out and proud member of the LGBTQIA+ community and currently lives in 
 <div class="intro-center">
  <img id="intro-image" class="intro-right" src="/images/people/goose.jpg">
 </div>
+
+<div class="cv-spacer-large"></div>
+ <img style="max-width: 100px; height: auto;" class="center" src="/images/prideflag_sm.jpg">
