@@ -14,11 +14,15 @@ jsarr:
 
 <div class="cv-image-links-wrapper">
  <div class="cv-image-links">
+ </div>
+ <div class="cv-image-links">
   {% for link in site.data.social-links %}
    {% if link.cv-group == 1 %}
     {% include social-link.html link=link %}
    {% endif %}
   {% endfor %}
+ </div>
+ <div class="cv-image-links">
  </div>
  <div class="cv-image-links">
   {% for link in site.data.social-links %}
@@ -28,13 +32,21 @@ jsarr:
   {% endfor %}
  </div>
  <div class="cv-image-links">
+ </div>
+ <div class="cv-image-links">
   {% for link in site.data.social-links %}
    {% if link.cv-group == 3 %}
     {% include social-link.html link=link %}
    {% endif %}
   {% endfor %}
  </div>
+ <div class="cv-image-links">
+ </div>
 </div>
+
+***
+
+{% include cv/cv-header-buttons.html %}
 
 ***
 

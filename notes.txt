@@ -17,3 +17,7 @@ https://github.com/jasoncomes/Capitalize-Words-Liquid-Filter
 
 localhost issue on macOS
 https://github.com/jekyll/jekyll/issues/8541
+
+Anchor links
+https://www.bryanbraun.com/anchorjs/
+https://github.com/bryanbraun/anchorjs
