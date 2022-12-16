@@ -69,7 +69,7 @@
   location: "Boston, MA"
   position: "Evenings and Weekend Help Desk Manager"
   group: "Information Services"
-  year: "Sept. 2009 —"
+  year: "Sep. 2009 —"
   year-extra: "May 2012"
   description: 
     - Managed a staff of 10 student employees and acted as an escalation point for all student and full-time technicians following critical issues to resolution
@@ -84,9 +84,9 @@
 
 - institution: "Newport Hospital"
   location: "Newport, RI"
-  position: "Performance Evaluation and Improvement Analyst"
-  group: "PE&I"
-  year: "June 2007 —"
+  position: "Data Quality Analyst"
+  group: "Performance Evaluation and Improvement"
+  year: "Jun. 2007 —"
   year-extra: "Aug. 2008"
   description-hide: 
     - Performed data entry and database management functions under the supervision of full-time consultants
@@ -100,6 +100,18 @@
   collapse: true
 
 # CV Section: "Academia"
+
+- institution: "MCPHS University"
+  location: "Boston, MA"
+  position: "Adjunct Professor, Pharmaceutical Business & Administrative Sciences"
+  group: "School of Pharmacy"
+  year: "Jan. 2023 —"
+  year-extra: "Present"
+  description: 
+  institution-url: https://mcphs.edu
+  group-url: https://www.mcphs.edu/academics/school-of-pharmacy/regaff-pharmeco-healthpolicy
+  type: academic
+  list: true
 
 - institution: "MCPHS University"
   location: "Boston, MA"
