@@ -58,8 +58,9 @@
 }
 
 .cv-image-links-wrapper {
-	display: flex;
+	display: grid;
 	font-size: 0.85rem;
+	grid-template-columns: 0.625fr 1fr 0.5fr 1fr 0.5fr 1fr 0.25fr;
 }
 
 .cv-image-links {
