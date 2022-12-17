@@ -59,3 +59,26 @@ img.emoji {
 	font-weight: 300;
   font-style: italic;
 }
+
+.contact-image-links-wrapper {
+	display: grid;
+	font-size: 0.85rem;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 0.875rem;
+	justify-items: center;
+	justify-content: space-evenly;
+	align-content: space-evenly;
+	align-items: center;
+}
+
+.contact-image-links {
+	flex: 1;
+}
+
+@media screen and (max-width: $mobile) {
+
+	.contact-image-links-wrapper {
+		display: block;
+	}
+
+}
