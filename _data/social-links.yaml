@@ -13,6 +13,7 @@
   url: "mailto:max@maxsaber.com"
   on-homepage: true
   cv-group: 1
+  contact-group: 1
 
 - id: telephone
   description: "(774) 644-1542"
@@ -21,11 +22,12 @@
   url: "tel:+17746441542"
   on-homepage: false
   cv-group: 1
+  contact-group: 1
 
 - id: cv
-  description: Downloadable CV
+  description: Download CV
   color: "#515151"
-  class: "far fa-file-pdf icon"
+  class: "fas fa-file-pdf"
   url: "/files/cv.pdf"
   on-homepage: false
   cv-group: 2
@@ -53,6 +55,7 @@
   url: "https://www.linkedin.com/in/maxsaber"
   on-homepage: true
   cv-group: 3
+  contact-group: 2
 
 - id: twitter
   description: "Twitter"
@@ -61,6 +64,7 @@
   url: "https://twitter.com/makssaybur"
   on-homepage: true
   cv-group: 3
+  contact-group: 2
 
 - id: github
   description: "GitHub"

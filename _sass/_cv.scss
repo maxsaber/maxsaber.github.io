@@ -60,11 +60,12 @@
 .cv-image-links-wrapper {
 	display: grid;
 	font-size: 0.85rem;
-	grid-template-columns: 0.625fr 1fr 0.5fr 1fr 0.5fr 1fr 0.25fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 0.5fr;
+
 }
 
 .cv-image-links {
-	flex: 1;
+	
 }
 
 .cv-social-link {
