@@ -1,28 +1,25 @@
 ---
 layout: cv
-title: CV
+title: Curriculum Vitae
 permalink: cv/
 jsarr:
 - js/scripts.js
 ---
 
 <h1 id="cv-title"><a href="{{ site.url }}">Max Saber, DHA, MSHI</a></h1>
-
 <p id="cv-subtitle"><i>Systems Engineer & Adjunct Professor of Healthcare Business</i></p>
 
 ***
 
 <div class="cv-image-links-wrapper">
- <div class="cv-image-links">
- </div>
+<div class="cv-image-links">
+</div>
  <div class="cv-image-links">
   {% for link in site.data.social-links %}
    {% if link.cv-group == 1 %}
     {% include social-link.html link=link %}
    {% endif %}
   {% endfor %}
- </div>
- <div class="cv-image-links">
  </div>
  <div class="cv-image-links">
   {% for link in site.data.social-links %}
@@ -32,21 +29,13 @@ jsarr:
   {% endfor %}
  </div>
  <div class="cv-image-links">
- </div>
- <div class="cv-image-links">
   {% for link in site.data.social-links %}
    {% if link.cv-group == 3 %}
     {% include social-link.html link=link %}
    {% endif %}
   {% endfor %}
  </div>
- <div class="cv-image-links">
- </div>
 </div>
-
-***
-
-{% include cv/cv-header-buttons.html %}
 
 ***
 
@@ -65,6 +54,7 @@ jsarr:
 {% include cv/experience.html experience=experience %}
 {% endif %}
 {% endfor %}
+<div class="cv-description" align="right"><a href="{{ site.url }}/cv#top">↑ Return to Top</a></div>
 
 ## Research
 
@@ -73,6 +63,7 @@ jsarr:
 {% include cv/experience.html experience=experience %}
 {% endif %}
 {% endfor %}
+<div class="cv-description" align="right"><a href="{{ site.url }}/cv#top">↑ Return to Top</a></div>
 
 ## Industry
 
@@ -81,6 +72,7 @@ jsarr:
 {% include cv/experience.html experience=experience %}
 {% endif %}
 {% endfor %}
+<div class="cv-description" align="right"><a href="{{ site.url }}/cv#top">↑ Return to Top</a></div>
 
 ## Teaching
 
@@ -97,6 +89,7 @@ jsarr:
 {% include cv/teaching.html teach=teach %}
 {% endif %}
 {% endfor %}
+<div class="cv-description" align="right"><a href="{{ site.url }}/cv#top">↑ Return to Top</a></div>
 
 ## Pedagogical Development
 
@@ -117,6 +110,7 @@ jsarr:
 {% include cv/development.html dev=dev %}
 {% endif %}
 {% endfor %}
+<div class="cv-description" align="right"><a href="{{ site.url }}/cv#top">↑ Return to Top</a></div>
 
 ## Publications
 
@@ -128,6 +122,7 @@ jsarr:
 {% endfor %}
 
 {% assign selectedBoolForBibtex = false %}
+<div class="cv-description" align="right"><a href="{{ site.url }}/cv#top">↑ Return to Top</a></div>
 
 ## Invited Presentations
 
@@ -135,6 +130,7 @@ jsarr:
 {% for title in talktitles %}
 {% include cv/talk.html talk=title %}
 {% endfor %}
+<div class="cv-description" align="right"><a href="{{ site.url }}/cv#top">↑ Return to Top</a></div>
 
 ## Service
 
@@ -156,6 +152,7 @@ jsarr:
 {% for member in site.data.memberships %}
 {% include cv/member.html member=member %}
 {% endfor %}
+<div class="cv-description" align="right"><a href="{{ site.url }}/cv#top">↑ Return to Top</a></div>
 
 ## Professional Certifications and Licensures
 
@@ -180,24 +177,28 @@ jsarr:
 {% for licensure in site.data.licensure %}
 {% include cv/licensure.html name=name %}
 {% endfor %}
+<div class="cv-description" align="right"><a href="{{ site.url }}/cv#top">↑ Return to Top</a></div>
 
 ## Honors and Awards
 
 {% for award in site.data.awards %}
 {% include cv/award.html award=award %}
 {% endfor %}
+<div class="cv-description" align="right"><a href="{{ site.url }}/cv#top">↑ Return to Top</a></div>
 
 ## Press
 
 {% for press in site.data.press %}
 {% include cv/press.html press=press %}
 {% endfor %}
+<div class="cv-description" align="right"><a href="{{ site.url }}/cv#top">↑ Return to Top</a></div>
 
 ## Outreach and Public Engagement
 
 {% for outreach in site.data.outreach %}
 {% include cv/outreach.html outreach=outreach %}
 {% endfor %}
+<div class="cv-description" align="right"><a href="{{ site.url }}/cv#top">↑ Return to Top</a></div>
 
 ## Technology Skills
 
