@@ -43,7 +43,7 @@ This May also brought around my 10th service anniversary with the University! Wo
 
 <img style="width: auto; max-height: 300px;" src="/images/posts/personal/2022-year-in-review/IMG_0348.jpeg" class="center">
 
-Dominic also surprised me with a new Ghurka leather and brass tag for my briefcase, I'm glad he remembered I finished by doctorate a year ago already!
+Dominic also surprised me with a new Ghurka leather and brass tag for my briefcase, I'm glad he remembered I finished by doctorate a year ago already, I sure didn't!
 
 <img style="width: auto; max-height: 300px;" src="/images/posts/personal/2022-year-in-review/ghurka-tag.jpeg" class="center">
 
