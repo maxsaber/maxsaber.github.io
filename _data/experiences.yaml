@@ -2,17 +2,62 @@
 
 - institution: "MCPHS University"
   location: "Boston, MA"
+  position: "Systems Engineer II"
+  group: "Information Services"
+  year: "Jan. 2016 —"
+  year-extra: "Present"
+  description:
+    - During the acquisition and merger of the New England School of Acupuncture, lead the clinical and technological transition to a newly renovated $1m treatment center and specialty Chinese Herbal Medicine Dispensary
+    - Directed the procurement of UnifiedPractice, a SaaS based acupuncture practice management and EMR system
+    - Implemented axiUm Ascend, an academic-focused SaaS based dental practice management and EMR system, designed to advance student self and peer evaluation and align with best practice assessment strategies; found a >50% reduction in administrative overhead in student evaluation management
+    - Implemented eClinicalWorks cloud EMR for MassMedline, a Massachusetts state funded program under the Executive Office of Elder Affairs and operating within the University
+    - Executed the technical implementation of Cayuse IRB Protocol Management System to streamline the IRB submission, review, and approval processes for student and faculty research conducted at the University
+    - Manage 7 niche electronic medical record systems operating in both live and simulated clinical environments
+    - Authors all clinical and administrative training materials and documentation for EMR system implementation providing a consistent user experience during their onboarding
+    - Provide “at-the-elbow” technical support to application end-users in an office and healthcare setting
+    - Regularly manages multi-functional project teams consisting of other engineers and security analysts, programmers/developers, and end-users for the implementation of new business applications
+    - Coordinate discussions with department and business stakeholders to evaluate current workflow processes and while identifying areas for optimization and redesigned opportunities
+  institution-url: https://mcphs.edu
+  group-url:
+  type: industry
+  list: true
+  collapse: true
+
+- institution: "MCPHS University"
+  location: "Boston, MA"
+  position: "Interim Learning Management Systems Administrator"
+  group: "Information Services"
+  year: "Aug. 2022 —"
+  year-extra: "Jan. 2023"
+  description:
+    - Installed, tested, and implemented new releases, updates, patches and extensions for the learning management system as released by Blackboard
+    - Created clear, concise, functional documentation for newly implemented features and Blackboard enhancements
+    - Provided level-III technical support for the Blackboard LMS, including troubleshooting and resolving issues
+    - Develop and deliver effective reports requested by various campus stakeholders
+    - Manage LTI integrations/building blocks and assures upgrades for Blackboard Learn SaaS are validated on a regular and timely basis
+    - Managed the test, staging, and production environments after any upgrades/enhancements while following documented change management processes
+    - Maintained communication with appropriate audiences regarding status, activities and changes
+    - Participate on the Blackboard Governance Committee as a technical stakeholder
+    - Chair the Blackboard Governance Policy Subcommittee
+  institution-url: https://mcphs.edu
+  group-url: https://mcphs.edu/covid
+  type: industry
+  list: true
+  collapse: true
+
+- institution: "MCPHS University"
+  location: "Boston, MA"
   position: "COVID-19 Data Scientist"
   group: "COVID-19 Team"
   year: "Sep. 2020 —"
-  year-extra: "Present"
-  description: 
+  year-extra: "Dec. 2022"
+  description:
     - Architected the University-wide COVID-19 testing and surveillance SQL relational database data warehouse while maintaining confidentiality under HIPAA and FERPA compliance requirements
     - Collaborated with clinical and administrative stakeholders to develop data governance policies surrounding the collection and retention of COVID-19 testing results, symptom reporting and check-in, and immunization data
     - Analyze clinical data using statistical analysis, reporting, and BI visualization tools such as SAS, SPSS, and Tableau
     - Leveraged predictive analytics and models to prepare monthly COVID-19 test and clinical staffing level forecasts
     - Decreased first-line data entry errors by 50% by redesigning data processing guidelines ensuring data quality
-    - Built and maintains more than 100 customized data queries and solutions including Tableau report elements, dashboards, and data stories for university leadership 
+    - Built and maintains more than 100 customized data queries and solutions including Tableau report elements, dashboards, and data stories for university leadership
     - Continually evaluates clinical and business processes suggesting revisions to increase productivity and efficiency
     - Introduced a cloud-based telephony service decreasing average call time to answer to under 1 minute and voicemail to text functions to decrease average call return time to under 5 minutes during business hours
     - Principal Project Manager while implementing the CoVerified Campus application across 8,000 full-time University students, faculty, and staff members
@@ -28,39 +73,16 @@
 
 - institution: "MCPHS University"
   location: "Boston, MA"
-  position: "Systems Engineer II"
-  group: "Information Services"
-  year: "Jan. 2016 —"
-  year-extra: "Present"
-  description: 
-    - During the acquisition and merger of the New England School of Acupuncture, lead the clinical and technological transition to a newly renovated $1m treatment center and specialty Chinese Herbal Medicine Dispensary 
-    - Directed the procurement of UnifiedPractice, a SaaS based acupuncture practice management and EMR system
-    - Implemented axiUm Ascend, an academic-focused SaaS based dental practice management and EMR system, designed to advance student self and peer evaluation and align with best practice assessment strategies; found a >50% reduction in administrative overhead in student evaluation management
-    - Implemented eClinicalWorks cloud EMR for MassMedline, a Massachusetts state funded program under the Executive Office of Elder Affairs and operating within the University
-    - Executed the technical implementation of Cayuse IRB Protocol Management System to streamline the IRB submission, review, and approval processes for student and faculty research conducted at the University
-    - Manage 7 niche electronic medical record systems operating in both live and simulated clinical environments 
-    - Authors all clinical and administrative training materials and documentation for EMR system implementation providing a consistent user experience during their onboarding
-    - Provide “at-the-elbow” technical support to application end-users in an office and healthcare setting
-    - Regularly manages multi-functional project teams consisting of other engineers and security analysts, programmers/developers, and end-users for the implementation of new business applications
-    - Coordinate discussions with department and business stakeholders to evaluate current workflow processes and while identifying areas for optimization and redesigned opportunities
-  institution-url: https://mcphs.edu
-  group-url: 
-  type: industry
-  list: true
-  collapse: true
-
-- institution: "MCPHS University"
-  location: "Boston, MA"
   position: "Systems Support Specialist"
   group: "Information Services"
   year: "May 2012 —"
   year-extra: "Jan. 2016"
-  description: 
+  description:
     - Aided in managing a local and wide area infrastructure comprised of Cisco switches and routers, Palo Alto Firewalls, Meru wireless LAN equipment, and an integrated Avaya IP/Digital communications network
     - Administered VMware Horizon View virtual desktop infrastructure and virtualized server environments
     - General administration and management of different information systems, including regular software updates, programming, scripting, and reconfiguration of program modules, and SQL server and database maintenance
   institution-url: https://mcphs.edu
-  group-url: 
+  group-url:
   type: industry
   list: true
   collapse: true
@@ -71,13 +93,13 @@
   group: "Information Services"
   year: "Sep. 2009 —"
   year-extra: "May 2012"
-  description: 
+  description:
     - Managed a staff of 10 student employees and acted as an escalation point for all student and full-time technicians following critical issues to resolution
     - Developed the first Help Desk training seminar for new student employees, held annually
     - Authored the Student Employee Training Manual and Checklist to ensure student employees met training benchmarks in troubleshooting, first-call resolution practices, and escalation guides
     - Redesigned IT operations policies and procedures to streamline workflows while improving the quality of customer service and technical services delivered to end users
   institution-url: https://mcphs.edu
-  group-url: 
+  group-url:
   type: industry
   list: true
   collapse: true
@@ -88,13 +110,13 @@
   group: "Performance Evaluation and Improvement"
   year: "Jun. 2007 —"
   year-extra: "Aug. 2008"
-  description-hide: 
+  description:
     - Performed data entry and database management functions under the supervision of full-time consultants
     - Tracked and analyzed core measures in accordance with standards set by the Joint Commission (JCAHO)
     - Performed audits of patients' medical records for condition and treatment information to provide data for research, cost control, and care improvement efforts
     - Refined portions of the medication reconciliation process which later replicated through the hospital system
   institution-url: https://www.lifespan.org/locations/newport-hospital
-  group-url: 
+  group-url:
   type: industry
   list: true
   collapse: true
@@ -107,7 +129,7 @@
   group: "School of Pharmacy"
   year: "Jan. 2023 —"
   year-extra: "Present"
-  description: 
+  description:
   institution-url: https://mcphs.edu
   group-url: https://www.mcphs.edu/academics/school-of-pharmacy/regaff-pharmeco-healthpolicy
   type: academic
@@ -119,7 +141,7 @@
   group: "School of Healthcare Business"
   year: "Jan. 2019 —"
   year-extra: "Present"
-  description: 
+  description:
     - Developed 7 undergraduate, Master's, and Doctoral level courses in the areas of healthcare business, health informatics, data analysis and visualization, and statistical research methods,
     - Regularly evaluated assignment and course level assessment data in a year-over-year approach to ensure continued student success in meeting course outcomes and objectives,
     - Utilized a hands-on approach in all courses by integrating real-world tools such as, SPSS, Tableau, and SAS, as key course learning elements and objectives.
