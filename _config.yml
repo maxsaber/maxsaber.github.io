@@ -34,7 +34,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-gist
   - jekyll-admin
-  - jekyll/twemoji
+  #- jekyll/twemoji
   - jekyll-tagging-related_posts
 
 include:

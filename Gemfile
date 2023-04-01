@@ -15,5 +15,5 @@ gem 'jekyll-gist'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'faraday-retry'
 gem 'jekyll-admin', group: :jekyll_plugins
-gem 'jekyll-twemoji'
+#gem 'jekyll-twemoji'
 gem 'jekyll-tagging-related_posts'
