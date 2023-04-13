@@ -40,7 +40,7 @@ plugins:
 include:
  - .well-known
 
-port: 5000
+port: 5001
 
 # Google Analytics Tag
 google_analytics: G-JB5BFVF5QL
