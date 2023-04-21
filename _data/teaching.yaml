@@ -11,6 +11,7 @@
   syllabus-pdf: /files/courses/2023SP_PEP_809.pdf
   course-info: /courses/pep809
   level: graduate
+  school: sop-b
 
 - institution: MCPHS University
   position: Instructor of Record
@@ -23,6 +24,7 @@
   syllabus-pdf: /files/courses/2022SP_HCM_828.pdf
   course-info: /courses/hcm828
   level: graduate
+  school: shcb
 
 - institution: MCPHS University
   position: Instructor of Record
@@ -35,6 +37,7 @@
   syllabus-pdf: /files/courses/2021SP_HCM_820.pdf
   course-info: /courses/hcm820
   level: graduate
+  school: shcb
 
 - institution: MCPHS University
   position: Instructor of Record
@@ -47,6 +50,7 @@
   syllabus-pdf: /files/courses/2022SU_HCM_722.pdf
   course-info: /courses/hcm722
   level: graduate
+  school: shcb
 
 - institution: MCPHS University
   position: Instructor of Record
@@ -59,6 +63,7 @@
   syllabus-pdf: /files/courses/2018SU_HCA_780.pdf
   course-info: /courses/hca780
   level: graduate
+  school: shcb
 
 - institution: MCPHS University
   position: Instructor of Record
@@ -71,3 +76,4 @@
   syllabus-pdf: /files/courses/2021FA_BMI_410.pdf
   course-info: /courses/bmi410
   level: undergraduate
+  school: shcb

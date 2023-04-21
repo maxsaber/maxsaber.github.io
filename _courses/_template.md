@@ -7,10 +7,11 @@ slug:               #slugified course ID for URL: HCM.828 -> hcm828
 # above required for collection page generation
 course-name: ""
 course-id: ""       #HCM.828
-school: ""
+school: ""          #School of Healthcare Business
 instructors: 
     - 
 co-instructed: 
+role: "Instructor of Record"
 institution: ""
 inst-shorthand: ""
 location:           #Boston, MA
@@ -18,9 +19,9 @@ syllabus:           #/files/courses/
 coming-soon: false
 level: 
 method: 
-enrollment: 
+enrollment:         #Leave blank with no "" to exclude
 primary-program: 
-year: 
+year:               #Leave blank with no "" to exclude
 objectives: 
     - 
 ---

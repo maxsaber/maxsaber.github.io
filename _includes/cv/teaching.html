@@ -1,5 +1,13 @@
 <div class="cv-left-date">{{ teach.year-short }}</div>
-<div><b>{{ teach.class }}</b></div>
+<details>
+    <summary>{{ teach.class }} →</summary>
+    <div class="cv-description">
+        {{ teach.description }}
+        </div>
+</details>
+
+<!--
+<div>{{ teach.class }}</div>
 <div>{{ teach.position }}</div>
 <div><i><a href="{{ teach.institution-url }}">{{ teach.institution }}</a>, {{ teach.location }}</i></div>
 
@@ -8,11 +16,10 @@
         <summary>Course Description →</summary>
             {{ teach.description }}
     </details>
-</div>
+</div>  -->
 
 <div class="pub-misc">
     {% if teach.course-info %}
-    <div class="cv-spacer-small"></div>
     <a href="{{ teach.course-info }}">
         <i class="fas fa-link" aria-hidden="true"></i> Course Information
     </a>

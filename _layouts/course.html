@@ -30,10 +30,17 @@ layout: default
 
 	<h2>Course Information</h2>
 		<div>Course Level: {{ page.level }}</div>
+		{% if page.role %}
+			<div>Course Role: {{ page.role }}</div>
+		{% endif %}
 		<div>Delivery Method: {{ page.method }}</div>
-		<div>Average Enrollment: {{ page.enrollment }}</div>
 		<div>Primary Program: {{ page.primary-program }}</div>
-		<div>Semesters Taught: {{ page.year }}</div>
+		{% if page.enrollment %}
+			<div>Average Enrollment: {{ page.enrollment }}</div>
+		{% endif %}
+		{% if page.year %}
+			<div>Semesters Taught: {{ page.year }}</div>
+		{% endif %}
 <div>{{ page.content }}</div>
 
 <h2>Course Objectives</h2>
