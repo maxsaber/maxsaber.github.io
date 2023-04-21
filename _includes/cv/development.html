@@ -1,3 +1,7 @@
 <div class="cv-left-date">{{ development.semester }}</div>
+{% if development.link %}
+<div>{{ development.course-name }} {% if development.course-id %}(<a href="{{ development.link }}"><i aria-hidden="true"></i>{{ development.course-id }}</a>){% endif %}</div>
+{% else %}
 <div>{{ development.course-name }} {% if development.course-id %}({{ development.course-id }}){% endif %}</div>
+{% endif %}
 <div><a href="{{ development.institution-url }}"><b>{{ development.institution }}</b></a></div>
