@@ -25,9 +25,12 @@ $cv-icon-aspect-ratio: 1.33;
 	grid-column: 6 / 10;
 }
 
-#intro-image {
-	grid-row: 2;
-	border-radius: 0.5rem;
+#intro-title-image {
+	grid-row: 1;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 #intro-title-wrapper {
@@ -37,6 +40,14 @@ $cv-icon-aspect-ratio: 1.33;
 	grid-column: 1 / 9;
 	margin-bottom: 1.5rem;
 }
+
+#intro-title-name {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	grid-column: 2 / 9;
+}
+
 
 #intro-title {
 	color: $near-black;

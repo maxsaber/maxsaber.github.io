@@ -5,10 +5,16 @@
 }
 
 #masthead > h1 {
+    display: flex;
     grid-column: text-start / 8;
     font-size: 1.25rem;
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
+    align-items: center;
+}
+
+#masthead > headimg {
+    grid-column: text-start / 7;
 }
 
 #masthead > h1 > a {

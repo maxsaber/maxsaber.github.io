@@ -4,7 +4,10 @@ title: Home
 ---
 
 <div id ="intro-wrapper" class="l-middle">
- <div id="intro-title-wrapper" class="intro-left">
+ <div id="intro-title-image">
+  <img style="height: 100px; width: auto;" src="/images/emoji-header.png" alt="Max emoji logo" />
+  </div>
+ <div id="intro-title-name" class="intro-left">
   <h1 id="intro-title">Hi, I'm Max Saber</h1>
   <div id="intro-subtitle">
    I'm a Systems Engineer and an Adjunct Professor of Healthcare Administration and Business
