@@ -19,7 +19,7 @@ title: Home
  </div>
  <div style="height: 1rem"></div>
  <div class="intro-left">
- Additionally, I also hold adjunct faculty appointments with both the School of Healthcare Business and the School of Pharmacy at MCPHS University. In these two departments, I teach graduate and undergraduate courses in data visualization, health informatics, human factor technology design, and statistical data analysis.
+ Additionally, I also hold adjunct faculty appointments with both the School of Healthcare Business and Technology and the School of Pharmacy at MCPHS University. In these two departments, I teach graduate and undergraduate courses in data visualization, health informatics, human factor technology design, and statistical data analysis.
  </div>
  <div style="height: 1rem"></div>
  <div class="intro-left">

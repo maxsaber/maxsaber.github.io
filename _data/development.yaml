@@ -9,7 +9,7 @@
 
 - course-name: "Human Factors and Information Systems"
   course-id: "HIN.773"
-  department: "School of Healthcare Business"
+  department: "School of Healthcare Business and Technology"
   semester: "Fall 2022"
   type: new
   link: #/courses/hin773
@@ -17,56 +17,56 @@
 # Development of HIN.768 postponed, removed 09/25/22
 #- course-name: "Translating Social and Behavioral Issues: Advanced Data Query, Analysis, and Display"
 #  course-id: "HIN.768"
-#  department: "School of Healthcare Business"
+#  department: "School of Healthcare Business and Technology"
 #  semester: ""
 #  type: new
 #  link: /courses/hin768
 
 - course-name: "Health Data Programming and Database Structure"
   course-id: "HIN.720"
-  department: "School of Healthcare Business"
+  department: "School of Healthcare Business and Technology"
   semester: "Spring 2022"
   type: new
   link: /courses/hin720
 
 - course-name: "Health Data Security and Ethics"
   course-id: "HIN.740"
-  department: "School of Healthcare Business"
+  department: "School of Healthcare Business and Technology"
   semester: ""
   type: new
   link: /courses/hin740
 
 - course-name: "Data Collection, Analysis, and Representation in Healthcare"
   course-id: "HCM.828"
-  department: "School of Healthcare Business"
+  department: "School of Healthcare Business and Technology"
   semester: "Fall 2021"
   type: new
   link:
 
 - course-name: "Data Visualization"
   course-id: "BMI.410"
-  department: "School of Healthcare Business"
+  department: "School of Healthcare Business and Technology"
   semester: "Summer 2021"
   type: redesign
   link:
 
 - course-name: "Business Statistics"
   course-id: "HCM.722"
-  department: "School of Healthcare Business"
+  department: "School of Healthcare Business and Technology"
   semester: "Summer 2019"
   type: redesign
   link:
 
 - course-name: "Clinical Informatics & Data Analysis"
   course-id: "HCM.821"
-  department: "School of Healthcare Business"
+  department: "School of Healthcare Business and Technology"
   semester: "Spring 2019"
   type: new
   link:
 
 - course-name: "Informatics & Data Analysis"
   course-id: "HCM.820"
-  department: "School of Healthcare Business"
+  department: "School of Healthcare Business and Technology"
   semester: "Fall 2018"
   type: new
   link:

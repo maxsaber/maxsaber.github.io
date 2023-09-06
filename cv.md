@@ -77,7 +77,7 @@ jsarr:
 ## Teaching
 
 <div class="cv-service-title"><b>MCPHS University</b></div>
-<div class="cv-service-subtitle"><i>Graduate Studies, School of Healthcare Business</i></div>
+<div class="cv-service-subtitle"><i>Graduate Studies, School of Healthcare Business and Technology</i></div>
 {% for teach in site.data.teaching %}
 {% if teach.level == 'graduate' and teach.school == 'shcb'%}
 {% include cv/teaching.html teach=teach %}
@@ -91,7 +91,7 @@ jsarr:
 {% endif %}
 {% endfor %}
 
-<div class="cv-service-subtitle"><i>Undergraduate Studies, School of Healthcare Business</i></div>
+<div class="cv-service-subtitle"><i>Undergraduate Studies, School of Healthcare Business and Technology</i></div>
 {% for teach in site.data.teaching %}
 {% if teach.level == 'undergraduate' and teach.school == 'shcb' %}
 {% include cv/teaching.html teach=teach %}

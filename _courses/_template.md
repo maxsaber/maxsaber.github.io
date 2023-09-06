@@ -7,7 +7,7 @@ slug:               #slugified course ID for URL: HCM.828 -> hcm828
 # above required for collection page generation
 course-name: ""
 course-id: ""       #HCM.828
-school: ""          #School of Healthcare Business
+school: ""          #School of Healthcare Business and Technology
 instructors: 
     - 
 co-instructed: 
