@@ -3,6 +3,7 @@
 # only main files contain this front matter, not partials.
 ---
 
+@use 'sass:math';
 
 @import "variables";
 @import "base";

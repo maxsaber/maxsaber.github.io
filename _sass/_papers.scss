@@ -46,7 +46,7 @@ $blog-author-image-size: 60px;
 .author-image {
 	height: $author-image-size;
 	width: $author-image-size;
-	border-radius: $author-image-size/2;
+	border-radius: math.div($author-image-size, 2);
 	margin: 0 auto;
 	margin-bottom: 0.5rem;
 }
@@ -88,7 +88,7 @@ $blog-author-image-size: 60px;
 .author-image {
 	height: $blog-author-image-size;
 	width: $blog-author-image-size;
-	border-radius: $blog-author-image-size/2;
+	border-radius: math.div($blog-author-image-size, 2);
 	margin: 0 auto;
 	margin-bottom: 0.5rem;
 }

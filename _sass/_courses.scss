@@ -49,7 +49,7 @@ $author-image-size: 80px;
 .instructor-image {
 	height: $author-image-size;
 	width: $author-image-size;
-	border-radius: $author-image-size/2;
+	border-radius: math.div($author-image-size, 2);
 	margin: 0 auto;
 	margin-bottom: 0.5rem;
 }
