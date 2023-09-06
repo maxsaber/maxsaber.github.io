@@ -27,6 +27,16 @@ $blog-author-image-size: 60px;
 	margin-bottom: 1rem;
 }
 
+#double-author-wrapper {
+	grid-column: text;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin-top: 0rem;
+	margin-bottom: 1rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
 #single-author-wrapper {
 	grid-column: text;
 	display: grid;
