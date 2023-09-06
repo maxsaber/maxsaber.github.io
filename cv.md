@@ -223,8 +223,8 @@ jsarr:
 ## Contact
 
 Max Saber  
-914 Lake Road  
-Tiverton, RI 02878  
+660 Huntington Ave
+Boston, MA 02115
 774.644.1542  
 `max@maxsaber.com`<br>
 <a href="<https://maxsaber.com>">https://maxsaber.com</a>

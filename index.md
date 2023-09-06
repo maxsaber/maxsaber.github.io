@@ -79,5 +79,3 @@ title: Home
 </div>
 
 {% include footer_buttons.html %}
-
-[cv]: {{ site.url }}/cv
