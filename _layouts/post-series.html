@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<!-- <article class="post"> -->
+  <h1 class="post-title">{{ page.series-title }}</h1>
+  <h2 class="post-title">{{ page.title }}</h2>
+  {% if page.man-date %} <div id="post-date">{{ page.man-date }}</div>{% else %}<time datetime="{{ page.date | date: "%B %-d, %Y" }}" class="post-date">{{ page.date | date: "%B %-d, %Y" }}</time> {% endif %}
+  <div id="breadcrumbs">
+    {% if page.series-main %}
+      <a href="{{ site.url }}/{{ page.series-main }}">← back to series</a><br>
+    {% endif %}
+    {% for category in page.categories %}
+      {% if forloop.last == false %}
+        <a href="{{ site.url }}/categories/{{ category }}">{{ category }}</a>, 
+      {% else if forloop.last == true %}
+        <a href="{{ site.url }}/categories/{{ category }}">{{ category }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="cv-spacer-medium"></div>
+    {% if page.hero %}
+      <div class="blog-post-hero">
+        <img class="img" src="{{ page.hero }}" alt="{{ page.hero-alt }}">
+      </div>
+    {% endif %}
+
+  {{ content }}
+
+{% include blog_disclaimer.html %}
+
+{% include footer_buttons.html %}
