@@ -7,7 +7,7 @@ categories: [personal, mentorship]
 permalink: /personal/:year/:slug
 ---
 
-I'm thrilled to say that I've been selected and added to the OutCare Health Mentorship directory! Mentors in the OutCare Health make themselves available to offer school, career, or research advice, and guidance on many other life pursuits to LGBTQ+ students and professionals.
+I'm thrilled to say that I've been selected and added to the [OutCare Health Mentorship directory][directory]! Mentors in the OutCare Health make themselves available to offer school, career, or research advice, and guidance on many other life pursuits to LGBTQ+ students and professionals.
 
 <!--more-->
 
@@ -28,3 +28,4 @@ Anyone reading this that would like to be a mentor or mentee, please check out t
 [^1]: https://www.outcarehealth.org/mentorship
 [outcare]: https://www.outcarehealth.org/mentorship
 [about-outcare]: https://www.outcarehealth.org/about/
+[directory]: https://www.outcarehealth.org/staff/max-saber-dha-mshi/
