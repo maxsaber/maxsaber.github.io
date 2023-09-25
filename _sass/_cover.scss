@@ -43,7 +43,7 @@ $cover-width: 8.5px;
 }
 
 .cover-inner {
-  padding: 0.5rem 1rem 1rem 1rem;
+  padding: 0.5rem 1rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -124,7 +124,7 @@ $cover-width: 8.5px;
 
 .cover-links > .pub-misc > a {
   background-color: #ffffff;
-	padding: 0.25rem 0.35rem 0.25rem 0.35rem !important;
+	padding: 0.25rem 0.35rem !important;
 	border-radius: 0.25rem;
   margin-right: 0rem;
 }
