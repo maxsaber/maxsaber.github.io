@@ -4,17 +4,19 @@ title: About Max
 permalink: bio/
 ---
 
-Max Saber, DHA, MSHI is a Systems Engineer and Adjunct Professor in the School of Healthcare Business and Technology at the Massachusetts College of Pharmacy and Health Sciences in Boston, MA. Max teaches students enrolled in the BS in Bioinformatics, MBA in Healthcare Business, MS in Clinical Management, and the Doctorate in Healthcare Administration programs.
+Max Saber, DHA, MSHI is a Clinical Information Systems Engineer and Adjunct Professor at the Massachusetts College of Pharmacy and Health Sciences (MCPHS) in Boston, Massachusetts. Within MCPHS, Max instructs students pursuing graduate and undergraduate degrees in Bioinformatics, Healthcare Business Administration, Clinical Management, and Healthcare Administration.
 
-Max received his Master’s Degree in Health Informatics from Northeastern University and completed his Doctorate of Healthcare Administration with a concentration in Information Systems and Leadership at the Medical University of South Carolina in 2020. His professional background is in healthcare information system design, and implementation, interface usability, and human factored design. Max’s research interests include health services research, healthcare quality, cost and comparative effectiveness, social determinants of health, and health issues and disparities in the LGBTQIA+ community.
+With over a decade of specialized expertise in niche-market electronic health record systems, system architecture, and clinical/technical project management, Max excels in bridging the knowledge gap between clinical, technical, and administrative teams. His role involves translating needs, requirements, and expectations among these groups. Max was honored with the Innovative Solutions Award in 2019 for implementing cutting-edge clinical EHR technology within an academic setting, while overseeing a diverse project team of clinical and non-clinical staff and faculty.
 
-Outside of teaching, Max works at MCPHS University with Information Services as a Systems Engineer and manages the clinical applications in use by the University clinics amongst a laundry list of other applications. With any free time, Max is an avid cyclist and enjoys golfing and traveling abroad.
+Max obtained his Master's Degree in Health Informatics from Northeastern University and completed his Doctorate of Healthcare Administration, specializing in Information Systems and Leadership, at the Medical University of South Carolina in 2020. His professional background is centered on healthcare information system design, implementation, interface usability, and human-centered design. Max's research interests encompass health services research, healthcare quality, cost-effectiveness, social determinants of health, and health disparities within the LGBTQIA+ community.
 
-Max is an out and proud member of the LGBTQIA+ community and currently lives in Boston, MA with his four-year-old French Bulldog, Goose.
+Beyond his educational role, Max serves as a Systems Engineer at MCPHS University's Information Services, where he oversees various clinical applications, including those used by University clinics, among other responsibilities. In his leisure time, Max is an enthusiastic cyclist who also enjoys golfing and international travel.
+
+Max proudly identifies as a member of the LGBTQIA+ community and currently resides in Boston, Massachusetts, alongside his four-year-old French Bulldog, Goose.
 
 <figure>
  <img style="width: 100%" class="center" src="/images/people/max-goose.jpeg">
- <figcaption>Max and Goose in front of the University sign</figcaption>
+ <figcaption>Max and Goose in front of the MUSC campus sign</figcaption>
 </figure>
 
 <div class="cv-spacer-large"></div>

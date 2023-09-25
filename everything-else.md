@@ -13,5 +13,5 @@ Things I do, including research, academic course projects, and miscellaneous int
 Inspired by projects like [The Setup][the-setup], here is the stuff I use.
 
 [projects]: {{ site.url }}/projects
-[stuff-i-use]: {{ site.url }}/blog/personal/stuff-i-use "Stuff I Use."
+[stuff-i-use]: {{ site.url }}/personal/2022/stuff-i-use "Stuff I Use."
 [the-setup]: <https://usesthis.com>

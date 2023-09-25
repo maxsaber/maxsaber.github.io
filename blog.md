@@ -7,7 +7,7 @@ permalink: blog/
 <h1>Welcome!</h1>
 Welcome to my blog! You're under no obligation to read anything I post here, nor do I really expect anyone to, but I'm using this space to chronicle some of the fun things I do here and there. Each section will have a few of my newest posts for each category, head on over to the <a href="{{ site.baseurl }}/archive">post archive</a> for the rest!
 
-I'm currently working on transferring all of my old posts from my previous site, so if you're looking for something specific and it's not here, check back soon! I'm moving them over in no particular order :smile:
+I'm currently working on transferring all of my old posts from my previous site, so if you're looking for something specific and it's not here, check back soon! I'm moving them over in no particular order.
 
 <h2>Latest Post</h2>
 <div class="posts">
