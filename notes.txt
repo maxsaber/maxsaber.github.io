@@ -21,3 +21,6 @@ https://github.com/jekyll/jekyll/issues/8541
 Anchor links
 https://www.bryanbraun.com/anchorjs/
 https://github.com/bryanbraun/anchorjs
+
+target=_blank URL fixer:
+https://github.com/keithmifsud/jekyll-target-blank

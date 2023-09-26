@@ -52,7 +52,3 @@ function onYouTubeIframeAPIReady() {
 	}
 
 }
-
-function onPlayerReady(event) {
-	// player.mute()
-}

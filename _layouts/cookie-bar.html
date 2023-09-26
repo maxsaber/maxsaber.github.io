@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Acknowledgement</title>
+    <style>
+        /* Style for the cookie bar */
+        #cookie-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            z-index: 999;
+        }
+
+        /* Style for the close button */
+        #cookie-bar button {
+            background-color: transparent;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="cookie-bar">
+        <div>This website uses cookies to improve your experience. By using this site, you agree to our use of cookies.</div>
+        <button id="accept-cookie">Got it!</button>
+    </div>
+
+    <script>
+        // JavaScript to handle cookie acknowledgement
+        const cookieBar = document.getElementById('cookie-bar');
+        const acceptButton = document.getElementById('accept-cookie');
+
+        // Check if the user has previously accepted the cookie
+        const isCookieAccepted = localStorage.getItem('cookieAccepted');
+
+        // If the user has not accepted the cookie, show the cookie bar
+        if (!isCookieAccepted) {
+            cookieBar.style.display = 'block';
+        }
+
+        // Event listener for accepting the cookie
+        acceptButton.addEventListener('click', () => {
+            localStorage.setItem('cookieAccepted', 'true');
+            cookieBar.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
