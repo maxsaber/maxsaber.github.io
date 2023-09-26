@@ -95,14 +95,6 @@ $blog-author-image-size: 60px;
 	color: $text-color;
 }
 
-.author-image {
-	height: $blog-author-image-size;
-	width: $blog-author-image-size;
-	border-radius: math.div($blog-author-image-size, 2);
-	margin: 0 auto;
-	margin-bottom: 0.5rem;
-}
-
 #blog-post-hero {
 	width: fit-content;
 }
