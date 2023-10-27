@@ -28,7 +28,7 @@ title: Home
 </div>
 
 <div class="intro-right">
- <img id="intro-image" class="intro-right" src="/images/portrait.jpg">
+ <img id="intro-image" class="intro-right" src="/images/2023-Square.jpeg">
  <div style="height: 0.5rem"></div>
  <div id="intro-image-links" class="intro-right">
   {% for link in site.data.social-links %}
