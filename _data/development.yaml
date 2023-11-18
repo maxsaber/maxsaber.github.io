@@ -1,5 +1,12 @@
 # CV Section: "Pedagogical Development"
 
+- course-name: "Research Methodology & Statistics"
+  course-id: "DHY.714"
+  department: "Forsyth School of Dental Hygiene"
+  semester: "Spring 2024"
+  type: redesign
+  link:
+
 - course-name: "Statistical Programming using SAS"
   course-id: "PEP.809"
   department: "School of Pharmacy"
@@ -41,7 +48,7 @@
   department: "School of Healthcare Business and Technology"
   semester: "Fall 2021"
   type: new
-  link:
+  link: /courses/hcm828
 
 - course-name: "Data Visualization"
   course-id: "BMI.410"
