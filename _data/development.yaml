@@ -12,7 +12,7 @@
   department: "School of Pharmacy"
   semester: "Spring 2023"
   type: redesign
-  link:
+  link: /courses/pep809
 
 - course-name: "Human Factors and Information Systems"
   course-id: "HIN.773"
@@ -55,32 +55,32 @@
   department: "School of Healthcare Business and Technology"
   semester: "Summer 2021"
   type: redesign
-  link:
+  link: /courses/bmi410
 
 - course-name: "Business Statistics"
   course-id: "HCM.722"
   department: "School of Healthcare Business and Technology"
   semester: "Summer 2019"
   type: redesign
-  link:
+  link: /courses/hcm722
 
 - course-name: "Clinical Informatics & Data Analysis"
   course-id: "HCM.821"
   department: "School of Healthcare Business and Technology"
   semester: "Spring 2019"
   type: new
-  link:
+  link: #/courses/hcm821
 
 - course-name: "Informatics & Data Analysis"
   course-id: "HCM.820"
   department: "School of Healthcare Business and Technology"
   semester: "Fall 2018"
   type: new
-  link:
+  link: /courses/hcm820
 
 - course-name: "Managing Healthcare Information Systems"
   course-id: "HCA.780"
   department: "MCPHS Online"
   semester: "Summer 2014"
   type: new
-  link:
+  link: /courses/hca780

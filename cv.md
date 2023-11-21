@@ -77,23 +77,34 @@ jsarr:
 ## Teaching
 
 <div class="cv-service-title"><b>MCPHS University</b></div>
-<div class="cv-service-subtitle"><i>Graduate Studies, School of Healthcare Business and Technology</i></div>
+<div class="cv-service-subtitle"><i><b>Graduate Studies</b></i></div>
+
+<div class="cv-service-subtitle"><i>School of Healthcare Business and Technology</i></div>
 {% for teach in site.data.teaching %}
 {% if teach.level == 'graduate' and teach.school == 'shcb'%}
 {% include cv/teaching.html teach=teach %}
 {% endif %}
 {% endfor %}
 
-<div class="cv-service-subtitle"><i>Graduate Studies, School of Pharmacy-Boston</i></div>
 {% for teach in site.data.teaching %}
 {% if teach.level == 'graduate' and teach.school == 'sop-b'%}
+<div class="cv-service-subtitle"><i>School of Pharmacy - Boston</i></div>
 {% include cv/teaching.html teach=teach %}
 {% endif %}
 {% endfor %}
 
-<div class="cv-service-subtitle"><i>Undergraduate Studies, School of Healthcare Business and Technology</i></div>
+{% for teach in site.data.teaching %}
+{% if teach.level == 'graduate' and teach.school == 'fsdh' and teach.active == 'true' %}
+<div class="cv-service-subtitle"><i>Forsyth School of Dental Hygiene</i></div>
+{% include cv/teaching.html teach=teach %}
+{% endif %}
+{% endfor %}
+
+<div class="cv-service-subtitle"><i><b>Undergraduate Studies</b></i></div>
+
 {% for teach in site.data.teaching %}
 {% if teach.level == 'undergraduate' and teach.school == 'shcb' %}
+<div class="cv-service-subtitle"><i>School of Healthcare Business and Technology</i></div>
 {% include cv/teaching.html teach=teach %}
 {% endif %}
 {% endfor %}
