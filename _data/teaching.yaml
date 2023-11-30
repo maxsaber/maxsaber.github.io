@@ -17,8 +17,8 @@
 - institution: MCPHS University
   position: Instructor of Record
   location: "Boston, MA"
-  year: "Spring 2023, Spring 2024"
-  year-short: "Spring 2023 - Spring 2024"
+  year: "Spring 2023"
+  year-short: "Spring 2023"
   class: "Statistical Programming Using SAS (PEP.809)"
   description: "This class is designed to give students the necessary tools to manipulate and/or restructure a certain dataset before it can be analyzed using one of the statistical procedures. This course is essential for database management. Students can use SAS to analyze data for their poster presentations, thesis projects, peer-reviewed journal articles, and job internships."
   institution-url: https://mcphs.edu
