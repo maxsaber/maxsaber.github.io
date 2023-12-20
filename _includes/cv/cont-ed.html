@@ -1,0 +1,19 @@
+<div class="cv-left-date">{{ cont-ed.date }}</div>
+{% if cont-ed.provider %}
+<div>
+  {{ cont-ed.course-name }}, ({{ cont-ed.school }}, {{ cont-ed.provider }})
+</div>
+{% else %}
+<div>{{ cont-ed.course-name }}, ({{ cont-ed.school }})</div>
+{% endif %}
+<div class="pub-misc">
+  {% if cont-ed.cert-link %}
+  <a href="{{ cont-ed.cert-link }}">
+    <i class="fas fa-certificate" aria-hidden="true"></i> Certificate
+  </a>
+  {% endif %} {% if cont-ed.course-link %}
+  <a href="{{ cont-ed.course-link }}">
+    <i class="fas fa-globe" aria-hidden="true"></i> Course Link
+  </a>
+  {% endif %}
+</div>

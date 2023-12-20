@@ -198,6 +198,13 @@ jsarr:
 {% endfor %}
 <div class="cv-description" align="right"><a href="{{ site.url }}/cv#top">↑ Return to Top</a></div>
 
+## Continuing Education
+
+{% for cont-ed in site.data.cont-ed %}
+{% include cv/cont-ed.html ce=ce %}
+{% endfor %}
+<div class="cv-description" align="right"><a href="{{ site.url }}/cv#top">↑ Return to Top</a></div>
+
 ## Honors and Awards
 
 {% for award in site.data.awards %}
@@ -233,9 +240,9 @@ jsarr:
 
 ## Contact
 
-Max Saber  
-660 Huntington Ave
-Boston, MA 02115
-774.644.1542  
+Max Saber<br>
+660 Huntington Ave<br>
+Boston, MA 02115<br>
+774.644.1542<br>
 `max@maxsaber.com`<br>
 <a href="<https://maxsaber.com>">https://maxsaber.com</a>
