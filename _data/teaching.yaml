@@ -45,8 +45,8 @@
 - institution: MCPHS University
   position: Instructor of Record
   location: "Boston, MA"
-  year: "Spring 2019, Summer 2019, Spring 2020, Summer 2020, Fall 2020, Spring 2021 (three sections), Spring 2022 (faculty reference)"
-  year-short: "Spring 2019 - Spring 2022"
+  year: "Spring 2019, Summer 2019, Spring 2020, Summer 2020, Fall 2020, Spring 2021 (three sections), Spring 2022 (faculty reference), Spring 2024"
+  year-short: "Spring 2019 - Spring 2024"
   class: "Informatics & Data Analysis (HCM.820)"
   description: "This master's level course provides a hands-on approach to performing statistical data analyses on synthetic datasets to describe population characteristics, identify trends and associations, and how show data analytics are employed to answer real-world healthcare access and cost questions using SPSS. Students used Tableau during the course's data visualization modules building reports and interactive dashboards."
   institution-url: https://mcphs.edu
