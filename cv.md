@@ -176,20 +176,20 @@ jsarr:
 ## Professional Certifications and Licensures
 
 <!-- Uses certifications.yaml for data -->
-{% for certifications in site.data.certifications %}
 {% if certifications.complete == 'yes' %}
+{% for certifications in site.data.certifications %}
 <div class="cv-service-title"><b>Professional Certifications</b></div>
 {% include cv/certifications.html name=name %}
-{% endif %}
 {% endfor %}
+{% endif %}
 
+{% if certifications.complete == 'no' %}
 <div class="cv-service-title"><b>Professional Certifications In Progress</b></div>
 <!-- Uses certifications.yaml for data -->
 {% for certifications in site.data.certifications %}
-{% if certifications.complete == 'no' %}
 {% include cv/certifications.html name=name %}
-{% endif %}
 {% endfor %}
+{% endif %}
 
 <div class="cv-service-title"><b>Licensure</b></div>
 <!-- Uses licensure.yaml for data -->

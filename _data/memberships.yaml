@@ -1,5 +1,15 @@
 # CV Section: "Service > Professional Memberships"
 
+- org: American College of Health Data Management
+  org-shorthand: ACHDM
+  years: "2024 — Present"
+  url: https://fachdm.org
+
+- org: Massachusetts Biotechnology Council
+  org-shorthand: MassBIO
+  years: "2022 — Present"
+  url: https://massbio.org
+
 - org: Out in Science, Technology, Engineering, and Mathematics
   org-shorthand: oSTEM
   years: "2022 — Present"
@@ -30,12 +40,12 @@
   years: "2017 — Present"
   url: https://www.ache.org/membership/communities-forums-and-networks/lgbt-community
 
-- org: American Health Information Management Association
-  org-shorthand: AHIMA
-  years: "2013 — Present"
-  url: https://ahima.org/
-
 - org: Healthcare Information and Management Systems Society
   org-shorthand: HIMSS
   years: "2012 — Present"
   url: https://www.himss.org/
+
+- org: American Health Information Management Association
+  org-shorthand: AHIMA
+  years: "2013 — 2016"
+  url: https://ahima.org/
