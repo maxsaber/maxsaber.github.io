@@ -2,10 +2,23 @@
 
 - institution: "MCPHS University"
   location: "Boston, MA"
+  position: "Director, Enterprise Applications"
+  group: "Information Services"
+  year: "Mar. 2024 —"
+  year-extra: "Present"
+  description:
+  institution-url: https://mcphs.edu
+  group-url:
+  type: industry
+  list: true
+  collapse: true
+
+- institution: "MCPHS University"
+  location: "Boston, MA"
   position: "Systems Engineer II"
   group: "Information Services"
   year: "Jan. 2016 —"
-  year-extra: "Present"
+  year-extra: "Mar. 2024"
   description:
     - During the acquisition and merger of the New England School of Acupuncture, lead the clinical and technological transition to a newly renovated $1m treatment center and specialty Chinese Herbal Medicine Dispensary
     - Directed the procurement of UnifiedPractice, a SaaS based acupuncture practice management and EMR system

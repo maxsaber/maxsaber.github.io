@@ -1,0 +1,47 @@
+# feature-parametric-order: 1000 = inf
+
+- title: "Parametric Press, Issue 02: The Climate Issue"
+  authors:
+    - Matthew Conlen
+    - Fred Hohman
+    - Sara Stalla
+    - Andrew Sass
+  description: "Interactively analyze our climate’s past, present, and future"
+  month: "October"
+  year: "2020"
+  # year-extra: "Dec. 2018"
+  url: https://parametric.press/issue-02/
+  code: https://github.com/ParametricPress
+  image: /images/featured/parametric-press-issue-02.png
+  feature-title: "Parametric Press: Issue 02"
+  feature-description: "Interactively analyze and learn about our climate’s past, present, and future"
+  feature-order: 2
+  featured: true
+  parametric-issue: true
+  parametric-issue-number: 2
+  parametric: false
+  feature-parametric-order: 1000
+
+- title: "Parametric Press, Issue 01: Science + Society"
+  authors:
+    - Matthew Conlen
+    - Fred Hohman
+    - Sara Stalla
+    - Victoria Uren
+    - Andrew Sass
+  description: "An experimental, born-digital magazine dedicated to showcasing the expository power that’s possible when the audio, visual, and interactive capabilities of dynamic media are effectively combined"
+  month: "May"
+  year: "2019"
+  # year-extra: "Dec. 2018"
+  url: https://parametric.press/issue-01/
+  code: https://github.com/ParametricPress
+  image: /images/featured/parametric-press-issue-01.png
+  award: "Top of Hacker News, twice"
+  feature-title: "Parametric Press: Issue 01"
+  feature-description: "A born-digital magazine showcasing the expository power of the web"
+  feature-order: 3
+  featured: true
+  parametric-issue: true
+  parametric-issue-number: 1
+  parametric: false
+  feature-parametric-order: 1000
