@@ -10,4 +10,4 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/27e576888b06edfa1cbc/maintainability)](https://codeclimate.com/github/maxsaber/maxsaber.github.io/maintainability)
 [![CodeFactor](https://www.codefactor.io/repository/github/maxsaber/maxsaber.github.io/badge)](https://www.codefactor.io/repository/github/maxsaber/maxsaber.github.io)
 
-I’m a Systems Engineer and an Adjunct Professor of Healthcare Business, and this is my Jekyll website.
+I’m the Director of Enterprise Applications and an Adjunct Professor of Healthcare Business at MCPHS University, and this is my Jekyll website.

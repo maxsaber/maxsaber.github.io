@@ -10,7 +10,7 @@ title: Home
  <div id="intro-title-name" class="intro-left">
   <h1 id="intro-title">Hi, I'm Max Saber</h1>
   <div id="intro-subtitle">
-   I'm a Systems Engineer and an Adjunct Professor of Healthcare Administration and Business
+   I'm a Director of Enterprise Applications and an Adjunct Professor of Healthcare Administration and Business
   </div>
  </div>
  <div class="intro-left">
