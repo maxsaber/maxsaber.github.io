@@ -8,11 +8,11 @@
   class: "Research Methodology & Statistics (DHY.714)"
   description: "Students will learn fundamental biostatistical and study design concepts routinely used in epidemiologic and clinical research, with a special emphasis on oral health research. Concepts will be reinforced through critical evaluation of peer-reviewed oral health research. Furthermore, basic data management, data analysis, interpretation and write up of results will be discussed. Training on using SPSS statistical software tools will be provided."
   institution-url: https://mcphs.edu
-  syllabus-pdf: /files/courses/2024SU_DHY_714.pdf
-  course-info: /courses/dhy714
+  #syllabus-pdf: /files/courses/2024SU_DHY_714.pdf
+  #course-info: /courses/dhy714
   level: graduate
   school: fsdh
-  active: false
+  active: true
 
 - institution: MCPHS University
   position: Instructor of Record

@@ -2,11 +2,18 @@
 
 - institution: "MCPHS University"
   location: "Boston, MA"
-  position: "Director, Enterprise Applications"
+  position: "Director of Enterprise Applications and Development"
   group: "Information Services"
-  year: "Mar. 2024 —"
+  year: "Apr. 2024 —"
   year-extra: "Present"
   description:
+    - Responsible for the development of application suites supporting the University, understanding their capabilities, limitations, and strategies
+    - Contributes to the development of high-performance teams through rigorous goal setting, continuous process improvement, and mentorship
+    - Lead team(s) of internal and external 3rd party resources performing design and development activities for university business
+    - Collaborate with department leadership to develop annual budgets for enterprise application initiatives, including software licensing, development projects, and ongoing maintenance costs
+    - Monitor and develop strategies for data management and integration throughout the transactional input systems and the analytical processes needed to support each business segment
+    - Develop and execute test plans to ensure that a product or system meets the design specification, security, and other requirements
+    - Partner with users to understand their business needs for information and opportunities for use of technology to improve their processes and help them meet their business objectives
   institution-url: https://mcphs.edu
   group-url:
   type: industry
@@ -18,7 +25,7 @@
   position: "Systems Engineer II"
   group: "Information Services"
   year: "Jan. 2016 —"
-  year-extra: "Mar. 2024"
+  year-extra: "Apr. 2024"
   description:
     - During the acquisition and merger of the New England School of Acupuncture, lead the clinical and technological transition to a newly renovated $1m treatment center and specialty Chinese Herbal Medicine Dispensary
     - Directed the procurement of UnifiedPractice, a SaaS based acupuncture practice management and EMR system

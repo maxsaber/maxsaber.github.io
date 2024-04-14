@@ -6,7 +6,7 @@ jsarr:
 - js/scripts.js
 ---
 
-<h1 id="cv-title"><a href="{{ site.url }}">Max Saber, DHA, MSHI</a></h1>
+<h1 id="cv-title"><a href="{{ site.url }}">Max Saber, DHA, MSHI, FACHDM</a></h1>
 <p id="cv-subtitle"><i>Director of Enterprise Applications & Adjunct Professor of Healthcare Business</i></p>
 
 ***
@@ -94,7 +94,7 @@ jsarr:
 {% endfor %}
 
 {% for teach in site.data.teaching %}
-{% if teach.level == 'graduate' and teach.school == 'fsdh' and teach.active == 'true' %}
+{% if teach.level == 'graduate' and teach.school == 'fsdh' %}
 <div class="cv-service-subtitle"><i>Forsyth School of Dental Hygiene</i></div>
 {% include cv/teaching.html teach=teach %}
 {% endif %}
