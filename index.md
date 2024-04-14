@@ -10,16 +10,17 @@ title: Home
  <div id="intro-title-name" class="intro-left">
   <h1 id="intro-title">Hi, I'm Max Saber</h1>
   <div id="intro-subtitle">
-   I'm a Director of Enterprise Applications and an Adjunct Professor of Healthcare Administration and Business
+   Director of Enterprise Applications and Development <br>
+   Adjunct Professor of Healthcare Administration and Business
   </div>
  </div>
  <div class="intro-left">
  <div class="intro-left">
-  I'm a clinical informaticist and healthcare information system engineer with more than ten years of specialized experience with niche market electronic health record systems, system architecture, and clinical/technical project management. I'm typically best placed in a room to bridge knowledge gaps between clinical, technical, and administrative teams and translate needs, requirements, and expectations between the three groups. I have been awarded the <i>Innovative Solutions Award</i> in 2019 for implementing new clinical EHR technology in an academic setting while managing a diverse project team of clinical and non-clinical staff and faculty.
+  I'm a clinical informaticist and healthcare information system engineer with more than ten years of specialized experience with niche market electronic health record systems, system architecture, and clinical/technical project management. I'm typically best placed in a room to bridge knowledge gaps between clinical, technical, and administrative teams and translate needs, requirements, and expectations between the three groups. I have been awarded the <i>Innovative Solutions Award</i> in 2019 for implementing new clinical EHR technology in an academic setting while managing a diverse project team of clinical and non-clinical staff and faculty. Recently in recognition of various contributions to the field, I've received appointment as a Fellow of the American College of Health Data Management.
  </div>
  <div style="height: 1rem"></div>
  <div class="intro-left">
- Additionally, I also hold adjunct faculty appointments with both the School of Healthcare Business and Technology and the School of Pharmacy at MCPHS University. In these two departments, I teach graduate and undergraduate courses in data visualization, health informatics, human factor technology design, and statistical data analysis.
+ Additionally, I also hold adjunct faculty appointments inside the School of Healthcare Business and Technology, the School of Pharmacy, and the most recently the Forsyth School of Dental Hygiene at MCPHS University. In these Schools, I teach graduate and undergraduate courses in data visualization, health informatics, human factor technology design, and statistical data analysis.
  </div>
  <div style="height: 1rem"></div>
  <div class="intro-left">
