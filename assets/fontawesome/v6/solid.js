@@ -23,6 +23,20 @@
   var IS_DOM = !!DOCUMENT.documentElement && !!DOCUMENT.head && typeof DOCUMENT.addEventListener === 'function' && typeof DOCUMENT.createElement === 'function';
   var IS_IE = ~userAgent.indexOf('MSIE') || ~userAgent.indexOf('Trident/');
 
+  /**
+   * @description Returns an array of own property keys of an object, excluding
+   * non-enumerable ones if requested. It also includes symbols (key value pairs without
+   * a property name) that are enumerable.
+   * 
+   * @param { object } object - object whose keys are to be retrieved and filtered.
+   * 
+   * @param { boolean } enumerableOnly - filter that is applied to the symbol keys, and
+   * only the symbol keys that are denoted as enumerable will be included in the resulting
+   * array.
+   * 
+   * @returns { array } an array of keys for an object, including both own and inherited
+   * properties.
+   */
   function ownKeys(object, enumerableOnly) {
     var keys = Object.keys(object);
 
@@ -36,6 +50,16 @@
     return keys;
   }
 
+  /**
+   * @description Spreads properties from one or more objects to another object by
+   * merging the property keys and values.
+   * 
+   * @param { object } target - object to which the contents of the other arguments are
+   * spread.
+   * 
+   * @returns { object } a modified version of the `target` object with properties from
+   * the input arguments merged into it.
+   */
   function _objectSpread2(target) {
     for (var i = 1; i < arguments.length; i++) {
       var source = null != arguments[i] ? arguments[i] : {};
@@ -49,6 +73,39 @@
     return target;
   }
 
+  /**
+   * @description Sets or creates a property on an object based on provided key and
+   * value, with configurable, enumerable, and writable options.
+   * 
+   * @param { object } obj - object to which the property is being defined or assigned.
+   * 
+   * @param { string } key -
+   * 
+   * @param { enumerable, configurable, writable value. } value - new value that will
+   * be assigned to the property of the object when the function is called.
+   * 
+   * 		- `value`: The value to be defined as a property on the given object `obj`.
+   * 		- `enumerable`: A boolean indicating whether the property is enumerable or not.
+   * If `true`, the property will be included in the prototype's enumeration cycle, and
+   * if `false`, it won't.
+   * 		- `configurable`: A boolean indicating whether the property is configurable or
+   * not. If `true`, the property can be redefined; otherwise, it cannot.
+   * 		- `writable`: A boolean indicating whether the property is writable or not. If
+   * `true`, the value of the property can be changed; otherwise, it cannot.
+   * 
+   * @returns { obj } an object with the specified property set to the given value.
+   * 
+   * 		- `value`: The value associated with the key in the object.
+   * 		- `enumerable`: Whether or not the property is enumerable. If `true`, the property
+   * can be accessed by iterating over the keys of the object using a `for...in` loop;
+   * otherwise, it will not be included in such iteration.
+   * 		- `configurable`: Whether or not the property can be changed after it is created.
+   * If `true`, the property can be modified or deleted; otherwise, it cannot be modified
+   * or deleted.
+   * 		- `writable`: Whether or not the property can have its value overwritten. If
+   * `true`, the value can be changed; otherwise, it will throw an error if attempted
+   * to be reassigned.
+   */
   function _defineProperty(obj, key, value) {
     if (key in obj) {
       Object.defineProperty(obj, key, {
@@ -64,18 +121,64 @@
     return obj;
   }
 
+  /**
+   * @description Converts any iterable (or some non-iterable types) to an array,
+   * handling different cases: iterable with no holes, iterable that can be iterated
+   * over, unsupported iterable type, or returns a fallback value.
+   * 
+   * @param { array } arr - iterable or array that is to be transformed into a consumable
+   * array.
+   * 
+   * @returns { array } an array of all the elements in the input array, regardless of
+   * whether they are holes or not.
+   */
   function _toConsumableArray(arr) {
     return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();
   }
 
+  /**
+   * @description Takes an array `arr` as input and returns an array with all null,
+   * undefined, and holes removed.
+   * 
+   * @param { array } arr - ndex of an array to be converted into a flat, sparse array
+   * without any holes or missing values.
+   * 
+   * @returns { array } an array of values without any `null`, `Undefined`, or `empty`
+   * values.
+   */
   function _arrayWithoutHoles(arr) {
     if (Array.isArray(arr)) return _arrayLikeToArray(arr);
   }
 
+  /**
+   * @description Converts an iterable object into an array. It first checks if the
+   * input is a symbol or has an iterator method, and then returns an array representation
+   * of it if so.
+   * 
+   * @param { iterable value. } iter - Iterable object or value that the function will
+   * transform into an array.
+   * 
+   * 		- If `Symbol` is defined in the environment and `iter[Symbol.iterator]` or
+   * `iter[@@iterator]` is not null, the function returns an array created from `iter`.
+   * 
+   * @returns { array } an array of values from the given iterable object.
+   */
   function _iterableToArray(iter) {
     if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter);
   }
 
+  /**
+   * @description Converts any iterable object to an array. It checks for string, array,
+   * map, set, and some specialized objects before returning an array.
+   * 
+   * @param { object } o - object to be converted into an array, and it is used to
+   * determine the type of the object and generate the appropriate output.
+   * 
+   * @param { integer } minLen - minimum length of the array that is generated from the
+   * unsupported iterable object.
+   * 
+   * @returns { array } an array of values contained within the input iterable.
+   */
   function _unsupportedIterableToArray(o, minLen) {
     if (!o) return;
     if (typeof o === "string") return _arrayLikeToArray(o, minLen);
@@ -85,6 +188,20 @@
     if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
   }
 
+  /**
+   * @description Takes an array `arr` and a positive integer `len` as input, returning
+   * a new array with the same elements as `arr` but with a specified length.
+   * 
+   * @param { array } arr - 2D or multidimensional array that is being converted into
+   * a 1D array.
+   * 
+   * @param { integer } len - maximum length of the new array that will be created, and
+   * it is used to determine the number of elements that will be included in the new
+   * array when creating it from the original array.
+   * 
+   * @returns { array } a new array with the same elements as the input array, but with
+   * the length set to the maximum of the input length and the actual length of the array.
+   */
   function _arrayLikeToArray(arr, len) {
     if (len == null || len > arr.length) len = arr.length;
 
@@ -93,6 +210,10 @@
     return arr2;
   }
 
+  /**
+   * @description Throws a `TypeError` when an non-iterable instance is attempted to
+   * be spread, indicating that only iterable objects can be iterated over.
+   */
   function _nonIterableSpread() {
     throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
   }
@@ -111,6 +232,18 @@
   var FAMILY_SHARP = 'sharp';
   var FAMILIES = [FAMILY_CLASSIC, FAMILY_SHARP];
 
+  /**
+   * @description Creates a proxy object that delegates property access to either the
+   * provided `obj` or the classic `FAMILY_CLASSIC` value if `obj` is not available.
+   * 
+   * @param { object } obj - object that will be passed through the Proxy constructor,
+   * providing its properties to be intercepted and transformed through the specified
+   * get method.
+   * 
+   * @returns { object } a Proxy object that returns the value of the `prop` property
+   * from the original object, or falls back to the default classic family if `prop`
+   * is not available.
+   */
   function familyProxy(obj) {
     // Defaults to the classic family if family is not available
     return new Proxy(obj, {
@@ -201,6 +334,22 @@
     return "w-".concat(n);
   }));
 
+  /**
+   * @description Is a recursive function that calls another function `fn` with an
+   * arbitrary number of arguments, catching and ignoring any errors that occur during
+   * the call in non-production environments.
+   * 
+   * @param { function reference/expression/value. } fn - code that will be executed
+   * when the function is called, and it is applied to the code using the `apply()`
+   * method when the function is invoked.
+   * 
+   * 		- `fn`: This is the input function that gets applied to an array of arguments
+   * after being passed through the `apply()` method.
+   * 		- `arguments`: An array containing the arguments to be passed to the function.
+   * 		- `PRODUCTION`: A boolean variable that indicates whether the function should
+   * throw an error if it encounters an exception during execution (only present in
+   * non-production environments).
+   */
   function bunker(fn) {
     try {
       for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
@@ -222,6 +371,18 @@
   if (!w[NAMESPACE_IDENTIFIER].shims) w[NAMESPACE_IDENTIFIER].shims = [];
   var namespace = w[NAMESPACE_IDENTIFIER];
 
+  /**
+   * @description Takes an object `icons` as input and returns a new object with
+   * normalized icon keys. It checks if each key has an `icon` property, and if so,
+   * includes that property in the output. If not, it includes the key itself.
+   * 
+   * @param { object } icons - Object containing key-value pairs where each key is an
+   * icon name and each value can be either an Icon object or an icon name, allowing
+   * for optional nested icon structure normalization.
+   * 
+   * @returns { object } an object where key-value pairs represent normalized icons and
+   * their associated icon names.
+   */
   function normalizeIcons(icons) {
     return Object.keys(icons).reduce(function (acc, iconName) {
       var icon = icons[iconName];
@@ -237,6 +398,19 @@
     }, {});
   }
 
+  /**
+   * @description Defines icon styles for a given prefix, merging provided icons with
+   * any existing styles defined for that prefix, and optionally adding hooks for
+   * additional styles or aliasing "fas" to "fa".
+   * 
+   * @param { string } prefix - alias for an icon style that is applied to all of the
+   * icon definitions passed to the function, allowing users to upgrade seamlessly from
+   * Font Awesome 4 to new styles without any conflict.
+   * 
+   * @param { object } icons - 2D or SVG icon symbols to be added to the Font Awesome
+   * namespace, which can be passed as an array of strings or a map of icon name to
+   * HTML- escaped string.
+   */
   function defineIcons(prefix, icons) {
     var params = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
     var _params$skipHooks = params.skipHooks,

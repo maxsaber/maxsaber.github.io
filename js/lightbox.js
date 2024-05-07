@@ -1,8 +1,36 @@
+/**
+ * @description Determines if a given URL is an image link by matching it against a
+ * regular expression pattern that recognizes URLs for images (jpg, jpeg, png, gif).
+ * 
+ * @param { string } url - image link to be checked for validity using the regular
+ * expression pattern.
+ * 
+ * @returns { boolean } a boolean value indicating whether the provided URL is an
+ * image link or not.
+ */
 function is_imagelink(url) {
     var p = /([a-z\-_0-9\/\:\.]*\.(jpg|jpeg|png|gif))/i;
     return (url.match(p)) ? true : false;
 }
 
+/**
+ * @description Removes class="gallery" from all elements with a specific ancestor
+ * element, then adds "current" class to an arbitrary element within that ancestor's
+ * descendants, and sets up event listeners for next and previous buttons.
+ * 
+ * @param { Element (HTML Tag) } el - element that initiates the gallery navigation
+ * functionality, and it is used to find and manipulate other elements in the DOM to
+ * implement the lightbox effect.
+ * 
+ * 		- `closest`: Returns the closest ancestor element to the specified element,
+ * ignoring document fragments.
+ * 		- `querySelectorAll`: Retrieves a set of elements that match the selector within
+ * the document context.
+ * 		- `getAttribute`: Gets the value of an attribute on an HTML element.
+ * 
+ * 	Based on these properties, it can be inferred that `el` is likely an anchor element
+ * with certain attributes, such as `href`.
+ */
 function setGallery(el) {
     var elements = document.body.querySelectorAll(".gallery");
     elements.forEach(element => {

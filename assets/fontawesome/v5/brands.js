@@ -32,6 +32,19 @@
     }
   }();
 
+  /**
+   * @description Wraps another function `fn` and catches any exceptions thrown inside
+   * it. If in DEVELOPMENT mode, it re-throws the exception, otherwise it swallows the
+   * exception silently.
+   * 
+   * @param { function. } fn - code to be executed, and the function `bunker` executes
+   * it after handling potential errors.
+   * 
+   * 		- `fn`: This is the function that is passed as an argument to the `bunker` function.
+   * 		- `PRODUCTION`: This variable determines whether an error is thrown or not in
+   * case of an exception. If it is set to `true`, an error will be thrown, otherwise,
+   * it will be caught and handled silently.
+   */
   function bunker(fn) {
     try {
       fn();
@@ -42,6 +55,35 @@
     }
   }
 
+  /**
+   * @description Updates or sets properties on an object, allowing for configurable
+   * and writable changes while preserving enumerability.
+   * 
+   * @param { object } obj - object to which the new property is being added or the
+   * existing property is being reassigned.
+   * 
+   * @param { string } key - property key to define or assign to an object.
+   * 
+   * @param { enumerable, configurable, writable property value. } value - new value
+   * that will be associated with the key provided when the function is called.
+   * 
+   * 		- `enumerable`: Set to `true`, indicating that the property can be accessed
+   * through the object's enumerable method.
+   * 		- `configurable`: Set to `true`, indicating that the property can be modified
+   * after it is defined.
+   * 		- `writable`: Set to `true`, indicating that the property can be written to after
+   * it is defined.
+   * 
+   * 	The original `value` input is not destructured or altered in any way during this
+   * process. It remains intact and unchanged as the output of the function.
+   * 
+   * @returns { obj } an object with updated property values.
+   * 
+   * 		- `value`: The value assigned to the property.
+   * 		- `enumerable`: Whether the property is enumerable or not.
+   * 		- `configurable`: Whether the property is configurable or not.
+   * 		- `writable`: Whether the property is writable or not.
+   */
   function _defineProperty(obj, key, value) {
     if (key in obj) {
       Object.defineProperty(obj, key, {
@@ -57,6 +99,17 @@
     return obj;
   }
 
+  /**
+   * @description Takes an object `target` and iteratively merges it with one or more
+   * sources, adding properties to `target`. It returns `target` after the merge process
+   * is complete.
+   * 
+   * @param { object } target - object that will be modified to include the properties
+   * and values from the other arguments passed to the function through the spread operator.
+   * 
+   * @returns { object } an object that contains all the properties from the input
+   * objects, with any symbols added through `Object.getOwnPropertySymbols` also included.
+   */
   function _objectSpread(target) {
     for (var i = 1; i < arguments.length; i++) {
       var source = arguments[i] != null ? arguments[i] : {};
@@ -83,6 +136,18 @@
   if (!w[NAMESPACE_IDENTIFIER].shims) w[NAMESPACE_IDENTIFIER].shims = [];
   var namespace = w[NAMESPACE_IDENTIFIER];
 
+  /**
+   * @description Takes in an array of icon definitions and prefix to use, and defines
+   * them in the specified namespace with automatically aliasing 'fas' prefix to 'fa'.
+   * 
+   * @param { string } prefix - icon prefix that will be used to define and alias
+   * 
+   * @param { object } icons - 2D icon font definitions to be merged with the existing
+   * styles namespace, including their names and corresponding values for each icon.
+   * 
+   * @returns { object } an object that maps icon names to their corresponding icons
+   * or icons with additional styles.
+   */
   function defineIcons(prefix, icons) {
     var params = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
     var _params$skipHooks = params.skipHooks,

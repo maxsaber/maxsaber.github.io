@@ -32,6 +32,18 @@
     }
   }();
 
+  /**
+   * @description Performs a safety catch-and-throw operation on any thrown exceptions
+   * inside it, before executing the passed function `fn`.
+   * 
+   * @param { "Function". } fn - function being called and is executed by the `bunker()`
+   * function.
+   * 
+   * 		- `fn` is an external function that can be called with arguments.
+   * 		- It may throw exceptions if it encounters errors during execution.
+   * 		- If the `PRODUCTION` variable is not `true`, the thrown exception will be caught
+   * and logged instead of being re-thrown.
+   */
   function bunker(fn) {
     try {
       fn();
@@ -42,6 +54,28 @@
     }
   }
 
+  /**
+   * @description Defines a new property on an object if it does not already exist, or
+   * assigns a new value to an existing property.
+   * 
+   * @param { object } obj - object on which the `defineProperty` method is being called,
+   * and it is used to store the updated properties of the object after the definition
+   * has been added or modified.
+   * 
+   * @param { string } key - property name to be defined or the existing property name
+   * that is being modified within the `defineProperty()` method.
+   * 
+   * @param { object } value - new value of the property being defined or the existing
+   * value of the property being updated, and it is used to set or modify the property's
+   * value within the `obj`.
+   * 
+   * @returns { obj } an object with a new property added or an existing property modified.
+   * 
+   * 		- `value`: The value associated with the key.
+   * 		- `enumerable`: Whether the property is enumerable or not.
+   * 		- `configurable`: Whether the property is configurable or not.
+   * 		- `writable`: Whether the property is writable or not.
+   */
   function _defineProperty(obj, key, value) {
     if (key in obj) {
       Object.defineProperty(obj, key, {
@@ -57,6 +91,17 @@
     return obj;
   }
 
+  /**
+   * @description Takes an object as the first argument and recursively spreads properties
+   * from additional objects into it, merging enumerable own keys and property descs
+   * only. It returns the modified object.
+   * 
+   * @param { object } target - object to which the spread properties will be added or
+   * overridden.
+   * 
+   * @returns { object } an object with the same keys and values as the input objects,
+   * with any inherited enumerable symbols added.
+   */
   function _objectSpread(target) {
     for (var i = 1; i < arguments.length; i++) {
       var source = arguments[i] != null ? arguments[i] : {};
@@ -83,6 +128,19 @@
   if (!w[NAMESPACE_IDENTIFIER].shims) w[NAMESPACE_IDENTIFIER].shims = [];
   var namespace = w[NAMESPACE_IDENTIFIER];
 
+  /**
+   * @description Maps icon definitions to a namespace, adding or modifying styles based
+   * on provided prefix and icon definitions.
+   * 
+   * @param { string } prefix - alias or shortcode to be used for defining additional
+   * icon sets, and it can be used to differentiate between multiple styles of icons.
+   * 
+   * @param { object } icons - 2D and 3D icon styles for Font Awesome, which are passed
+   * to the `defineIcons` function to generate the corresponding CSS definitions for
+   * each style.
+   * 
+   * @returns { object } a namespace object with defined icons and their properties.
+   */
   function defineIcons(prefix, icons) {
     var params = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
     var _params$skipHooks = params.skipHooks,
