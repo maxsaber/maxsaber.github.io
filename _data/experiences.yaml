@@ -145,6 +145,18 @@
 
 - institution: "MCPHS University"
   location: "Boston, MA"
+  position: "Adjunct Faculty"
+  group: "Forsyth School of Dental Hygiene"
+  year: "May 2024 —"
+  year-extra: "Present"
+  description:
+  institution-url: https://mcphs.edu
+  group-url: https://www.mcphs.edu/academics/schools/forsyth-school-of-dental-hygiene
+  type: academic
+  list: true
+
+- institution: "MCPHS University"
+  location: "Boston, MA"
   position: "Adjunct Professor, Healthcare Business"
   group: "School of Healthcare Business and Technology"
   year: "Jan. 2019 —"
