@@ -26,6 +26,35 @@
   var IS_DOM = !!DOCUMENT.documentElement && !!DOCUMENT.head && typeof DOCUMENT.addEventListener === 'function' && typeof DOCUMENT.createElement === 'function';
   var IS_IE = ~userAgent.indexOf('MSIE') || ~userAgent.indexOf('Trident/');
 
+  /**
+   * @description Updates an object's properties by defining a new property or overwriting
+   * an existing one with provided values for enumerable, configurable, writable flags
+   * and value.
+   * 
+   * @param { object } obj - object to which the new property is being defined.
+   * 
+   * @param { string } key - property key to define or modify in the target object `obj`.
+   * 
+   * @param { enumerable, configurable, writable property with its respective value
+   * assigned to it. } value - new value of the property to be defined or updated.
+   * 
+   * 		- `enumerable`: A boolean value indicating whether the property can be accessed
+   * using for...in or enumerator() loops.
+   * 		- `configurable`: A boolean value indicating whether the property can be modified.
+   * 		- `writable`: A boolean value indicating whether the property can be assigned to.
+   * 		- `value`: The initial value of the property, which is assigned to the object's
+   * property.
+   * 
+   * @returns { obj } an object with the specified property and its corresponding value.
+   * 
+   * 		- `value`: The value associated with the key in the object.
+   * 		- `enumerable`: A boolean indicating whether the property is enumerable or not.
+   * If `true`, the property will be included in the Object.keys() result.
+   * 		- `configurable`: A boolean indicating whether the property is configurable or
+   * not. If `true`, the value of the property can be modified.
+   * 		- `writable`: A boolean indicating whether the property is writable or not. If
+   * `true`, the value of the property can be modified.
+   */
   function _defineProperty(obj, key, value) {
     if (key in obj) {
       Object.defineProperty(obj, key, {
@@ -41,18 +70,60 @@
     return obj;
   }
 
+  /**
+   * @description Transforms any iterable object, including arrays, into a consumable
+   * array, either directly or through alternative approaches, to enable safe iteration
+   * and consumption by other functions.
+   * 
+   * @param { array } arr - array that is to be transformed into a consumable array
+   * using various methods.
+   * 
+   * @returns { array } an array of the input elements, either by direct conversion or
+   * through fallback methods.
+   */
   function _toConsumableArray(arr) {
     return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();
   }
 
+  /**
+   * @description Transforms an array-like object into a flat array without any holes,
+   * using the ` Array.isArray` method to check if it is a valid array and the
+   * `_arrayLikeToArray` function to convert it into a flat array.
+   * 
+   * @param { array } arr - 0-dimensional array to be transformed into a new array
+   * without any holes, using the provided `_arrayLikeToArray()` function.
+   * 
+   * @returns { array } an array without any holes.
+   */
   function _arrayWithoutHoles(arr) {
     if (Array.isArray(arr)) return _arrayLikeToArray(arr);
   }
 
+  /**
+   * @description Converts an object that has a `Symbol.iterator` property or `@@iterator`
+   * property to an array.
+   * 
+   * @param { object } iter - iterable object that the function will convert to an array.
+   * 
+   * @returns { array } an array of values from the input iterable.
+   */
   function _iterableToArray(iter) {
     if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter);
   }
 
+  /**
+   * @description Converts an iterable object into an array if it is not already an
+   * array or a string, using the `Object.prototype.toString` method to determine the
+   * type of the object.
+   * 
+   * @param { object } o - unsupported iterable object to be converted to an array.
+   * 
+   * @param { integer } minLen - minimum length that the resulting array must have after
+   * the iteration process is complete.
+   * 
+   * @returns { array } an array of the elements of the given iterable object, regardless
+   * of its type.
+   */
   function _unsupportedIterableToArray(o, minLen) {
     if (!o) return;
     if (typeof o === "string") return _arrayLikeToArray(o, minLen);
@@ -62,6 +133,20 @@
     if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
   }
 
+  /**
+   * @description Takes an array `arr` and a number `len` as input, creates a new array
+   * `arr2` with the same elements as `arr`, and returns `arr2`.
+   * 
+   * @param { array } arr - 1D array whose elements will be copied into a new array
+   * with the desired length specified by the `len` parameter.
+   * 
+   * @param { number } len - maximum number of elements to include in the new array,
+   * and it is used to limit the size of the returned array based on the length of the
+   * original array.
+   * 
+   * @returns { array } a new array with the same elements as the input array, with the
+   * specified length.
+   */
   function _arrayLikeToArray(arr, len) {
     if (len == null || len > arr.length) len = arr.length;
 
@@ -70,6 +155,10 @@
     return arr2;
   }
 
+  /**
+   * @description Throws an error when a non-iterable instance is attempted to be spread,
+   * highlighting that only iterable objects with a `[Symbol.iterator]()` method are permitted.
+   */
   function _nonIterableSpread() {
     throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
   }
@@ -88,6 +177,20 @@
   var FAMILY_SHARP = 'sharp';
   var FAMILIES = [FAMILY_CLASSIC, FAMILY_SHARP];
 
+  /**
+   * @description Creates a proxy object that inherits properties from an object `obj`.
+   * If a property does not exist on `obj`, it falls back to an empty object of type `FAMILY_CLASSIC`.
+   * 
+   * @param { object } obj - object that is to be processed through the Proxy creation,
+   * which defaultsto the classic family if `family` is not available.
+   * 
+   * @returns { Proxy } a proxy object that provides fallback values for missing
+   * properties in the target object, with the default value being the classic family.
+   * 
+   * 		- The return value is a Proxy object with one get method that retrieves the
+   * property from the target object or falls back to the classic family if the property
+   * is not available in the target object.
+   */
   function familyProxy(obj) {
     // Defaults to the classic family if family is not available
     return new Proxy(obj, {
@@ -178,6 +281,13 @@
     return "w-".concat(n);
   }));
 
+  /**
+   * @description Provides a mechanism for executing a function with variables passed
+   * to it. It catches any exceptions and ignores them if in non-production mode.
+   * 
+   * @param { object } fn - function that is being called and applied to the arguments
+   * passed to the `bunker()` function.
+   */
   function bunker(fn) {
     try {
       for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {

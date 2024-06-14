@@ -26,6 +26,22 @@
   var IS_DOM = !!DOCUMENT.documentElement && !!DOCUMENT.head && typeof DOCUMENT.addEventListener === 'function' && typeof DOCUMENT.createElement === 'function';
   var IS_IE = ~userAgent.indexOf('MSIE') || ~userAgent.indexOf('Trident/');
 
+  /**
+   * @description Updates an object's property with a new value, or creates it if it
+   * doesn't exist, while ensuring that the property is enumerable, configurable, and
+   * writable.
+   * 
+   * @param { object } obj - object whose properties are being defined or accessed
+   * through the function `_defineProperty`.
+   * 
+   * @param { string } key - property name being defined or assigned in the function.
+   * 
+   * @param { object } value - new value that will be assigned to the property if the
+   * property already exists in the object, or it will be assigned as the object's own
+   * property value if the property does not exist in the object.
+   * 
+   * @returns { object } an object with updated property settings.
+   */
   function _defineProperty(obj, key, value) {
     if (key in obj) {
       Object.defineProperty(obj, key, {
@@ -41,18 +57,68 @@
     return obj;
   }
 
+  /**
+   * @description Transforms non-iterable arrays into consumable arrays by returning
+   * an array containing all its elements when possible, or falling back on other
+   * approaches when necessary.
+   * 
+   * @param { array } arr - array to be converted into an consumable array.
+   * 
+   * @returns { array } an array of the input iterable's values.
+   */
   function _toConsumableArray(arr) {
     return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();
   }
 
+  /**
+   * @description Converts an array-like value to a new array by removing any holes
+   * (null or undefined elements) and returning an array with all elements present.
+   * 
+   * @param { array } arr - 2D array to be flattened without any holes, and it is
+   * converted into an 1D array through the `_arrayLikeToArray()` function.
+   * 
+   * @returns { array } an array without any holes or null values.
+   */
   function _arrayWithoutHoles(arr) {
     if (Array.isArray(arr)) return _arrayLikeToArray(arr);
   }
 
+  /**
+   * @description Converts an iterable object into an array, returning the elements in
+   * the form of a regular array.
+   * 
+   * @param { _Iterable_. } iter - Iterable object or value that the `arrayToIterable`
+   * function should convert into an array.
+   * 
+   * 	1/ If `Symbol` is defined in the environment and `iter[Symbol.iterator]` is not
+   * null, then `iter` is an iterable object. In this case, the function returns an
+   * array representation of `iter` using the `Array.from()` method.
+   * 	2/ If `iter["@@iterator"]` is not null, then `iter` is also an iterable object,
+   * but with additional properties beyond just `Symbol.iterator`. Again, the function
+   * returns an array representation of `iter` using the `Array.from()` method.
+   * 	3/ Otherwise, `iter` may have other attributes or properties that are not directly
+   * related to its ability to be iterated over. These attributes or properties will
+   * not affect the output of the `_iterableToArray` function, which always returns an
+   * array representation of `iter`, regardless of its additional properties.
+   * 
+   * @returns { array } an array containing all elements of the input iterable object.
+   */
   function _iterableToArray(iter) {
     if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter);
   }
 
+  /**
+   * @description Transforms unsupported iterable objects into an array.
+   * 
+   * @param { object } o - iterable object whose elements will be transformed into an
+   * array.
+   * 
+   * @param { integer } minLen - minimum length of an array that should be produced by
+   * the function, and is used to constrain the output when converting an unsupported
+   * iterable object into an array.
+   * 
+   * @returns { array } an array of the elements of the input iterable object.
+   */
   function _unsupportedIterableToArray(o, minLen) {
     if (!o) return;
     if (typeof o === "string") return _arrayLikeToArray(o, minLen);
@@ -62,6 +128,20 @@
     if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
   }
 
+  /**
+   * @description Transforms an array-like object (arr) into a new array (arr2) with
+   * the same elements, but without any undefined or null values, and with the length
+   * of arr2 set to the number of elements in arr.
+   * 
+   * @param { array } arr - 2D array to be converted into a 1D array.
+   * 
+   * @param { integer } len - maximum number of elements that will be copied from the
+   * array `arr` to the new array `arr2`, with the value of `len` determining the
+   * capacity of `arr2`.
+   * 
+   * @returns { array } a new array with the same elements as the input array, but with
+   * a specified maximum length.
+   */
   function _arrayLikeToArray(arr, len) {
     if (len == null || len > arr.length) len = arr.length;
 
@@ -70,6 +150,10 @@
     return arr2;
   }
 
+  /**
+   * @description Throws a `TypeError` if an object is attempted to be spread that is
+   * not iterable.
+   */
   function _nonIterableSpread() {
     throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
   }
@@ -88,6 +172,17 @@
   var FAMILY_SHARP = 'sharp';
   var FAMILIES = [FAMILY_CLASSIC, FAMILY_SHARP];
 
+  /**
+   * @description Creates a new Proxy object that mimics the behavior of an object's
+   * `family` property if it is not available. If the target object has no `family`
+   * property, it falls back to using the `FAMILY_CLASSIC`.
+   * 
+   * @param { object } obj - object that the proxy will operate on.
+   * 
+   * @returns { object } a proxy object that retrieves property values from an object
+   * or falls back to the classic family object if the object does not have the requested
+   * property.
+   */
   function familyProxy(obj) {
     // Defaults to the classic family if family is not available
     return new Proxy(obj, {
@@ -178,6 +273,14 @@
     return "w-".concat(n);
   }));
 
+  /**
+   * @description Provides a layer of abstraction around calling a provided function
+   * with various arguments. It applies the provided function to the given arguments,
+   * handling any potential errors gracefully.
+   * 
+   * @param { object } fn - function being called with arguments when passed to the
+   * `bunker()` function.
+   */
   function bunker(fn) {
     try {
       for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {

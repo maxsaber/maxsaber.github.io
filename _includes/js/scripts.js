@@ -1,5 +1,11 @@
 // cv bibtex toggle
 
+/**
+ * @description Changes the display style of an HTML element with the ID `id`. If it
+ * is currently hidden, it makes it visible; if it is already visible, it hides it.
+ * 
+ * @param { string } id - ID of an element whose display property is to be toggled.
+ */
 function toggleBibtex(id) {
 
 	let bibtex = document.getElementById(id);
@@ -28,6 +34,11 @@ iframes.forEach(function(iframe) {
 
 // create multiple players based on dissertation talk keys
 let players = [];
+/**
+ * @description 1) creates YT.Player instances for each iframe id provided and 2)
+ * applies click events to each video link within each player, seeking to a specified
+ * second and playing the video.
+ */
 function onYouTubeIframeAPIReady() {
 	iframeIds.forEach(function(frameId) {
 		player = new YT.Player(frameId, {
