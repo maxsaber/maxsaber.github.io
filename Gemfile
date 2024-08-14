@@ -17,3 +17,5 @@ gem 'faraday-retry'
 gem 'jekyll-admin', group: :jekyll_plugins
 #gem 'jekyll-twemoji'
 gem 'jekyll-tagging-related_posts'
+#gem 'rackup'
+gem "sinatra", ">= 3", "< 4"
