@@ -163,7 +163,7 @@ jsarr:
 <div class="cv-service-title"><b>Elected Board Positions</b></div>
 <!--Uses boards.yaml for data-->
 {% for boards in site.data.board %}
-{% include cv/boards.html board=board %}
+{% include cv/boards.html board=boards %}
 {% endfor %}
 
 <div class="cv-service-title"><b>Professional Memberships</b></div>
@@ -176,31 +176,30 @@ jsarr:
 ## Professional Certifications and Licensures
 
 <!-- Uses certifications.yaml for data -->
-{% if certifications.complete == 'yes' %}
-{% for certifications in site.data.certifications %}
 <div class="cv-service-title"><b>Professional Certifications</b></div>
-{% include cv/certifications.html name=name %}
-{% endfor %}
-{% endif %}
-
-{% if certifications.complete == 'no' %}
-<div class="cv-service-title"><b>Professional Certifications In Progress</b></div>
-<!-- Uses certifications.yaml for data -->
 {% for certifications in site.data.certifications %}
-{% include cv/certifications.html name=name %}
+  {% if certifications.complete == 'yes' %}
+    {% include cv/certifications.html certifications=certifications %}
+  {% endif %}
 {% endfor %}
-{% endif %}
+
+<div class="cv-service-title"><b>Professional Certifications In Progress</b></div>
+{% for certifications in site.data.certifications %}
+  {% if certifications.complete == 'no' %}
+    {% include cv/certifications.html certifications=certifications %}
+  {% endif %}
+{% endfor %}
 
 <div class="cv-service-title"><b>Licensure</b></div>
 <!-- Uses licensure.yaml for data -->
 {% for licensure in site.data.licensure %}
-{% include cv/licensure.html name=name %}
+{% include cv/licensure.html licensure=licensure %}
 {% endfor %}
 <div class="cv-description" align="right"><a href="{{ site.url }}/cv#top">↑ Return to Top</a></div>
 
 ## Continuing Education
 
-{% for cont-ed in site.data.cont-ed %}
+{% for ce in site.data.cont-ed %}
 {% include cv/cont-ed.html ce=ce %}
 {% endfor %}
 <div class="cv-description" align="right"><a href="{{ site.url }}/cv#top">↑ Return to Top</a></div>
@@ -245,4 +244,4 @@ Max Saber<br>
 Boston, MA 02115<br>
 774.644.1542<br>
 `max@maxsaber.com`<br>
-<a href="<https://maxsaber.com>">https://maxsaber.com</a>
+<a href="https://maxsaber.com">https://maxsaber.com</a>

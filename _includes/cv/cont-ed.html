@@ -1,18 +1,18 @@
-<div class="cv-left-date">{{ cont-ed.date }}</div>
-{% if cont-ed.provider %}
+<div class="cv-left-date">{{ ce.date }}</div>
+{% if ce.provider %}
 <div>
-  {{ cont-ed.course-name }}, ({{ cont-ed.school }}, {{ cont-ed.provider }})
+  {{ ce.course-name }}, ({{ ce.school }}, {{ ce.provider }})
 </div>
 {% else %}
-<div>{{ cont-ed.course-name }}, ({{ cont-ed.school }})</div>
+<div>{{ ce.course-name }}, ({{ ce.school }})</div>
 {% endif %}
 <div class="pub-misc">
-  {% if cont-ed.cert-link %}
-  <a href="{{ cont-ed.cert-link }}">
+  {% if ce.cert-link %}
+  <a href="{{ ce.cert-link }}">
     <i class="fas fa-certificate" aria-hidden="true"></i> Certificate
   </a>
-  {% endif %} {% if cont-ed.course-link %}
-  <a href="{{ cont-ed.course-link }}">
+  {% endif %} {% if ce.course-link %}
+  <a href="{{ ce.course-link }}">
     <i class="fas fa-globe" aria-hidden="true"></i> Course Link
   </a>
   {% endif %}

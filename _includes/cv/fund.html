@@ -7,7 +7,7 @@ Co-PIs:
 {% for person in fund.co-pis %}
 	{% if forloop.last == false %}
 		{% include person.html person=person %},	
-	{% else if forloop.last == true %}
+	{% elsif forloop.last == true %}
 		{% include person.html person=person %}
 	{% endif %}
 {% endfor %}

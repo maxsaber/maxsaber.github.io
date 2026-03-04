@@ -16,7 +16,7 @@
 	{% for person in pub.authors %}
 		{% if forloop.last == false %}
 			{% include person.html person=person %}{% for p in pub.equal-contribution %}{% if person == p %}*{% endif %}{% endfor %},
-		{% else if forloop.last == true %}
+		{% elsif forloop.last == true %}
 			{% include person.html person=person %}{% for p in pub.equal-contribution %}{% if person == p %}*{% endif %}{% endfor %}
 		{% endif %}
 	{% endfor %}
@@ -108,12 +108,6 @@
 	{% if pub.data %}
 	  <a href="{{ pub.data }}">
 	    <i class="fas fa-database" aria-hidden="true"></i> Data
-	  </a>
-	{% endif %}
-
-	{% if feature.slides %}
-	  <a href="{{ feature.slides }}">
-	    <i class="fas fa-window-maximize" aria-hidden="true"></i> Slides
 	  </a>
 	{% endif %}
 

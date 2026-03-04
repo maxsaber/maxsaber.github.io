@@ -40,7 +40,7 @@
 		{% for person in degree.committee %}
 			{% if forloop.last == false %}
 				{% include person.html person=person %}{% for p in pub.equal-contribution %}{% if person == p %}{% endif %}{% endfor %},
-			{% else if forloop.last == true %}
+			{% elsif forloop.last == true %}
 				{% include person.html person=person %}{% for p in pub.equal-contribution %}{% if person == p %}{% endif %}{% endfor %}
 			{% endif %}
 		{% endfor %}
