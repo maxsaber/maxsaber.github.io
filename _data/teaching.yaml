@@ -3,8 +3,8 @@
 - institution: MCPHS University
   position: Instructor of Record
   location: "Boston, MA"
-  year: "Summer 2024"
-  year-short: "Summer 2024"
+  year: "Summer 2024, Summer 2025"
+  year-short: "Summer 2024 - Summer 2025"
   class: "Research Methodology & Statistics (DHY.714)"
   description: "Students will learn fundamental biostatistical and study design concepts routinely used in epidemiologic and clinical research, with a special emphasis on oral health research. Concepts will be reinforced through critical evaluation of peer-reviewed oral health research. Furthermore, basic data management, data analysis, interpretation and write up of results will be discussed. Training on using SPSS statistical software tools will be provided."
   institution-url: https://mcphs.edu
@@ -31,8 +31,8 @@
 - institution: MCPHS University
   position: Instructor of Record
   location: "Boston, MA"
-  year: "Spring 2022, Spring 2023, Spring 2024"
-  year-short: "Spring 2022 - Spring 2024"
+  year: "Spring 2022, Spring 2023, Spring 2024, Spring 2025, Spring 2026"
+  year-short: "Spring 2022 - Spring 2026"
   class: "Data Collection, Analysis, and Representation in Healthcare (HCM.828)"
   description: "This doctoral level course focused on data collection techniques, critical evaluation of data sources and datasets, and data visualization methods using various deidentified and synthetic research data sets. Students used SAS Foundation and SAS Enterprise Guide to learn statistical and data modeling techniques and SAS Visual Analytics Suite to construct visualizations and interactive dashboards."
   institution-url: https://mcphs.edu
